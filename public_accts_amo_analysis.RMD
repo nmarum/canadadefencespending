@@ -1,0 +1,137 @@
+---
+title: "Exploratory Data Analysis of Canada's Defence Machinery and Equipment Expenditures"
+subtitle: "Analysis of detailed information on Department of National Defence expenditures for the acquisition of equipment and machinery from Canada's Public Accounts (2010 to 2019)"
+author: 
+date: "July 2020"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(tidyverse)
+load("amo_2010to2019.rda")
+amo_analysis <- amo_2010to2019 %>% select(-c("MINC", "MINE", "DepartmentNumber-Numéro-de-Ministère", "DEPT_EN_DESC" ))
+```
+_INTRODUCTION_
+
+Over the past decade or so, governments around the world have moved to make their data more accessible to the public in order to demonstrate transparency, support economic growth, and help provide better services to their citizens.  The Government of Canada is no exception and has launched a number of initaitives in order to make government data more accessible.  Within the federal open data portal (http://open.canada.ca), a wide of datasets are publicly available for Canadians and internet browsers from around the world  to access.  The portal provides fairly detailed information on government expenditures and procurement, including for the Canadian military.
+
+The types of information available include high level information regarding defence expenditures such as data with respect to Parliament-approved appropriation and actual expenditures by "vote" by fiscal year or actual expenditures by "standard object" (i.e., broad categories of government expenditures such as expenditures on personnel salaries, travel expenses, equipment, etc.).  You can also find incredibly granualar information regarding the award of military contracts of all sizes, however with some data integrity issues (e.g., coding and data entry errors).  
+
+While these are helpful resources to shed light on different elements of military spending and procurement, each requires a relatively deep understanidng of government expenditure and contracting processes to be able to fully understand and recognize its limitations.  For example, information on contract award does not provide detail as to if or when expenditures were made against those contracts for the receipt of goods/services or, for large projects, the achievement of milestones.  Also having information on expenditures by parliamentary "vote"or "standard object" provides too high level information to answer detailed questions of interest regarding defence procurement due to the inability to clearly link specific expenditures to specfic procurement projects.  This is essential as government expenditures in Canada as under the _Financial Administration Act_ are made upon receipt of goods or when a contractor hits a contract milestone with very few exceptions.  For a reseracher or analyst intersted in understanding how Canada is investing in its military, understanding where and when actual expenditures for military "capability" (e.g., military equipment or infrastructure) is crucial.
+
+A sources of public data on defence procurement expenditures can be found in a detailed dataset on the open government portal, which provides departmental expenditures by year for the acquisition of machinary and equipment.  The dataset was used to build Volume III Section 5 of the annual Receiver General`s Public Accounts report.  This dataset provides an additional level of granularlity beyond the "standard object" provided in the Government of Canada expenditure data from the Treasury Board Secretariat, by providing a reliable "economic object" coding for each expenditure for capital equipment that we can easily link to a type of military platform, capability or commodity.
+
+A similar coding exists in the contract data but a quick review of the data found it to be unreliable with obvious errors (e.g., a land system supplier providing an "aircraft" to the Canadian Armed Forces).  This is likely due to the fact that expenditure data in the Public Accounts would have been much more closely scrutinized.  Under the _Financial Administration Act_ and government financial policy and procedures, expenditures require multiple signatures and levels of review before payment can be made.  Expenditures require detailed and accurate coding that is reviewed at each step through the process of the way by multiple fiancial specialists.  Additionally, government budgets and expenditure reports are regularly reviewed and reconciled precisely to facilitate accurate public reporting.  This is a level of review and scrutiny that contract data does not receive before it is publicly disclosed.  
+
+_EXPLORATORY ANALYSIS_
+
+Our intent is to do an exploratory data analysis of the Public Accounts information to highlight its potential uses as well as limitations for researchers.
+
+In a separate data wrangling and import script, I have pulled together National Defence acquisition of equipment and machinery data from fiscal year 2009/10 to 2018/19.  The Public Acccounts data was separated into different datafiles for each fiscal year rather in one large block for reasons that are not explained.  Thanksfully, the column names and categories appear were consistent across fiscal years so merging the different datasets togther was not difficult.
+
+https://open.canada.ca/data/en/dataset/2667652d-0484-4e93-b67e-9aa129cf152d#wb-auto-6
+
+Let us have a look at what we find.
+
+```{r head, echo=FALSE}
+
+head(amo_analysis)
+```
+
+As you can see looking at just the first 6 entries, there are multiple entries per object code per year.  The website describes this dataset as being based on the Volume III of the Public Accounts, and providing a detailed listing of the payments (i.e. payments and accrued charges) for Acquisition of Machinery and Equipment. This detail includes the main classification of Acquisition of Machinery and Equipment, the Object Codes (ECON), the Object Code descriptions, together with the total amount paid.  It goes on to note that this is not the "official" information and that the offical record is found on the website of the Receiver General.  
+
+Based on this description and the fact the original data lies with the Receiver General, the different entries likely reflect aggregate expenditures paid for different items in each fiscal year.  However, there is no identifier to link which payment entry is linked to which acquisition or contract which is a limitation on the data.
+
+While the descriptions do not appear to be terribly informative here, they are much more informative than the Vote level of standard object level information found in other datasets.  So let us try to stay positive!
+
+```{r hist and range, echo=FALSE}
+hist(amo_analysis$OBJ_CD)
+
+range(amo_analysis$OBJ_CD)
+```
+
+A quick look at a histogram of the data by Object Code shows that there are thousands of entries in the data set and that the codes ranging from above 1200 to just below 1300.  This is consistent with previous analysis of object codes which suggested most capital defence acquisition should be coded in this range.  However, a look at the contract data did reveal a large number of codes outside that range as well for what seemed to be defence related contracts.  Payments for rentals, professional services, etc, tied to defence procurement or acquiring by other means defence capabilties may not be captured here depending on how the expenditure was coded.
+
+```{r, descriptive, echo=FALSE}
+summary(amo_analysis$AGRG_PYMT_AMT)
+
+
+  
+```
+Summary statistics of the aggregate payments per year show a wide range of entries.  The lowest bound include what appear to be revenue for National Defence to the tune of $3.6M and the other extreme is a payment in one fiscal year totaling $749M.  The interquartile range is quite large and the mean ($6.0M) is skewed well above the median ($176K).
+
+```{r message=FALSE, warning=FALSE, echo=FALSE}
+amo_analysis %>% ggplot(aes(AGRG_PYMT_AMT))+
+  geom_density()+
+  scale_x_log10()+
+  ggtitle("Density Plot of Aggregate Payments (all Fiscal Years)")
+```
+
+
+
+A density plot of the aggregate payment amounts and using a log10 scale for the y-axis  for each entry (which corresponds to a fiscal year) shows an incredible range of payments.  Most payments are for relatively low dollar value while it appears a handful of very large dollar value payments in the hundreds of millions skew the distribution to the right.
+
+Using an empiricial cumulative distribution function, we find that a little over 70% of aggregate payments per fiscal year were under $1M and about 60% of payments were under $400K per year.  On the other end, only about 1% of all payments were greater than $100M. That is only 50 entries out of a total of 4571 over 10 years, or an average of only 5 per year.
+
+
+```{r, echo=FALSE}
+amo_analysis %>% filter(AGRG_PYMT_AMT>100000000) %>%
+  ggplot(aes(x=FSCL_YR, y=AGRG_PYMT_AMT, col=OBJ_EN_NM))+
+  geom_point()+
+  coord_flip()+
+  ggtitle("Aggregate Payments over $100M by Economic Object and Fiscal Year")
+```
+Focusing in on entries in excess of $100M, we get the above plot of entries by fiscal year.  The text is the respective code.
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+amo_analysis %>% group_by(OBJ_EN_NM) %>% summarize(Total_payments = sum(AGRG_PYMT_AMT)) %>% top_n(10, Total_payments) %>% arrange(desc(Total_payments))
+```
+If we look at the top 10 object descriptons over time, we can see there are some familiar items however there are a few entries that are not as intuitive.
+
+Payments for aircraft is by far the most significant over the time period, however the not very informative "other equipment and parts" as well as "Meas.contr.lab.med.&opt.instr.&parts" are both identified.  Other equipment and parts may be a catch all for a variety of different components that are not otherwise listed, which my best guess for Meas.contr.lab.med.&opt.instr.&parts is that it sounds like optical electrical instruments.  Many modern military platforms are filled with varioius optical sensors (e.g., night vision, infrared, etc.) and other sights to support Intelligence, Surveillance and Reconnaissance (ISR) roles.  My best guess is this covers many of those components which can be quite pricey.  More research would be required to validate this guess.
+
+
+
+```{r aircraft and munitions boxplot, echo=FALSE}
+amo_analysis %>% filter(OBJ_EN_NM %in% c("Aircraft", "Munitions, and ammunition"), FSCL_YR %in% c("2015/2016", "2016/2017", "2017/2018", "2018/2019")) %>% ggplot (aes(x=FSCL_YR, y=AGRG_PYMT_AMT, col= OBJ_EN_NM, legend.position="bottom")) +
+  geom_boxplot()+ggtitle("Distribution of Aircraft and Munitions Aggregate Payments by Fiscal Year")
+```
+
+The boxplots above show the distribution of aggregate payement entries for the past 4 fiscal years for aircraft and munitions.  The dots are outliers that are well outside the "box" of the boxplot, otherwise known as the interquartile range.  While both are high in aggregate value of payments, it is clear they are very different in terms of the distribution of payments.  Aircraft contracts tend to havea much wider range of high dollar value but relatively few entries, suggesting a short list of programs.  
+
+The interquartile ranges for munitions on the other hand suggests a high number of aggregate payments at relatively low dollar values.  There is a notable outlier for each year.  This is suggestive of how munitions and ammuniton are acquired in Canada, where there is a tendency to buy specific natures of specialized munitions and pyrotechnics with a large number of low dollar value contracts and then do a large-scale production buy once a year for all the massed produced quantities.  These larger buys are valued in the tens to hundreds of millions depending on the year.  
+
+Let us take a look at categories of goods that are similar.
+
+```{r parts boxplot, echo=FALSE}
+amo_analysis %>% filter(OBJ_EN_NM %in% c("Ships and boats parts", "Aircraft parts", "Road motor vehicles parts"), FSCL_YR %in% c("2015/2016", "2016/2017", "2017/2018", "2018/2019")) %>% ggplot (aes(x=FSCL_YR, y=AGRG_PYMT_AMT, col= OBJ_EN_NM, legend.position="bottom")) +
+  geom_boxplot()+
+  ggtitle("Distribution of Payments for Ship, Aircraft, and Vehicle parts")
+```
+
+The comparaison of the distributions for aircraft, vehicle and marine parts show a variety of distributions that seem to change each year.  There does appear to be a pattern where the interquartile ranges for each will increase or decrease from year to year.
+
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+amo_analysis %>% filter(FSCL_YR != c("2009/2010", "2010/2011"), OBJ_EN_NM == "Aircraft parts") %>% group_by(FSCL_YR) %>% summarize(payments = sum(AGRG_PYMT_AMT)) %>%
+  ggplot(aes(x=FSCL_YR, y=payments)) +
+  geom_col()+
+  ggtitle("Total Aggregate Payments for 'Aircraft parts' by Fiscal Year")
+```
+
+Interestingly the aggregate payments for aircraft parts for FY2016/2017 and FY2017/2018 do not change as much you would think given the very different interquartile ranges.  The distribution and number of payments each year must be reflective of different procurement strategies used or simply different priorities for each year.
+
+Say if we found that our primary interest was military aviation, we could focus in on expenditures for aircraft and aircraft parts.
+
+```{r echo=FALSE, message=FALSE, warning=FALSE}
+amo_analysis %>% filter(OBJ_EN_NM %in% c("Aircraft parts", "Aircraft")) %>% group_by(FSCL_YR, OBJ_EN_NM) %>% summarize(payment = sum(AGRG_PYMT_AMT)) %>% ggplot(aes(x=FSCL_YR, y=payment, col=OBJ_EN_NM)) + geom_col(position = "stack", fill=NA)+ ggtitle("Aggregate Payments for CAF Aircraft and Aircraft Parts")+theme_bw()
+```
+This gives an interesting perpsective for how capital expenditures have varied for military aircraft over time.  One major limitation to this view is that this does not capture any expenditures for "services" expenditures associated with maintaining military aircraft.  In the delivery of aircraft and aircraft parts, some design or engineering services often need to be provided by prime contractors (e.g., the equipment manufacturer and systems integrator) however the ultimate coding of an individual expenditure as a good or service would depend on what balance of goods vs. services being purchased on a case by case basis.  Therefore, services that were incidental for the delivery of aircraft and aircraft parts would be included here, however major services contracts, such as for the maintenance, repair and overhaul of aircraft, would not be included.  That being said, the payments for parts may allow for a reseracher to make certain inferences about the aircraft maintenance program, but they should be careful about drawing too many conclusions if they do not have a good grasp of the sustainment concepts used in the air equipment management program.
+
+_CONCLUSION_
+
+The Public Accounts data on payments for equipment and machinery can provide some insight into different areas where Canada is investing into its Canadian Armed Forces that is more meaninful and informative than vote or standard object level data that is more commonly provided.  There are clearly limitations to the data, particularly the inability to link expenditures with specific procurement projects or programs and the lack of services expenditures in support of miltiary equipment, however general trends in acquisition of capabilities in different mitiary domains can be explored using this data set.
+
