@@ -3,7 +3,10 @@
 #GoC vendor names grouped into "parent companies".  Many unique vendor names were
 #data entry errors so having this as ref point should help improve analysis quality.
 
-#Planning to use this vendor name data to update analysis of contract data.
+#vendor_data.csv is subject to the "unlicence".  Github link is as follows:
+#https://github.com/GoC-Spending/goc-spending-vendors/blob/master/vendor_data.csv
+
+#I am planning to use this vendor name data to update analysis of contract data.
 
 library(tidyverse)
 library(rvest)
