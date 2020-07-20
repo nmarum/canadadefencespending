@@ -3,3 +3,5 @@
 .RData
 .Ruserdata
 easo_eac_env2.csv
+vendor_data.csv
+defence_vendor_data.rda
