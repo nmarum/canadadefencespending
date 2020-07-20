@@ -23,4 +23,4 @@ wrangling_DND_contracts.R is a data import and wrangling script that creates a D
 
 DND_contract_analysis.RMD is the R markdown of an exploratory analysis of DND contract data from 2010 to early 2020.
 
-DND_contract_analysis.html is the html version of the markdown document.  I will look to update the analysis from time to time.
+DND_contract_analysis.pdf is the PDF version of the markdown document.  I will look to update the analysis from time to time.
