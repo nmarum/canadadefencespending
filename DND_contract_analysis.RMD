@@ -1,0 +1,129 @@
+---
+title: "Open Canada Data - Analysis of National Defence Contracting and Vendors"
+output:
+  html_document:
+    df_print: paged
+---
+In previous analysis of government contract data, the vendor name field was found to be rather unreliable due to a variety of different spellings or misspellings of vendor names.  Having to parse through all the names was a bit of a challenge which I did not attempt, however thankfully I found that the Ottawa Civic Tech project had already done much of the hard work on this for me based on an analysis of proactive disclosure data and publicly available for use under an 'unlicence'.  (See http://unlicense.org/) Their vendor name information captures many different alternate entries of vendor names and groups them under a "parent company".  One issue I noted is that parent company level often results in multiple fairly large (from a Canadian perspective), distinct Canadian and foreign-based business units being rolled into one.  Depending on the analysis, this kind of grouping of multiple business units, often with very different business lines, may not be ideal.
+
+I have manually updated the vendor data provided by the Ottawa Civic Tech project to include a number of known major and some minor defence suppliers and adjusted parent company name mapping against vendors as a result of recent mergers and acquisitions (for example, Sikorsky helicopters is now a business unit of Lockheed Martin).  The intent was to improve the quality and tailor it more for an analysis of defence suppliers and the defence industrial base.  My updated defence vendor database is publicly available in a csv format on my github repo.  In a separate script (wrangling_DND_contracts.R), I imported and wrangled the DND contract data with the cleaned up vendor names joined, into an .rda object.  The wrangling script is also available in the repo.
+
+After having integrated vendor name data from the Ottawa Civic Tech project on Government of Canada contract data, I am going to do a short analysis to see if it helps make the analysis of vendor data easier.  
+
+```{r}
+library(tidyverse)
+options(scipen = 999)
+load("dnd_contracts_may2020.rda")
+
+contract_analysis <- dnd_contracts_may2020 %>% select(vendor_name, contract_date, contract_value, economic_object_code, description_en, country_of_origin, contract_year, parent_company)
+
+summary(contract_analysis)
+```
+There are about 225,000 entries in the data set.  3 out of the top 6 of companies receiving contracts from DND were oil companies - clearly fuel contracts are a major source of business!
+
+There are over 170,000 NA's for parent company.  That is a lot of entries that are missed even after I addressed some case sensitivity, punctuation, and company suffix issues in the data wrangling.
+
+```{r}
+count(contract_analysis, parent_company) %>% arrange(desc(n))
+
+```
+
+Most large defence suppliers are identified, however it is still possible many are missed in the 170,000 entries.  
+
+
+```{r}
+contract_analysis %>% filter(is.na(parent_company)) %>% count(vendor_name) %>% arrange(desc(n))
+```
+
+The Ottawa civic vendor names is still not quite giving the level of clarity I was hoping for...
+
+Below are the vendor names doing the largest volume not attributed to a parent company.
+
+```{r}
+contract_analysis %>% filter(is.na(parent_company)) %>% group_by(vendor_name) %>% summarize(contracts_total = sum(contract_value)) %>% arrange(desc(contracts_total))
+```
+
+The vast majority of contracts in the data base are relatively low value.  Relatively speaking, we may not want to spend much time adding in vendors where the overall value is not significant.  Lets take a look at the total value of contracts with a parent company identified.  
+
+```{r}
+parent <- contract_analysis %>% filter(!is.na(parent_company))
+
+a <- sum(parent$contract_value, na.rm = TRUE) #contract value sum with parent
+b <- sum(contract_analysis$contract_value, na.rm = TRUE)#contract value all entries
+
+c <- sum(parent$contract_value, na.rm = TRUE)/sum(contract_analysis$contract_value, na.rm = TRUE)
+
+contract_value <- c(round(a, 2), round(b, 2), round(c, 2))
+y <- c("sum_with_parent", "sum_all", "percentage")
+data.frame(contract_value, row.names = y)
+```
+
+Almost 80% of value is captured in the 60,000 some entries. Pretty much all of the large contracts for billions and hundreds of millions of dollars are attributed to a parent company.  I will continue to make updates to the defence vendor name data as time allows, but for now we will live with the 80% solution.
+
+
+```{r}
+library(ggthemes)
+contract_analysis %>% filter(contract_year %in% c("2019")) %>% group_by(contract_year, parent_company) %>% summarize(contract_awards = sum(contract_value)) %>% arrange(desc(contract_awards)) %>% slice_max(order_by = contract_awards, n=10) %>% ggplot(aes(parent_company, contract_awards)) + geom_col() +scale_y_log10() +coord_flip() +facet_wrap(vars(contract_year), nrow = 3) + ggtitle("Top 10 Parent Companies (2019)") + theme_minimal()
+```
+
+In playing with the data, there are still some big NA entries in there under the parent company.  More clean up of the vendor_name database is going to be needed, however will see what kind of analysis we can do here.
+
+1250 and 1251 are the economic object codes for Aircraft and parts respectively.  Let's see what who are the biggest suppliers here.  Hopefully, there will be no surprises.
+
+```{r}
+contract_analysis %>% filter(economic_object_code %in% c("1250", "1251"), contract_year %in% c("2017", "2018", "2019")) %>% group_by(contract_year, parent_company, economic_object_code) %>% summarize(contract_awards = sum(contract_value)) %>% arrange(desc(contract_awards))
+```
+
+Most of the names are not surprising though I am not familiar with JHT or SIMEX defence, though they figured prominently in the vendor database.  However, there are still some very large NA contract award entries under parent company.
+
+Let's try something similar for the Navy with the codes for ships (1256) and ship repair (1257).
+
+```{r}
+contract_analysis %>% filter(economic_object_code %in% c("1256", "1257"), contract_year %in% c("2017", "2018", "2019")) %>% group_by(contract_year, parent_company, economic_object_code) %>% summarize(contract_awards = sum(contract_value)) %>% arrange(desc(contract_awards))
+```
+
+Again, some very notable NA entries.  I also notice that 3M and Bombardier are listed in the table. That seems off giving the ship acquisition and repair coding.  It is more likely something was mislabeled.
+
+Let's do some specific firm analysis before we wrap this up.
+
+```{r}
+contract_analysis %>% filter(contract_year %in% c("2017", "2018", "2019"), parent_company == "LOCKHEED MARTIN") %>% group_by(contract_year, parent_company, economic_object_code) %>% summarize(contract_awards = sum(contract_value)) %>% arrange(desc(contract_awards)) %>% ggplot(aes(contract_year, contract_awards, label=economic_object_code)) +geom_text(alpha = .7) +scale_y_log10() +ggtitle("Lockheed Martin Contracts with Economic Obj Codes") + theme_minimal()
+```
+
+
+
+
+```{r}
+contract_analysis %>% filter(parent_company == "LOCKHEED MARTIN", contract_date>"2016-01-01") %>% ggplot(aes(contract_date, contract_value)) +geom_point(alpha = .7) +scale_y_log10() +ggtitle("Lockheed Martin Contracts since 2016") + theme_minimal()
+
+```
+
+There is a far greater number of points when you do not use the economic object code.  I suspect there are a lot of NAs causing for many entries.
+
+```{r}
+sum(is.na(contract_analysis$economic_object_code))/nrow(contract_analysis)
+```
+
+More than 3/4 of entries are missing their economic object code.  Combined with some suspicious entries, I don't think any meaningful analysis using economic object codes in the contract data is possible.
+
+
+```{r}
+contract_analysis %>% filter(parent_company == "LOCKHEED MARTIN", contract_date>"2016-01-01") %>% ggplot(aes(contract_date)) +geom_density() + ggtitle("Lockheed Martin Contracts density plot of contracts over time") + theme_minimal()
+
+```
+
+
+```{r}
+contract_analysis %>% ggplot(aes(contract_value)) +geom_density() +scale_x_log10() +ggtitle("Defence contract density by value (x-axis at Log10)") +theme_minimal()
+```
+As we can see from the graph, at the 10K mark, the contract entries shoot up.  This is logical as this database is only for contracts valued over $10K.  We can also see that even with a logarithmic x axis that there is a steep drop in the number of contracts as contract value increases.  Using an empirical cumulative distribution function we can see that almost 80% of contracting activity is below $100,000 in value.  In fact, almost 99% of defence department contracting activity is below $5 million dollars.  This contracting activity would include call ups on standing offers and other contractual arrangements that would be routine and transactional, however it is impressive nonetheless.  It also highlights that the most talked about defence contracts in Parliament or in the media only make up a small percentage of the total volume of activity.
+
+
+```{r}
+contract_analysis %>% filter(contract_date>"2010-01-01") %>% ggplot(aes(contract_date)) +geom_density() +ggtitle("Defence contract density over time") +theme_minimal()
+```
+As we can see since 2010 there has been a slight drop in the overall volume of contract activity but with with some variation throughout each year.  We can likley attribute the peak after 2010 for contracting activity during and towards the end of Canada's mission in Afghanistan.  We can see a dip around the 2015 election and the lead up to the release of the 2017 defence policy, however there seems to be growth since that time.  I would attribute the drop off of the chart around 2020 to the fact that entries may not be up to date, and the onset of COVID-19 may have caused some data entry delays, even though there are entries in the database as late as March 2020.  We will have to see as the public database gets updated to see if that is actually a trend or whether the database just needs to catch up to actual activity.
+
+
+I will look to update this analysis from time to time.
+
