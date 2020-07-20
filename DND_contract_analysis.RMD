@@ -1,6 +1,7 @@
 ---
 title: "Open Canada Data - Analysis of National Defence Contracting and Vendors"
 output:
+  pdf_document: default
   html_document:
     df_print: paged
 ---
@@ -122,7 +123,7 @@ As we can see from the graph, at the 10K mark, the contract entries shoot up.  T
 ```{r}
 contract_analysis %>% filter(contract_date>"2010-01-01") %>% ggplot(aes(contract_date)) +geom_density() +ggtitle("Defence contract density over time") +theme_minimal()
 ```
-As we can see since 2010 there has been a slight drop in the overall volume of contract activity but with with some variation throughout each year.  We can likley attribute the peak after 2010 for contracting activity during and towards the end of Canada's mission in Afghanistan.  We can see a dip around the 2015 election and the lead up to the release of the 2017 defence policy, however there seems to be growth since that time.  I would attribute the drop off of the chart around 2020 to the fact that entries may not be up to date, and the onset of COVID-19 may have caused some data entry delays, even though there are entries in the database as late as March 2020.  We will have to see as the public database gets updated to see if that is actually a trend or whether the database just needs to catch up to actual activity.
+As we can see since 2010 there has been a slight drop in the overall volume of contract activity but with with some variation throughout each year.  We can likely attribute the peak after 2010 for contracting activity during and towards the end of Canada's mission in Afghanistan.  We can see a dip around the 2015 election and the lead up to the release of the 2017 defence policy, however there seems to be growth since that time.  I would attribute the drop off of the chart around 2020 to the fact that entries may not be up to date, and the onset of COVID-19 may have caused some data entry delays, even though there are entries in the database as late as March 2020.  We will have to see as the public database gets updated to see if that is actually a trend or whether the database just needs to catch up to actual activity.
 
 
 I will look to update this analysis from time to time.
