@@ -5,7 +5,7 @@
 
 #objective is to make a more useful object for analysis.  Beware, the contracts.csv
 #is a large file (about 300MB).  I occasionally had to try a few times before it
-#would download for me.
+#would download for me.  Last run Aug 2020.
 
 library(tidyverse)
 library(rvest)
@@ -18,19 +18,19 @@ gov_contracts_may2020 <- read_csv("contracts.csv", col_types = cols(additional_c
 
 file.remove("contracts.csv")
 
-dnd_contracts_may2020 <- gov_contracts_may2020 %>% 
+dnd_contracts <- gov_contracts %>% 
   filter(owner_org == "dnd-mdn") %>% #filter by DND
   mutate(contract_year = format(contract_date, "%Y"), vendor_name = toupper(vendor_name), vendor_name = strip(vendor_name, digit.remove = FALSE, lower.case = FALSE, apostrophe.remove = TRUE), vendor_name = str_replace(vendor_name, "\\s+INC$|\\s+LTD$|\\s+LIMITED$|\\s+LTEE$|\\s+CO$|\\s+CIE$|\\s+ULC$|\\s+CORPORATION$|\\s+LP$|\\s+AG$|\\s+GMBH$|\\s+SA$|\\s+MBH$|\\s+AS$|\\s+LTÉE$|\\s+LLC$", ""))
   #changing vendor_names to upper case to align for joining add a contract 
   #year variable using contract_date
 
 #joining defence vendor parent company column
-dnd_contracts_may2020 <- left_join(dnd_contracts_may2020, defence_vendor_data)
+dnd_contracts <- left_join(dnd_contracts, defence_vendor_data)
 
 #test to show joining worked
-dnd_contracts_may2020 %>% group_by(parent_company) %>%
+dnd_contracts %>% group_by(parent_company) %>%
   summarize(n=n()) %>% arrange(desc(n))
 
 #save file in project folder
-save(dnd_contracts_may2020, file = "dnd_contracts_may2020.rda")
-file.exists("dnd_contracts_may2020.rda")
+save(dnd_contracts, file = "dnd_contracts.rda")
+file.exists("dnd_contracts.rda")
