@@ -1,5 +1,4 @@
 # canadadefencespending
-Open government data on defence spending in Canada
 
 Data wrangling and exploratory analysis of publicly available data about National Defence and defence procurement.
 
