@@ -1,8 +1,8 @@
 # canadadefencespending
 
-Data wrangling and exploratory analysis of publicly available data about National Defence and defence procurement.
+Data wrangling and exploratory analysis of publicly available data about National Defence expenditures and defence procurement.
 
-All part of my own journey of learning and leveraging data.
+All part of my own journey of learning and leveraging data.  All views are my own.
 
 All government data is subject to Open Government Licence - Canada
 
@@ -20,6 +20,6 @@ defence_vendor_data.csv is a vendor name database that matches the names of many
 
 wrangling_DND_contracts.R is a data import and wrangling script that creates a DND contract database for analysis.
 
-DND_contract_analysis.RMD is the R markdown of an exploratory analysis of DND contract data from 2010 to early 2020.
+DND_contract_analysis.RMD is the R markdown of an exploratory analysis of DND contract data from 2010 to Sept 2020.
 
-DND_contract_analysis.pdf is the PDF version of the markdown document.  I will look to update the analysis from time to time.
+DND_contract_analysis.pdf is the PDF version of the markdown document.  I will look to update the analysis from time to time.  (Latest update in Nov 2020.)
