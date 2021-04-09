@@ -4,6 +4,7 @@ library(tidyverse)
 library(gtools)
 library(ggthemes)
 library(rvest)
+library(lubridate)
 options(scipen = 999)
 
 #locations of source files on open canada portal, accessed July 2020.  No need to download if accessing from repo.
@@ -20,13 +21,16 @@ dnd_eav_eac
 dnd_eav_eac <- data.frame(dnd_eav_eac)
 class(dnd_eav_eac)
 
-dnd_eav_inmillions <- dnd_eav_eac %>% mutate(authorities_in_mill = (authorities/1000000), expenditures_in_mill = (expenditures/1000000))
+dnd_eav_inmillions <- dnd_eav_eac %>% mutate(authorities_in_mill = (authorities/1000000),
+                                             expenditures_in_mill = (expenditures/1000000))
 head(dnd_eav_inmillions)
 
 dnd_eav_inmillions %>% filter(!is.na(expenditures_in_mill), !is.na(fy_ef), vote_and_statutory == "5") %>%
   ggplot(aes(x=fy_ef)) +
   geom_col(aes(y=expenditures_in_mill)) +
   geom_line(aes(y=authorities_in_mill)) +
+  xlab("Fiscal Year") +
+  scale_x_continuous(n.breaks = 10) +
   ggtitle("DND Vote 5 Appropriations and Spend ($millions)")+
   theme_economist()
   
@@ -35,6 +39,7 @@ dnd_eav_inmillions %>% filter(!is.na(expenditures_in_mill), !is.na(fy_ef), vote_
   ggplot(aes(x=fy_ef)) +
   geom_col(aes(y=expenditures_in_mill)) +
   geom_line(aes(y=authorities_in_mill)) +
+  scale_x_continuous(n.breaks = 10) +
   ggtitle("DND Vote 1 Appropriations and Spend ($millions)")+
 theme_economist()
 
@@ -46,6 +51,7 @@ dnd_eav_inmillions %>% filter(!is.na(expenditures_in_mill), !is.na(fy_ef), vote_
   ggplot(aes(x=fy_ef, y=spend_percent, label=spend_percent)) +
   geom_point() +
   geom_label() +
+  scale_x_continuous(n.breaks = 10) +
   ggtitle("DND Vote 1 - Proportion of authorities spent") +
   theme_minimal()
 
@@ -53,6 +59,7 @@ dnd_eav_inmillions %>% filter(!is.na(expenditures_in_mill), !is.na(fy_ef), vote_
   ggplot(aes(x=fy_ef, y=spend_percent, label=spend_percent)) +
   geom_point() +
   geom_label() +
+  scale_x_continuous(n.breaks = 10) +
   ggtitle("DND Vote 5 - Proportion of authorities spent")+
   theme_minimal()
 
@@ -82,5 +89,6 @@ dnd_easo %>% group_by(sobj_en) %>% summarise(avg_per_year = sum(expenditures/(20
 #separating out the defence procurement related items - as much as is possible.
 dnd_easo %>% filter(sobj_en %in% c("Acquisition of machinery and equipment", "Repair and maintenance", "Rentals")) %>%
   ggplot(aes(x=fy_ef, y=expenditures, col=sobj_en))+
-  geom_point()
+  geom_point(size=4) +
+  ggtitle("Canada's Public Accounts - Key DND Expenditures by Standard Object")
 
