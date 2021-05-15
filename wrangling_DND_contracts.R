@@ -5,7 +5,7 @@
 
 #objective is to make a more useful object for analysis.  Beware, the contracts.csv
 #is a large file (about 300MB).  I occasionally had to try a few times before it
-#would download for me.  Last run Aug 2020.
+#would download for me.  Last run May 2021.
 
 library(tidyverse)
 library(rvest)
