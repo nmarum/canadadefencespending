@@ -8,10 +8,10 @@ library(lubridate)
 options(scipen = 999)
 
 #locations of source files on open canada portal, accessed July 2020.  No need to download if accessing from repo.
-#url <- "https://open.canada.ca/data/dataset/a35cf382-690c-4221-a971-cf0fd189a46f/resource/3bafde71-8cb8-460e-93e2-691295221063/download/eav_eac_en.csv"
-#url2 <- "https://open.canada.ca/data/dataset/a35cf382-690c-4221-a971-cf0fd189a46f/resource/27e54a33-3c39-42a9-8d58-46dd37c527e5/download/eso_eac_en.csv"
-#download.file(url, "eav_eac_en.csv")
-#download.file(url2, "easo_eac_en.csv")
+url <- "https://open.canada.ca/data/dataset/a35cf382-690c-4221-a971-cf0fd189a46f/resource/3bafde71-8cb8-460e-93e2-691295221063/download/eav_eac_en.csv"
+url2 <- "https://open.canada.ca/data/dataset/a35cf382-690c-4221-a971-cf0fd189a46f/resource/27e54a33-3c39-42a9-8d58-46dd37c527e5/download/eso_eac_en.csv"
+download.file(url, "eav_eac_en.csv")
+download.file(url2, "easo_eac_en.csv")
 
 #exploring Main Estimates and expenditures and authorities by Vote
 eav_eac_en <- read_csv("eav_eac_en.csv")
