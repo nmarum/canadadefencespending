@@ -23,16 +23,16 @@ contract_analysis <- dnd_contracts %>%
 
 summary(contract_analysis)
 ```
-There are about 240,000 entries in the data set.  The earliest contracts were from the year 2000 while the latest entries reflect contracts let at the end of Dec 2020.  Entry values range from a negative dollar value entry (likely a data entry error or the result of a contract amendment) to $4 billion per single contract award.  3 out of the top 6 of companies receiving contracts from DND were oil companies - clearly fuel contracts are a major source of business!
+There are about 240,000 entries in the data set.  The earliest contracts were from the year 2000 while the latest entries reflect contracts let at the end of March 2021.  Entry values range from a negative dollar value entry (likely a data entry error or the result of a contract amendment) to $4 billion per single contract award.  3 out of the top 6 of companies receiving contracts from DND were oil companies - clearly fuel contracts are a major source of business!
 
-There are over 170,000 NA's for parent company.  That is a lot of entries that are missed even after I addressed some case sensitivity, punctuation, and company suffix issues in the data wrangling.
+There are over 180,000 NA's for parent company.  That is a lot of entries that are missed even after I addressed some case sensitivity, punctuation, and company suffix issues in the data wrangling.
 
 ```{r}
 count(contract_analysis, parent_company) %>% arrange(desc(n))
 
 ```
 
-Most large defence suppliers are identified, however it is still possible many are missed in the 170,000 entries.  Below is the list of firms with the largest number of contract awards that are not paired with a parent company.
+Most large defence suppliers are identified, however it is still possible many are missed in the 180,000 entries.  Below is the list of firms with the largest number of contract awards that are not paired with a parent company.
 
 
 ```{r}
@@ -74,7 +74,7 @@ y <- c("with_parent", "all", "percentage")
 data.frame(contract_value, n, row.names = y)
 ```
 
-Over 80% of value is captured in the 63,000 some entries. Pretty much all of the large contracts for billions and hundreds of millions of dollars are attributed to a parent company.  I will continue to make updates to the defence vendor name data as time allows, but for now we will live with the 80% solution.
+Over 80% of value is captured in the 64,000 some entries. Pretty much all of the large contracts for billions and hundreds of millions of dollars are attributed to a parent company.  I will continue to make updates to the defence vendor name data as time allows, but for now we will live with the 80% solution.
 
 
 ```{r}
@@ -148,7 +148,7 @@ contract_analysis %>%
 
 ```
 
-There is a far greater number of points when you do not use the economic object code.  I suspect there are a lot of NAs causing for many entries.  Another interesting aspect is that this does not capture a signifcant recent expenditures to Lockheed Martin Canada in the context of shipbuilding.  Those contracts flowed through another company so are not reflected here.  Clearly teh contract data does not capture all the complexities of some of these business relationships.
+There is a far greater number of points when you do not use the economic object code.  I suspect there are a lot of NAs causing for many entries.  Another interesting aspect is that this does not capture a significant recent expenditures to Lockheed Martin Canada in the context of shipbuilding.  Those contracts flowed through another company so are not reflected here.  Clearly the contract data does not capture all the complexities of some of these business relationships.
 
 ```{r}
 sum(is.na(contract_analysis$economic_object_code))/nrow(contract_analysis)
@@ -173,18 +173,20 @@ contract_analysis %>%
   ggplot(aes(contract_value)) +geom_density() +
   scale_x_log10() +
   ggtitle("Defence contract density by value (x-axis at Log10)") +
+  geom_vline(xintercept = 10000, alpha=.5, linetype=2)+
   theme_minimal()
 ```
-As we can see from the graph, at the 10K mark, the contract entries shoot up.  This is logical as this database is only for contracts valued over $10K.  We can also see that even with a logarithmic y axis that there is a steep drop in the number of contracts as contract value increases.  Using an empirical cumulative distribution function we can see that almost 80% of contracting activity is below $100,000 in value.  In fact, almost 99% of defence department contracting activity is below $5 million dollars.  This contracting activity would include call ups on standing offers and other contractual arrangements that would be routine and transactional, however it is impressive nonetheless.  It also highlights that the most talked about defence contracts in Parliament or in the media only make up a small percentage of the total volume of activity.
+As we can see from the graph, at the 10K mark (noted by the dashed vertical line), the contract entries shoot up.  This is logical as this database is only for contracts valued over $10K.  We can also see that even with a logarithmic y axis that there is a steep drop in the number of contracts as contract value increases.  Using an empirical cumulative distribution function we can see that almost 80% of contracting activity is below $100,000 in value.  In fact, almost 99% of defence department contracting activity is below $5 million dollars.  This contracting activity would include call ups on standing offers and other contractual arrangements that would be routine and transactional, however it is impressive nonetheless.  It also highlights that the most talked about defence contracts in Parliament or in the media only make up a small percentage of the total volume of activity.
 
 
 ```{r}
-contract_analysis %>% filter(contract_date>"2010-01-01") %>%
-  ggplot(aes(contract_date)) +geom_density() +
-  ggtitle("Defence contract density over time") +
+contract_analysis %>% filter(contract_date>"2015-01-01") %>%
+  ggplot(aes(contract_date)) +
+  geom_density() +
+  ggtitle("Defence contract density since 2015") +
   theme_minimal()
 ```
-As we can see since 2010 there has been a slight drop in the overall volume of contract activity but with with some variation throughout each year.  We can likely attribute the peak after 2010 for contracting activity during and towards the end of Canada's mission in Afghanistan.  We can see a dip around the 2015 election and the lead up to the release of the 2017 defence policy, however there seems to be growth since that time.  I would attribute the drop off of the chart around 2020 to the fact that entries may not be up to date, and the onset of COVID-19 may have caused some data entry delays, even though there are entries in the database as late as Dec 2020.  We will have to see if that is actually a trend or whether the database just needs to catch up to actual activity.
+As we can see since 2010 there has been a slight drop in the overall volume of contract activity but with with some variation throughout each year.  We can likely attribute the peak after 2010 for contracting activity during and towards the end of Canada's mission in Afghanistan.  We can see a dip around the 2015 election and the lead up to the release of the 2017 defence policy, however there seems to be growth since that time.  I would attribute the drop off of the chart around 2020 to the fact that entries may not be up to date, and the onset of COVID-19 may have caused some data entry delays, even though there are entries in the database as l.  We will have to see if that is actually a trend or whether the database just needs to catch up to actual activity.
 
 We will look to update this analysis from time to time.
 
