@@ -14,10 +14,10 @@ library(lubridate)
 
 defence_vendor_data <- read_csv("defence_vendor_data.csv") #updated vendor data based on knowledge of defence industry
 
-download.file(url="https://open.canada.ca/data/dataset/d8f85d91-7dec-4fd1-8055-483b77225d8b/resource/fac950c0-00d5-4ec1-a4d3-9cbebf98a305/download/contracts.csv", destfile="contracts.csv")
-gov_contracts <- read_csv("contracts.csv", col_types = cols(additional_comments_fr = col_skip(), amendment_value = col_number(), comments_fr = col_skip(), contract_date = col_date(format = "%Y-%m-%d"), contract_period_start = col_date(format = "%Y-%m-%d"), contract_value = col_number(), delivery_date = col_date(format =  "%Y-%m-%d"), description_fr = col_skip(), original_value = col_number()), locale = locale(date_format = "%Y-%m-%d"))
 
-file.remove("contracts.csv")
+#downloading and reading in contract data at same time.  Less memory intensive than doing it in two steps.
+gov_contracts <- read_csv("https://open.canada.ca/data/dataset/d8f85d91-7dec-4fd1-8055-483b77225d8b/resource/fac950c0-00d5-4ec1-a4d3-9cbebf98a305/download/contracts.csv",
+                          col_types = cols(additional_comments_fr = col_skip(), amendment_value = col_number(), comments_fr = col_skip(), contract_date = col_date(format = "%Y-%m-%d"), contract_period_start = col_date(format = "%Y-%m-%d"), contract_value = col_number(), delivery_date = col_date(format =  "%Y-%m-%d"), description_fr = col_skip(), original_value = col_number()), locale = locale(date_format = "%Y-%m-%d"))
 
 dnd_contracts <- gov_contracts %>% 
   filter(owner_org == "dnd-mdn") %>% #filter by DND

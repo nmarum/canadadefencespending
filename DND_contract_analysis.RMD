@@ -9,7 +9,7 @@ In previous analysis of government contract data, the vendor name field was foun
 
 I have manually updated the vendor data provided by the Ottawa Civic Tech project to include a number of known major and some minor defence suppliers and adjusted parent company name mapping against vendors as a result of recent mergers and acquisitions (for example, Sikorsky is now a business unit of Lockheed Martin).  The intent was to improve the quality and tailor it more for an analysis of defence suppliers and the defence industrial base.  My updated defence vendor database is publicly available in a csv format on my github repo.  In a separate script (wrangling_DND_contracts.R), I imported and wrangled the DND contract data with the cleaned up vendor names joined, into an .rda object.  The wrangling script is also available in the repo.
 
-After having integrated vendor name data from the Ottawa Civic Tech project on Government of Canada contract data, I am going to do a short analysis to see if it helps make the analysis of vendor data easier.  This analysis was run as of May 2021.
+After having integrated vendor name data from the Ottawa Civic Tech project on Government of Canada contract data, I am going to do a short analysis to see if it helps make the analysis of vendor data easier.  This analysis was run as of April 2022.
 
 ```{r}
 library(tidyverse)
@@ -32,7 +32,7 @@ count(contract_analysis, parent_company) %>% arrange(desc(n))
 
 ```
 
-Most large defence suppliers are identified, however it is still possible many are missed in the 180,000 entries.  Below is the list of firms with the largest number of contract awards that are not paired with a parent company.
+Most large defence suppliers are identified, however it is still possible many are missed in the 191,000 entries.  Below is the list of firms with the largest number of contract awards that are not paired with a parent company.
 
 
 ```{r}
@@ -79,7 +79,7 @@ Over 80% of value is captured in the 64,000 some entries. Pretty much all of the
 
 ```{r}
 library(ggthemes)
-contract_analysis %>% filter(contract_year %in% c("2020"), !is.na(parent_company)) %>%
+contract_analysis %>% filter(contract_year %in% c("2021"), !is.na(parent_company)) %>%
   group_by(contract_year, parent_company) %>%
   summarize(contract_award_value = sum(contract_value)) %>%
   arrange(desc(contract_award_value)) %>%
@@ -88,17 +88,17 @@ contract_analysis %>% filter(contract_year %in% c("2020"), !is.na(parent_company
   ggplot(aes(parent_company, contract_award_value)) + geom_col() +
   scale_y_log10() +coord_flip() +
   facet_wrap(vars(contract_year), nrow = 3) +
-  ggtitle("Top 10 Parent Companies (2020)") + theme_minimal()
+  ggtitle("Top 10 Parent Companies (2021)") + theme_minimal()
 ```
 
-In 2020, we can see some of the biggest parent companies to receive contracts were for shipbuilding, most notably Seaspan.  Bombardier also received a significant contract for the replacement of the Challenger jets.  General Dynamics represents a number of major defence bsuiness units in Canada, however a new contract for armoured vehicles was awarded to General Dynamics Land Systems Canada was awareded in 2020.
+In 2021, we see a variety of contracts with different providers.  SERCO is a services provider, so that contract may have to do with relocation or facility services. General Dynamics represents a number of major defence business units in Canada, however a new contract for armoured vehicles was awarded to General Dynamics Land Systems Canada was awarded in 2020.
 
 1250 and 1251 are the economic object codes for aircraft and aircraft parts respectively.  Let's see what who are the biggest suppliers here.  Hopefully, there will be no surprises.
 
 ```{r}
 contract_analysis %>%
   filter(economic_object_code %in% c("1250", "1251"),
-         contract_year %in% c("2017", "2018", "2019", "2020")) %>%
+         contract_year %in% c("2017", "2018", "2019", "2020", "2021")) %>%
   group_by(contract_year, parent_company, economic_object_code) %>%
   summarize(contract_awards = sum(contract_value)) %>%
   arrange(desc(contract_awards))
@@ -111,7 +111,7 @@ Let's try something similar for the Navy with the codes for ships (1256) and shi
 ```{r}
 contract_analysis %>%
   filter(economic_object_code %in% c("1256", "1257"),
-         contract_year %in% c("2017", "2018", "2019", "2020")) %>%
+         contract_year %in% c("2017", "2018", "2019", "2020", "2021")) %>%
   group_by(contract_year, parent_company, economic_object_code) %>%
   summarize(contract_awards = sum(contract_value)) %>%
   arrange(desc(contract_awards))
@@ -123,7 +123,7 @@ Let's do some specific firm analysis before we wrap this up.
 
 ```{r}
 contract_analysis %>%
-  filter(contract_year %in% c("2017", "2018", "2019", "2020"),
+  filter(contract_year %in% c("2017", "2018", "2019", "2020", "2021"),
          parent_company == "LOCKHEED MARTIN") %>%
   group_by(contract_year, parent_company, economic_object_code) %>%
   summarize(contract_awards = sum(contract_value)) %>%
