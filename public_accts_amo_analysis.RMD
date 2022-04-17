@@ -1,8 +1,8 @@
 ---
 title: "Exploratory Data Analysis of Canada's Defence Machinery and Equipment Expenditures"
-subtitle: "Analysis of National Defence expenditures for the acquisition of equipment and machinery from Canada's Public Accounts (2010 to 2019)"
+subtitle: "Analysis of National Defence expenditures for the acquisition of equipment and machinery from Canada's Public Accounts (2010 to 2021)"
 author:
-date: "May 2021"
+date: "April 2022"
 output:
   pdf_document: default
   html_document: default
@@ -30,7 +30,7 @@ _EXPLORATORY ANALYSIS_
 
 Our intent is to do an exploratory data analysis of the Public Accounts information to highlight its potential uses as well as limitations for researchers.
 
-In a separate data wrangling and import script, I have pulled together National Defence acquisition of equipment and machinery data from fiscal year 2009/10 to 2019/20.  The Public Accounts data was separated into different datafiles for each fiscal year rather in one large block for reasons that are not explained.  Thankfully, the column names and categories appear were consistent across fiscal years so merging the different datasets together was not difficult.
+In a separate data wrangling and import script, I have pulled together National Defence acquisition of equipment and machinery data from fiscal year 2009/10 to 2020/21.  The Public Accounts data was separated into different datafiles for each fiscal year rather in one large block for reasons that are not explained.  Thankfully, the column names and categories appear were consistent across fiscal years so merging the different datasets together was not difficult.
 
 https://open.canada.ca/data/en/dataset/2667652d-0484-4e93-b67e-9aa129cf152d#wb-auto-6
 
@@ -100,7 +100,7 @@ Payments for aircraft is by far the most significant over the time period, howev
 ```{r aircraft and munitions boxplot, echo=FALSE}
 amo_analysis %>%
   filter(OBJ_EN_NM %in% c("Aircraft", "Munitions, and ammunition"),
-         FSCL_YR %in% c("2015/2016", "2016/2017", "2017/2018", "2018/2019", "2019/2020")) %>%
+         FSCL_YR %in% c("2015/2016", "2016/2017", "2017/2018", "2018/2019", "2019/2020", "2020/2021")) %>%
   ggplot (aes(x=FSCL_YR, y=AGRG_PYMT_AMT, col= OBJ_EN_NM,
               legend.position="bottom")) +
   geom_boxplot()+
@@ -117,7 +117,7 @@ Let us take a look at categories of goods that are similar.
 amo_analysis %>%
   filter(OBJ_EN_NM %in% c("Ships and boats parts", "Aircraft parts",
                           "Road motor vehicles parts"),
-         FSCL_YR %in% c("2015/2016", "2016/2017", "2017/2018", "2018/2019", "2019/2020")) %>%
+         FSCL_YR %in% c("2015/2016", "2016/2017", "2017/2018", "2018/2019", "2019/2020", "2020/2021")) %>%
   ggplot (aes(x=FSCL_YR, y=AGRG_PYMT_AMT,
               col= OBJ_EN_NM, legend.position="bottom")) +
   geom_boxplot()+
