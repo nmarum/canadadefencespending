@@ -74,21 +74,21 @@ y <- c("with_parent", "all", "percentage")
 data.frame(contract_value, n, row.names = y)
 ```
 
-Over 80% of value is captured in the 64,000 some entries. Pretty much all of the large contracts for billions and hundreds of millions of dollars are attributed to a parent company.  I will continue to make updates to the defence vendor name data as time allows, but for now we will live with the 80% solution.
+Over 80% of value is captured in the 64,000 some entries. Pretty much all of the largest contracts accounting for several hundred of million or more are attributed to a parent company.  I will continue to make updates to the defence vendor name data as time allows, but for now we will live with the 80% solution.
 
 
 ```{r}
 library(ggthemes)
-contract_analysis %>% filter(contract_year %in% c("2021"), !is.na(parent_company)) %>%
+contract_analysis %>% filter(contract_year %in% c("2020","2021"), !is.na(parent_company)) %>%
   group_by(contract_year, parent_company) %>%
   summarize(contract_award_value = sum(contract_value)) %>%
   arrange(desc(contract_award_value)) %>%
-  slice_max(order_by = contract_award_value, n=10) %>%
+  slice_max(order_by = contract_award_value, n=5) %>%
   mutate(parent_company = fct_reorder(parent_company, contract_award_value)) %>%
   ggplot(aes(parent_company, contract_award_value)) + geom_col() +
   scale_y_log10() +coord_flip() +
   facet_wrap(vars(contract_year), nrow = 3) +
-  ggtitle("Top 10 Parent Companies (2021)") + theme_minimal()
+  ggtitle("Top 5 Parent Companies (2020 and 2021)") + theme_minimal()
 ```
 
 In 2021, we see a variety of contracts with different providers.  SERCO is a services provider, so that contract may have to do with relocation or facility services. General Dynamics represents a number of major defence business units in Canada, however a new contract for armoured vehicles was awarded to General Dynamics Land Systems Canada was awarded in 2020.
