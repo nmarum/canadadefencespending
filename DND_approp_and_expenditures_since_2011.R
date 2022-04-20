@@ -78,13 +78,14 @@ range(dnd_easo$fy_ef)
 dnd_easo %>% group_by(fy_ef) %>% summarize(total_spend = sum(expenditures)) 
 #around 20B per year in total spending
 
-dnd_easo %>% group_by(sobj_en) %>% summarise(avg_per_year = sum(expenditures/(2018-2011)))
+dnd_easo %>% group_by(sobj_en) %>% summarise(avg_per_year = sum(expenditures/(max(.$fy_ef)-min(.$fy_ef))))
 #shows avg of  standard object spend since 2011.  Personnel clearly number one
 
 
 #separating out the defence procurement related items - as much as is possible.
 dnd_easo %>% filter(sobj_en %in% c("Acquisition of machinery and equipment", "Repair and maintenance", "Rentals")) %>%
-  ggplot(aes(x=fy_ef, y=expenditures, col=sobj_en))+
+  ggplot(aes(x=as.character(fy_ef), y=expenditures, col=sobj_en))+
   geom_point(size=4) +
+  xlab("FY") +
   ggtitle("Canada's Public Accounts - Key DND Expenditures by Standard Object")
 
