@@ -8573,15 +8573,6 @@
 2018,554,"Parliamentary Protective Service","Other subsidies and payments",111425.09
 2018,554,"Parliamentary Protective Service","External revenues",-31353.88
 2018,554,"Parliamentary Protective Service","Internal revenues",-579666.81
-2019,558,"Canadian Accessibility Standards Development Organization","Personnel",820761.04
-2019,558,"Canadian Accessibility Standards Development Organization","Transportation and communications",96647.87
-2019,558,"Canadian Accessibility Standards Development Organization","Information",61624.73
-2019,558,"Canadian Accessibility Standards Development Organization","Professional and special services",1365653.88
-2019,558,"Canadian Accessibility Standards Development Organization","Rentals",111661.46
-2019,558,"Canadian Accessibility Standards Development Organization","Utilities, materials and supplies",5758.52
-2019,558,"Canadian Accessibility Standards Development Organization","Acquisition of machinery and equipment",9737.41
-2019,558,"Canadian Accessibility Standards Development Organization","Transfer payments",1488358.00
-2019,558,"Canadian Accessibility Standards Development Organization","Other subsidies and payments",624.84
 2019,1,"Department of Agriculture and Agri-Food","Personnel",506975830.25
 2019,1,"Department of Agriculture and Agri-Food","Transportation and communications",13062362.99
 2019,1,"Department of Agriculture and Agri-Food","Information",10244742.96
@@ -9646,4 +9637,1080 @@
 2019,554,"Parliamentary Protective Service","Other subsidies and payments",166784.80
 2019,554,"Parliamentary Protective Service","External revenues",-108360.00
 2019,554,"Parliamentary Protective Service","Internal revenues",-1658914.91
+2019,558,"Canadian Accessibility Standards Development Organization","Personnel",820761.04
+2019,558,"Canadian Accessibility Standards Development Organization","Transportation and communications",96647.87
+2019,558,"Canadian Accessibility Standards Development Organization","Information",61624.73
+2019,558,"Canadian Accessibility Standards Development Organization","Professional and special services",1365653.88
+2019,558,"Canadian Accessibility Standards Development Organization","Rentals",111661.46
+2019,558,"Canadian Accessibility Standards Development Organization","Utilities, materials and supplies",5758.52
+2019,558,"Canadian Accessibility Standards Development Organization","Acquisition of machinery and equipment",9737.41
+2019,558,"Canadian Accessibility Standards Development Organization","Transfer payments",1488358.00
+2019,558,"Canadian Accessibility Standards Development Organization","Other subsidies and payments",624.84
+2020,1,"Department of Agriculture and Agri-Food","Personnel",543371191.56
+2020,1,"Department of Agriculture and Agri-Food","Transportation and communications",2625789.01
+2020,1,"Department of Agriculture and Agri-Food","Information",8560039.68
+2020,1,"Department of Agriculture and Agri-Food","Professional and special services",115852829.95
+2020,1,"Department of Agriculture and Agri-Food","Rentals",7622655.17
+2020,1,"Department of Agriculture and Agri-Food","Repair and maintenance",11130067.79
+2020,1,"Department of Agriculture and Agri-Food","Utilities, materials and supplies",29280233.11
+2020,1,"Department of Agriculture and Agri-Food","Acquisition of land, buildings and works",21417936.66
+2020,1,"Department of Agriculture and Agri-Food","Acquisition of machinery and equipment",32916793.48
+2020,1,"Department of Agriculture and Agri-Food","Transfer payments",2303265384.07
+2020,1,"Department of Agriculture and Agri-Food","Other subsidies and payments",10302286.67
+2020,1,"Department of Agriculture and Agri-Food","External revenues",-21482649.18
+2020,1,"Department of Agriculture and Agri-Food","Internal revenues",-27247163.52
+2020,2,"House of Commons","Personnel",524818040.40
+2020,2,"House of Commons","Transportation and communications",19436753.34
+2020,2,"House of Commons","Information",12395526.26
+2020,2,"House of Commons","Professional and special services",19777662.41
+2020,2,"House of Commons","Rentals",21513825.26
+2020,2,"House of Commons","Repair and maintenance",8012912.66
+2020,2,"House of Commons","Utilities, materials and supplies",6138896.71
+2020,2,"House of Commons","Acquisition of machinery and equipment",21089477.05
+2020,2,"House of Commons","Transfer payments",1132361.20
+2020,2,"House of Commons","Other subsidies and payments",910645.32
+2020,2,"House of Commons","External revenues",-1261907.27
+2020,2,"House of Commons","Internal revenues",-23853832.55
+2020,12,"Atlantic Canada Opportunities Agency","Personnel",69463510.52
+2020,12,"Atlantic Canada Opportunities Agency","Transportation and communications",265715.39
+2020,12,"Atlantic Canada Opportunities Agency","Information",423825.99
+2020,12,"Atlantic Canada Opportunities Agency","Professional and special services",3573558.35
+2020,12,"Atlantic Canada Opportunities Agency","Rentals",2013147.89
+2020,12,"Atlantic Canada Opportunities Agency","Repair and maintenance",57924.99
+2020,12,"Atlantic Canada Opportunities Agency","Utilities, materials and supplies",204744.59
+2020,12,"Atlantic Canada Opportunities Agency","Acquisition of machinery and equipment",1184350.41
+2020,12,"Atlantic Canada Opportunities Agency","Transfer payments",496198440.49
+2020,12,"Atlantic Canada Opportunities Agency","Other subsidies and payments",1660397.44
+2020,14,"Atomic Energy of Canada Limited","Other subsidies and payments",940740678.00
+2020,26,"Canada Border Services Agency","Personnel",1594352325.10
+2020,26,"Canada Border Services Agency","Transportation and communications",27476862.86
+2020,26,"Canada Border Services Agency","Information",1004879.50
+2020,26,"Canada Border Services Agency","Professional and special services",378818284.86
+2020,26,"Canada Border Services Agency","Rentals",10064013.53
+2020,26,"Canada Border Services Agency","Repair and maintenance",40201135.80
+2020,26,"Canada Border Services Agency","Utilities, materials and supplies",20758475.30
+2020,26,"Canada Border Services Agency","Acquisition of land, buildings and works",57477575.07
+2020,26,"Canada Border Services Agency","Acquisition of machinery and equipment",45132201.93
+2020,26,"Canada Border Services Agency","Other subsidies and payments",7805251.11
+2020,26,"Canada Border Services Agency","External revenues",-15653157.16
+2020,29,"Canada Council for the Arts","Other subsidies and payments",428631145.00
+2020,42,"Canada Mortgage and Housing Corporation","Other subsidies and payments",5530499959.77
+2020,44,"Canada Post Corporation","Other subsidies and payments",22209960.00
+2020,46,"Canada Revenue Agency","Personnel",4499572652.62
+2020,46,"Canada Revenue Agency","Transportation and communications",89396564.00
+2020,46,"Canada Revenue Agency","Information",25497767.96
+2020,46,"Canada Revenue Agency","Professional and special services",452975667.34
+2020,46,"Canada Revenue Agency","Rentals",291833969.24
+2020,46,"Canada Revenue Agency","Repair and maintenance",41109773.26
+2020,46,"Canada Revenue Agency","Utilities, materials and supplies",14601660.65
+2020,46,"Canada Revenue Agency","Acquisition of machinery and equipment",80805353.22
+2020,46,"Canada Revenue Agency","Transfer payments",4947247089.81
+2020,46,"Canada Revenue Agency","Other subsidies and payments",15146187.86
+2020,46,"Canada Revenue Agency","Internal revenues",-474188747.15
+2020,47,"Canada School of Public Service","Personnel",72469884.16
+2020,47,"Canada School of Public Service","Transportation and communications",132667.32
+2020,47,"Canada School of Public Service","Information",439429.88
+2020,47,"Canada School of Public Service","Professional and special services",10569430.88
+2020,47,"Canada School of Public Service","Rentals",2355142.19
+2020,47,"Canada School of Public Service","Repair and maintenance",14572.77
+2020,47,"Canada School of Public Service","Utilities, materials and supplies",72590.64
+2020,47,"Canada School of Public Service","Acquisition of land, buildings and works",2640853.19
+2020,47,"Canada School of Public Service","Acquisition of machinery and equipment",813981.73
+2020,47,"Canada School of Public Service","Other subsidies and payments",-7225719.52
+2020,51,"Canadian Air Transport Security Authority","Other subsidies and payments",686325308.37
+2020,53,"Canadian Broadcasting Corporation","Other subsidies and payments",1366915479.00
+2020,55,"Canadian Centre for Occupational Health and Safety","Personnel",9850950.06
+2020,55,"Canadian Centre for Occupational Health and Safety","Transportation and communications",140508.14
+2020,55,"Canadian Centre for Occupational Health and Safety","Information",193241.76
+2020,55,"Canadian Centre for Occupational Health and Safety","Professional and special services",896041.48
+2020,55,"Canadian Centre for Occupational Health and Safety","Rentals",387734.29
+2020,55,"Canadian Centre for Occupational Health and Safety","Repair and maintenance",9946.77
+2020,55,"Canadian Centre for Occupational Health and Safety","Utilities, materials and supplies",136291.87
+2020,55,"Canadian Centre for Occupational Health and Safety","Acquisition of machinery and equipment",90938.36
+2020,61,"Canadian Dairy Commission","Other subsidies and payments",4576877.00
+2020,63,"Impact Assessment Agency of Canada","Personnel",50439468.87
+2020,63,"Impact Assessment Agency of Canada","Transportation and communications",290258.96
+2020,63,"Impact Assessment Agency of Canada","Information",370335.65
+2020,63,"Impact Assessment Agency of Canada","Professional and special services",7122778.65
+2020,63,"Impact Assessment Agency of Canada","Rentals",758111.68
+2020,63,"Impact Assessment Agency of Canada","Repair and maintenance",8928.88
+2020,63,"Impact Assessment Agency of Canada","Utilities, materials and supplies",133967.97
+2020,63,"Impact Assessment Agency of Canada","Acquisition of machinery and equipment",463374.37
+2020,63,"Impact Assessment Agency of Canada","Transfer payments",18438377.46
+2020,63,"Impact Assessment Agency of Canada","Other subsidies and payments",327235.08
+2020,63,"Impact Assessment Agency of Canada","External revenues",-1469348.09
+2020,65,"Canadian Food Inspection Agency","Personnel",648783274.37
+2020,65,"Canadian Food Inspection Agency","Transportation and communications",5939428.56
+2020,65,"Canadian Food Inspection Agency","Information",4159685.43
+2020,65,"Canadian Food Inspection Agency","Professional and special services",67858359.02
+2020,65,"Canadian Food Inspection Agency","Rentals",11720210.92
+2020,65,"Canadian Food Inspection Agency","Repair and maintenance",9001414.64
+2020,65,"Canadian Food Inspection Agency","Utilities, materials and supplies",20038868.69
+2020,65,"Canadian Food Inspection Agency","Acquisition of machinery and equipment",25724932.31
+2020,65,"Canadian Food Inspection Agency","Transfer payments",10940244.38
+2020,65,"Canadian Food Inspection Agency","Other subsidies and payments",5397200.49
+2020,69,"Canadian Grain Commission","Personnel",49134323.01
+2020,69,"Canadian Grain Commission","Transportation and communications",1878586.37
+2020,69,"Canadian Grain Commission","Information",326015.94
+2020,69,"Canadian Grain Commission","Professional and special services",2772849.85
+2020,69,"Canadian Grain Commission","Rentals",5974128.77
+2020,69,"Canadian Grain Commission","Repair and maintenance",724452.07
+2020,69,"Canadian Grain Commission","Utilities, materials and supplies",1452433.62
+2020,69,"Canadian Grain Commission","Acquisition of machinery and equipment",4706221.62
+2020,69,"Canadian Grain Commission","Other subsidies and payments",200093.80
+2020,69,"Canadian Grain Commission","External revenues",-78642299.29
+2020,69,"Canadian Grain Commission","Internal revenues",-372712.14
+2020,71,"Canadian Human Rights Commission","Personnel",27657942.36
+2020,71,"Canadian Human Rights Commission","Transportation and communications",217289.35
+2020,71,"Canadian Human Rights Commission","Information",462104.59
+2020,71,"Canadian Human Rights Commission","Professional and special services",3083722.83
+2020,71,"Canadian Human Rights Commission","Rentals",450156.65
+2020,71,"Canadian Human Rights Commission","Repair and maintenance",39806.09
+2020,71,"Canadian Human Rights Commission","Utilities, materials and supplies",108119.80
+2020,71,"Canadian Human Rights Commission","Acquisition of machinery and equipment",570074.97
+2020,71,"Canadian Human Rights Commission","Other subsidies and payments",45893.37
+2020,71,"Canadian Human Rights Commission","Internal revenues",-1635950.95
+2020,74,"Canadian Institutes of Health Research","Personnel",57600505.97
+2020,74,"Canadian Institutes of Health Research","Transportation and communications",279854.96
+2020,74,"Canadian Institutes of Health Research","Information",461102.20
+2020,74,"Canadian Institutes of Health Research","Professional and special services",2377643.68
+2020,74,"Canadian Institutes of Health Research","Rentals",1607672.21
+2020,74,"Canadian Institutes of Health Research","Repair and maintenance",132835.21
+2020,74,"Canadian Institutes of Health Research","Utilities, materials and supplies",30574.26
+2020,74,"Canadian Institutes of Health Research","Acquisition of machinery and equipment",1063417.76
+2020,74,"Canadian Institutes of Health Research","Transfer payments",1439509392.69
+2020,74,"Canadian Institutes of Health Research","Other subsidies and payments",398560.98
+2020,76,"Canadian Intergovernmental Conference Secretariat","Personnel",3011822.05
+2020,76,"Canadian Intergovernmental Conference Secretariat","Transportation and communications",98040.15
+2020,76,"Canadian Intergovernmental Conference Secretariat","Information",35543.20
+2020,76,"Canadian Intergovernmental Conference Secretariat","Professional and special services",1015153.28
+2020,76,"Canadian Intergovernmental Conference Secretariat","Rentals",456512.40
+2020,76,"Canadian Intergovernmental Conference Secretariat","Repair and maintenance",1155.00
+2020,76,"Canadian Intergovernmental Conference Secretariat","Utilities, materials and supplies",6576.42
+2020,76,"Canadian Intergovernmental Conference Secretariat","Acquisition of machinery and equipment",38797.32
+2020,76,"Canadian Intergovernmental Conference Secretariat","Other subsidies and payments",1643.06
+2020,81,"Canadian Museum for Human Rights","Other subsidies and payments",29187388.00
+2020,82,"Canadian Museum of History","Other subsidies and payments",81526259.00
+2020,84,"Canadian Museum of Immigration at Pier 21","Other subsidies and payments",10606268.00
+2020,85,"Canadian Museum of Nature","Other subsidies and payments",34903027.00
+2020,86,"Canadian Northern Economic Development Agency","Personnel",15959036.76
+2020,86,"Canadian Northern Economic Development Agency","Transportation and communications",247637.12
+2020,86,"Canadian Northern Economic Development Agency","Information",28008.35
+2020,86,"Canadian Northern Economic Development Agency","Professional and special services",2894530.02
+2020,86,"Canadian Northern Economic Development Agency","Rentals",2216413.05
+2020,86,"Canadian Northern Economic Development Agency","Repair and maintenance",89577.96
+2020,86,"Canadian Northern Economic Development Agency","Utilities, materials and supplies",102641.70
+2020,86,"Canadian Northern Economic Development Agency","Acquisition of machinery and equipment",88828.25
+2020,86,"Canadian Northern Economic Development Agency","Transfer payments",79470279.34
+2020,86,"Canadian Northern Economic Development Agency","Other subsidies and payments",122332.25
+2020,87,"Canadian Nuclear Safety Commission","Personnel",110385958.82
+2020,87,"Canadian Nuclear Safety Commission","Transportation and communications",131280.30
+2020,87,"Canadian Nuclear Safety Commission","Information",957281.13
+2020,87,"Canadian Nuclear Safety Commission","Professional and special services",15849536.65
+2020,87,"Canadian Nuclear Safety Commission","Rentals",3770484.72
+2020,87,"Canadian Nuclear Safety Commission","Repair and maintenance",919818.27
+2020,87,"Canadian Nuclear Safety Commission","Utilities, materials and supplies",318262.97
+2020,87,"Canadian Nuclear Safety Commission","Acquisition of machinery and equipment",3865245.26
+2020,87,"Canadian Nuclear Safety Commission","Transfer payments",3103483.53
+2020,87,"Canadian Nuclear Safety Commission","Other subsidies and payments",225669.87
+2020,93,"Canadian Radio-television and Telecommunications Commission","Personnel",61942636.25
+2020,93,"Canadian Radio-television and Telecommunications Commission","Transportation and communications",778917.19
+2020,93,"Canadian Radio-television and Telecommunications Commission","Information",1717165.74
+2020,93,"Canadian Radio-television and Telecommunications Commission","Professional and special services",4929563.28
+2020,93,"Canadian Radio-television and Telecommunications Commission","Rentals",1062282.12
+2020,93,"Canadian Radio-television and Telecommunications Commission","Repair and maintenance",313454.35
+2020,93,"Canadian Radio-television and Telecommunications Commission","Utilities, materials and supplies",134710.37
+2020,93,"Canadian Radio-television and Telecommunications Commission","Acquisition of machinery and equipment",1303876.35
+2020,93,"Canadian Radio-television and Telecommunications Commission","Other subsidies and payments",194713.49
+2020,93,"Canadian Radio-television and Telecommunications Commission","External revenues",-33042209.00
+2020,94,"Canadian Security Intelligence Service","Personnel",417615370.33
+2020,94,"Canadian Security Intelligence Service","Other subsidies and payments",259284330.18
+2020,95,"Canadian Space Agency","Personnel",85768244.94
+2020,95,"Canadian Space Agency","Transportation and communications",4872487.19
+2020,95,"Canadian Space Agency","Information",2220958.00
+2020,95,"Canadian Space Agency","Professional and special services",127022284.10
+2020,95,"Canadian Space Agency","Rentals",3623196.46
+2020,95,"Canadian Space Agency","Repair and maintenance",3469710.33
+2020,95,"Canadian Space Agency","Utilities, materials and supplies",1182936.82
+2020,95,"Canadian Space Agency","Acquisition of machinery and equipment",18804371.36
+2020,95,"Canadian Space Agency","Transfer payments",80239449.56
+2020,95,"Canadian Space Agency","Other subsidies and payments",3206013.54
+2020,97,"Canadian Tourism Commission","Other subsidies and payments",95665913.00
+2020,98,"Canadian Transportation Accident Investigation and Safety Board","Personnel",30624739.98
+2020,98,"Canadian Transportation Accident Investigation and Safety Board","Transportation and communications",467920.04
+2020,98,"Canadian Transportation Accident Investigation and Safety Board","Information",198003.77
+2020,98,"Canadian Transportation Accident Investigation and Safety Board","Professional and special services",2773698.32
+2020,98,"Canadian Transportation Accident Investigation and Safety Board","Rentals",513666.15
+2020,98,"Canadian Transportation Accident Investigation and Safety Board","Repair and maintenance",411063.36
+2020,98,"Canadian Transportation Accident Investigation and Safety Board","Utilities, materials and supplies",184061.01
+2020,98,"Canadian Transportation Accident Investigation and Safety Board","Acquisition of land, buildings and works",34600.42
+2020,98,"Canadian Transportation Accident Investigation and Safety Board","Acquisition of machinery and equipment",1154574.41
+2020,98,"Canadian Transportation Accident Investigation and Safety Board","Other subsidies and payments",11434.76
+2020,99,"Canadian Transportation Agency","Personnel",36192075.65
+2020,99,"Canadian Transportation Agency","Transportation and communications",231640.99
+2020,99,"Canadian Transportation Agency","Information",361188.65
+2020,99,"Canadian Transportation Agency","Professional and special services",2101852.71
+2020,99,"Canadian Transportation Agency","Rentals",964289.21
+2020,99,"Canadian Transportation Agency","Repair and maintenance",107847.11
+2020,99,"Canadian Transportation Agency","Utilities, materials and supplies",78778.97
+2020,99,"Canadian Transportation Agency","Acquisition of machinery and equipment",1318519.92
+2020,99,"Canadian Transportation Agency","Other subsidies and payments",41035.91
+2020,110,"Communications Security Establishment","Personnel",351359988.50
+2020,110,"Communications Security Establishment","Acquisition of land, buildings and works",11480984.37
+2020,110,"Communications Security Establishment","Public debt charges",64859990.91
+2020,110,"Communications Security Establishment","Other subsidies and payments",365673519.48
+2020,110,"Communications Security Establishment","External revenues",-327459.00
+2020,110,"Communications Security Establishment","Internal revenues",-13361480.46
+2020,114,"Copyright Board","Personnel",3237991.81
+2020,114,"Copyright Board","Transportation and communications",20018.99
+2020,114,"Copyright Board","Information",37988.47
+2020,114,"Copyright Board","Professional and special services",478837.32
+2020,114,"Copyright Board","Rentals",107957.46
+2020,114,"Copyright Board","Utilities, materials and supplies",3802.15
+2020,114,"Copyright Board","Acquisition of machinery and equipment",8587.17
+2020,114,"Copyright Board","Other subsidies and payments",7203.91
+2020,117,"Correctional Service of Canada","Personnel",2096998465.36
+2020,117,"Correctional Service of Canada","Transportation and communications",21013390.99
+2020,117,"Correctional Service of Canada","Information",388331.85
+2020,117,"Correctional Service of Canada","Professional and special services",411599791.91
+2020,117,"Correctional Service of Canada","Rentals",28065005.37
+2020,117,"Correctional Service of Canada","Repair and maintenance",31550113.50
+2020,117,"Correctional Service of Canada","Utilities, materials and supplies",199173052.34
+2020,117,"Correctional Service of Canada","Acquisition of land, buildings and works",52039033.48
+2020,117,"Correctional Service of Canada","Acquisition of machinery and equipment",71848297.49
+2020,117,"Correctional Service of Canada","Transfer payments",3726968.88
+2020,117,"Correctional Service of Canada","Other subsidies and payments",120566431.41
+2020,117,"Correctional Service of Canada","External revenues",-5401768.43
+2020,117,"Correctional Service of Canada","Internal revenues",-100351027.93
+2020,118,"Courts Administration Service","Personnel",72797807.78
+2020,118,"Courts Administration Service","Transportation and communications",1973425.30
+2020,118,"Courts Administration Service","Information",491961.88
+2020,118,"Courts Administration Service","Professional and special services",11000013.01
+2020,118,"Courts Administration Service","Rentals",4312648.44
+2020,118,"Courts Administration Service","Repair and maintenance",518208.98
+2020,118,"Courts Administration Service","Utilities, materials and supplies",3948715.90
+2020,118,"Courts Administration Service","Acquisition of land, buildings and works",5376206.44
+2020,118,"Courts Administration Service","Acquisition of machinery and equipment",4123380.95
+2020,118,"Courts Administration Service","Other subsidies and payments",160624.91
+2020,122,"Department of Canadian Heritage","Personnel",206862624.75
+2020,122,"Department of Canadian Heritage","Transportation and communications",786127.32
+2020,122,"Department of Canadian Heritage","Information",2831082.84
+2020,122,"Department of Canadian Heritage","Professional and special services",28388714.63
+2020,122,"Department of Canadian Heritage","Rentals",3116130.86
+2020,122,"Department of Canadian Heritage","Repair and maintenance",1324636.88
+2020,122,"Department of Canadian Heritage","Utilities, materials and supplies",2445238.37
+2020,122,"Department of Canadian Heritage","Acquisition of machinery and equipment",5596865.48
+2020,122,"Department of Canadian Heritage","Transfer payments",1717426114.09
+2020,122,"Department of Canadian Heritage","Other subsidies and payments",836559.79
+2020,122,"Department of Canadian Heritage","External revenues",-5057024.44
+2020,122,"Department of Canadian Heritage","Internal revenues",-3014824.50
+2020,123,"Department of Citizenship and Immigration","Personnel",825941619.94
+2020,123,"Department of Citizenship and Immigration","Transportation and communications",9642673.56
+2020,123,"Department of Citizenship and Immigration","Information",8394143.69
+2020,123,"Department of Citizenship and Immigration","Professional and special services",587882436.90
+2020,123,"Department of Citizenship and Immigration","Rentals",28866191.27
+2020,123,"Department of Citizenship and Immigration","Repair and maintenance",5259328.44
+2020,123,"Department of Citizenship and Immigration","Utilities, materials and supplies",16269034.11
+2020,123,"Department of Citizenship and Immigration","Acquisition of machinery and equipment",17365565.31
+2020,123,"Department of Citizenship and Immigration","Transfer payments",1699198193.17
+2020,123,"Department of Citizenship and Immigration","Other subsidies and payments",13680594.93
+2020,123,"Department of Citizenship and Immigration","External revenues",-50867905.45
+2020,123,"Department of Citizenship and Immigration","Internal revenues",-2059825.41
+2020,124,"Department of Finance","Personnel",109626934.69
+2020,124,"Department of Finance","Transportation and communications",633193.12
+2020,124,"Department of Finance","Information",23338634.21
+2020,124,"Department of Finance","Professional and special services",11354380.12
+2020,124,"Department of Finance","Rentals",1182461.03
+2020,124,"Department of Finance","Repair and maintenance",112684.31
+2020,124,"Department of Finance","Utilities, materials and supplies",85893776.86
+2020,124,"Department of Finance","Acquisition of machinery and equipment",1958717.60
+2020,124,"Department of Finance","Transfer payments",96434730258.46
+2020,124,"Department of Finance","Public debt charges",20425560929.18
+2020,124,"Department of Finance","Other subsidies and payments",565835905.68
+2020,125,"Department of Fisheries and Oceans","Personnel",1399895291.92
+2020,125,"Department of Fisheries and Oceans","Transportation and communications",51004571.29
+2020,125,"Department of Fisheries and Oceans","Information",3957777.41
+2020,125,"Department of Fisheries and Oceans","Professional and special services",662681306.74
+2020,125,"Department of Fisheries and Oceans","Rentals",51168674.07
+2020,125,"Department of Fisheries and Oceans","Repair and maintenance",183576055.24
+2020,125,"Department of Fisheries and Oceans","Utilities, materials and supplies",118686270.09
+2020,125,"Department of Fisheries and Oceans","Acquisition of land, buildings and works",119607073.91
+2020,125,"Department of Fisheries and Oceans","Acquisition of machinery and equipment",340767184.64
+2020,125,"Department of Fisheries and Oceans","Transfer payments",421263380.69
+2020,125,"Department of Fisheries and Oceans","Public debt charges",124565.06
+2020,125,"Department of Fisheries and Oceans","Other subsidies and payments",35141911.56
+2020,125,"Department of Fisheries and Oceans","External revenues",-40886681.54
+2020,126,"Department of Foreign Affairs, Trade and Development","Personnel",1383764105.03
+2020,126,"Department of Foreign Affairs, Trade and Development","Transportation and communications",90245343.73
+2020,126,"Department of Foreign Affairs, Trade and Development","Information",23388771.99
+2020,126,"Department of Foreign Affairs, Trade and Development","Professional and special services",328940897.40
+2020,126,"Department of Foreign Affairs, Trade and Development","Rentals",194387700.19
+2020,126,"Department of Foreign Affairs, Trade and Development","Repair and maintenance",31301927.23
+2020,126,"Department of Foreign Affairs, Trade and Development","Utilities, materials and supplies",39190805.73
+2020,126,"Department of Foreign Affairs, Trade and Development","Acquisition of land, buildings and works",18750813.54
+2020,126,"Department of Foreign Affairs, Trade and Development","Acquisition of machinery and equipment",73514862.51
+2020,126,"Department of Foreign Affairs, Trade and Development","Transfer payments",7021170371.82
+2020,126,"Department of Foreign Affairs, Trade and Development","Other subsidies and payments",181135213.84
+2020,126,"Department of Foreign Affairs, Trade and Development","External revenues",-43116619.42
+2020,126,"Department of Foreign Affairs, Trade and Development","Internal revenues",-967297.22
+2020,127,"Department of Health","Personnel",980777131.97
+2020,127,"Department of Health","Transportation and communications",5809523.40
+2020,127,"Department of Health","Information",85529886.35
+2020,127,"Department of Health","Professional and special services",233608044.50
+2020,127,"Department of Health","Rentals",19065596.05
+2020,127,"Department of Health","Repair and maintenance",14659094.20
+2020,127,"Department of Health","Utilities, materials and supplies",24638957.79
+2020,127,"Department of Health","Acquisition of land, buildings and works",2746285.41
+2020,127,"Department of Health","Acquisition of machinery and equipment",32160631.94
+2020,127,"Department of Health","Transfer payments",1890155714.11
+2020,127,"Department of Health","Other subsidies and payments",7387280.24
+2020,127,"Department of Health","External revenues",-152481500.63
+2020,127,"Department of Health","Internal revenues",-27403702.00
+2020,128,"Department of Employment and Social Development","Personnel",2859482267.45
+2020,128,"Department of Employment and Social Development","Transportation and communications",71172630.13
+2020,128,"Department of Employment and Social Development","Information",66438776.85
+2020,128,"Department of Employment and Social Development","Professional and special services",844148233.09
+2020,128,"Department of Employment and Social Development","Rentals",275833686.79
+2020,128,"Department of Employment and Social Development","Repair and maintenance",6085960.36
+2020,128,"Department of Employment and Social Development","Utilities, materials and supplies",9695396.84
+2020,128,"Department of Employment and Social Development","Acquisition of machinery and equipment",64105778.61
+2020,128,"Department of Employment and Social Development","Transfer payments",160650309029.57
+2020,128,"Department of Employment and Social Development","Other subsidies and payments",244839949.06
+2020,128,"Department of Employment and Social Development","External revenues",-475579331.18
+2020,128,"Department of Employment and Social Development","Internal revenues",-1979225761.00
+2020,129,"Department of Crown-Indigenous Relations and Northern Affairs","Personnel",220133395.12
+2020,129,"Department of Crown-Indigenous Relations and Northern Affairs","Transportation and communications",1994161.38
+2020,129,"Department of Crown-Indigenous Relations and Northern Affairs","Information",3202247.52
+2020,129,"Department of Crown-Indigenous Relations and Northern Affairs","Professional and special services",253399001.01
+2020,129,"Department of Crown-Indigenous Relations and Northern Affairs","Rentals",5438075.69
+2020,129,"Department of Crown-Indigenous Relations and Northern Affairs","Repair and maintenance",991444.17
+2020,129,"Department of Crown-Indigenous Relations and Northern Affairs","Utilities, materials and supplies",1167054.23
+2020,129,"Department of Crown-Indigenous Relations and Northern Affairs","Acquisition of land, buildings and works",1680498.53
+2020,129,"Department of Crown-Indigenous Relations and Northern Affairs","Acquisition of machinery and equipment",945398.32
+2020,129,"Department of Crown-Indigenous Relations and Northern Affairs","Transfer payments",3973913622.00
+2020,129,"Department of Crown-Indigenous Relations and Northern Affairs","Other subsidies and payments",959569146.89
+2020,129,"Department of Crown-Indigenous Relations and Northern Affairs","External revenues",-66500.00
+2020,129,"Department of Crown-Indigenous Relations and Northern Affairs","Internal revenues",-31325512.26
+2020,130,"Department of Industry","Personnel",614664537.45
+2020,130,"Department of Industry","Transportation and communications",4284744.57
+2020,130,"Department of Industry","Information",11286652.64
+2020,130,"Department of Industry","Professional and special services",174174661.46
+2020,130,"Department of Industry","Rentals",28828279.78
+2020,130,"Department of Industry","Repair and maintenance",5386765.17
+2020,130,"Department of Industry","Utilities, materials and supplies",4125769.43
+2020,130,"Department of Industry","Acquisition of machinery and equipment",15997485.55
+2020,130,"Department of Industry","Transfer payments",2264206859.93
+2020,130,"Department of Industry","Other subsidies and payments",3852834.59
+2020,130,"Department of Industry","External revenues",-239786509.39
+2020,130,"Department of Industry","Internal revenues",-33844567.69
+2020,132,"Department of Justice","Personnel",674707403.55
+2020,132,"Department of Justice","Transportation and communications",2755816.24
+2020,132,"Department of Justice","Information",1531363.63
+2020,132,"Department of Justice","Professional and special services",35475003.63
+2020,132,"Department of Justice","Rentals",7860845.08
+2020,132,"Department of Justice","Repair and maintenance",4843599.09
+2020,132,"Department of Justice","Utilities, materials and supplies",2758896.06
+2020,132,"Department of Justice","Acquisition of machinery and equipment",3825681.96
+2020,132,"Department of Justice","Transfer payments",447525685.53
+2020,132,"Department of Justice","Other subsidies and payments",11665891.77
+2020,132,"Department of Justice","External revenues",-1237829.52
+2020,132,"Department of Justice","Internal revenues",-358859212.51
+2020,133,"Department of National Defence","Personnel",14266656872.08
+2020,133,"Department of National Defence","Transportation and communications",479535665.75
+2020,133,"Department of National Defence","Information",24758354.44
+2020,133,"Department of National Defence","Professional and special services",4226192395.31
+2020,133,"Department of National Defence","Rentals",555266913.15
+2020,133,"Department of National Defence","Repair and maintenance",1660540620.44
+2020,133,"Department of National Defence","Utilities, materials and supplies",922824026.33
+2020,133,"Department of National Defence","Acquisition of land, buildings and works",564514097.70
+2020,133,"Department of National Defence","Acquisition of machinery and equipment",3999685579.30
+2020,133,"Department of National Defence","Transfer payments",264278760.41
+2020,133,"Department of National Defence","Public debt charges",2916093.49
+2020,133,"Department of National Defence","Other subsidies and payments",227087724.50
+2020,133,"Department of National Defence","External revenues",-357205914.70
+2020,133,"Department of National Defence","Internal revenues",-10013351.05
+2020,134,"Department of Natural Resources","Personnel",500370015.50
+2020,134,"Department of Natural Resources","Transportation and communications",7321762.03
+2020,134,"Department of Natural Resources","Information",16763853.75
+2020,134,"Department of Natural Resources","Professional and special services",105218193.87
+2020,134,"Department of Natural Resources","Rentals",15763174.89
+2020,134,"Department of Natural Resources","Repair and maintenance",6796396.95
+2020,134,"Department of Natural Resources","Utilities, materials and supplies",20525965.80
+2020,134,"Department of Natural Resources","Acquisition of land, buildings and works",6881721.73
+2020,134,"Department of Natural Resources","Acquisition of machinery and equipment",19172331.94
+2020,134,"Department of Natural Resources","Transfer payments",718900271.94
+2020,134,"Department of Natural Resources","Other subsidies and payments",6429315.47
+2020,134,"Department of Natural Resources","External revenues",-16095310.75
+2020,134,"Department of Natural Resources","Internal revenues",-6214181.20
+2020,135,"Department of Public Safety and Emergency Preparedness","Personnel",136952058.95
+2020,135,"Department of Public Safety and Emergency Preparedness","Transportation and communications",274144.80
+2020,135,"Department of Public Safety and Emergency Preparedness","Information",5988797.93
+2020,135,"Department of Public Safety and Emergency Preparedness","Professional and special services",22583025.19
+2020,135,"Department of Public Safety and Emergency Preparedness","Rentals",6303607.68
+2020,135,"Department of Public Safety and Emergency Preparedness","Repair and maintenance",536879.61
+2020,135,"Department of Public Safety and Emergency Preparedness","Utilities, materials and supplies",349176.13
+2020,135,"Department of Public Safety and Emergency Preparedness","Acquisition of land, buildings and works",206797.79
+2020,135,"Department of Public Safety and Emergency Preparedness","Acquisition of machinery and equipment",3503885.03
+2020,135,"Department of Public Safety and Emergency Preparedness","Transfer payments",601940082.48
+2020,135,"Department of Public Safety and Emergency Preparedness","Other subsidies and payments",1196765.54
+2020,135,"Department of Public Safety and Emergency Preparedness","External revenues",-581813.00
+2020,135,"Department of Public Safety and Emergency Preparedness","Internal revenues",-1879775.00
+2020,136,"Department of Public Works and Government Services","Personnel",1783059070.98
+2020,136,"Department of Public Works and Government Services","Transportation and communications",66786645.70
+2020,136,"Department of Public Works and Government Services","Information",14114009.54
+2020,136,"Department of Public Works and Government Services","Professional and special services",1974846914.69
+2020,136,"Department of Public Works and Government Services","Rentals",1228450137.67
+2020,136,"Department of Public Works and Government Services","Repair and maintenance",1005210592.40
+2020,136,"Department of Public Works and Government Services","Utilities, materials and supplies",575667093.56
+2020,136,"Department of Public Works and Government Services","Acquisition of land, buildings and works",835217029.48
+2020,136,"Department of Public Works and Government Services","Acquisition of machinery and equipment",103689165.40
+2020,136,"Department of Public Works and Government Services","Transfer payments",35614947.61
+2020,136,"Department of Public Works and Government Services","Public debt charges",118513369.77
+2020,136,"Department of Public Works and Government Services","Other subsidies and payments",362073552.84
+2020,136,"Department of Public Works and Government Services","External revenues",-355996703.57
+2020,136,"Department of Public Works and Government Services","Internal revenues",-3300374879.22
+2020,137,"Department of the Environment","Personnel",817494378.41
+2020,137,"Department of the Environment","Transportation and communications",13460175.26
+2020,137,"Department of the Environment","Information",6647740.11
+2020,137,"Department of the Environment","Professional and special services",175016877.61
+2020,137,"Department of the Environment","Rentals",54662093.58
+2020,137,"Department of the Environment","Repair and maintenance",17569482.47
+2020,137,"Department of the Environment","Utilities, materials and supplies",29938530.27
+2020,137,"Department of the Environment","Acquisition of land, buildings and works",1214754.50
+2020,137,"Department of the Environment","Acquisition of machinery and equipment",35987822.45
+2020,137,"Department of the Environment","Transfer payments",654720114.79
+2020,137,"Department of the Environment","Public debt charges",414021.33
+2020,137,"Department of the Environment","Other subsidies and payments",5455637.84
+2020,137,"Department of the Environment","External revenues",-44356831.21
+2020,137,"Department of the Environment","Internal revenues",-21438209.83
+2020,138,"Department of Transport","Personnel",727369349.90
+2020,138,"Department of Transport","Transportation and communications",6525792.80
+2020,138,"Department of Transport","Information",6025492.54
+2020,138,"Department of Transport","Professional and special services",171488328.19
+2020,138,"Department of Transport","Rentals",12253332.62
+2020,138,"Department of Transport","Repair and maintenance",13059670.78
+2020,138,"Department of Transport","Utilities, materials and supplies",13080955.83
+2020,138,"Department of Transport","Acquisition of land, buildings and works",82817770.86
+2020,138,"Department of Transport","Acquisition of machinery and equipment",213546690.08
+2020,138,"Department of Transport","Transfer payments",660280842.72
+2020,138,"Department of Transport","Other subsidies and payments",64283704.61
+2020,138,"Department of Transport","External revenues",-33172777.14
+2020,138,"Department of Transport","Internal revenues",-40394465.43
+2020,139,"Department of Veterans Affairs","Personnel",343939945.63
+2020,139,"Department of Veterans Affairs","Transportation and communications",18533255.38
+2020,139,"Department of Veterans Affairs","Information",4377899.75
+2020,139,"Department of Veterans Affairs","Professional and special services",479156021.17
+2020,139,"Department of Veterans Affairs","Rentals",6965522.13
+2020,139,"Department of Veterans Affairs","Repair and maintenance",8684795.28
+2020,139,"Department of Veterans Affairs","Utilities, materials and supplies",254076109.94
+2020,139,"Department of Veterans Affairs","Acquisition of land, buildings and works",16750.00
+2020,139,"Department of Veterans Affairs","Acquisition of machinery and equipment",3672522.95
+2020,139,"Department of Veterans Affairs","Transfer payments",3687765269.51
+2020,139,"Department of Veterans Affairs","Other subsidies and payments",29445411.73
+2020,140,"Department of Western Economic Diversification","Personnel",43758936.19
+2020,140,"Department of Western Economic Diversification","Transportation and communications",234572.58
+2020,140,"Department of Western Economic Diversification","Information",832316.10
+2020,140,"Department of Western Economic Diversification","Professional and special services",6282368.99
+2020,140,"Department of Western Economic Diversification","Rentals",717938.38
+2020,140,"Department of Western Economic Diversification","Repair and maintenance",40332.54
+2020,140,"Department of Western Economic Diversification","Utilities, materials and supplies",64524.51
+2020,140,"Department of Western Economic Diversification","Acquisition of machinery and equipment",614558.59
+2020,140,"Department of Western Economic Diversification","Transfer payments",854877542.00
+2020,140,"Department of Western Economic Diversification","Other subsidies and payments",74856.24
+2020,141,"Economic Development Agency of Canada for the Regions of Quebec","Personnel",41053382.76
+2020,141,"Economic Development Agency of Canada for the Regions of Quebec","Transportation and communications",220468.30
+2020,141,"Economic Development Agency of Canada for the Regions of Quebec","Information",295248.28
+2020,141,"Economic Development Agency of Canada for the Regions of Quebec","Professional and special services",4297713.46
+2020,141,"Economic Development Agency of Canada for the Regions of Quebec","Rentals",900796.38
+2020,141,"Economic Development Agency of Canada for the Regions of Quebec","Repair and maintenance",6928.91
+2020,141,"Economic Development Agency of Canada for the Regions of Quebec","Utilities, materials and supplies",37368.03
+2020,141,"Economic Development Agency of Canada for the Regions of Quebec","Acquisition of machinery and equipment",1045006.93
+2020,141,"Economic Development Agency of Canada for the Regions of Quebec","Transfer payments",501807521.00
+2020,141,"Economic Development Agency of Canada for the Regions of Quebec","Other subsidies and payments",711464.21
+2020,146,"Export Development Canada (Canada Account)","Professional and special services",149546652.75
+2020,146,"Export Development Canada (Canada Account)","Other subsidies and payments",103471371.54
+2020,148,"The Federal Bridge Corporation Limited","Other subsidies and payments",6061390.14
+2020,150,"Federal Economic Development Agency for Southern Ontario","Personnel",31904335.82
+2020,150,"Federal Economic Development Agency for Southern Ontario","Transportation and communications",28780.95
+2020,150,"Federal Economic Development Agency for Southern Ontario","Information",480595.18
+2020,150,"Federal Economic Development Agency for Southern Ontario","Professional and special services",4468179.37
+2020,150,"Federal Economic Development Agency for Southern Ontario","Rentals",274851.25
+2020,150,"Federal Economic Development Agency for Southern Ontario","Repair and maintenance",17378.18
+2020,150,"Federal Economic Development Agency for Southern Ontario","Utilities, materials and supplies",44836.87
+2020,150,"Federal Economic Development Agency for Southern Ontario","Acquisition of machinery and equipment",372197.77
+2020,150,"Federal Economic Development Agency for Southern Ontario","Transfer payments",654993578.00
+2020,150,"Federal Economic Development Agency for Southern Ontario","Other subsidies and payments",161761.69
+2020,151,"Financial Consumer Agency of Canada","Personnel",23008419.70
+2020,151,"Financial Consumer Agency of Canada","Transportation and communications",212361.99
+2020,151,"Financial Consumer Agency of Canada","Information",2093054.35
+2020,151,"Financial Consumer Agency of Canada","Professional and special services",6219726.51
+2020,151,"Financial Consumer Agency of Canada","Rentals",2178887.46
+2020,151,"Financial Consumer Agency of Canada","Repair and maintenance",28355.91
+2020,151,"Financial Consumer Agency of Canada","Utilities, materials and supplies",69701.65
+2020,151,"Financial Consumer Agency of Canada","Acquisition of machinery and equipment",1193788.44
+2020,151,"Financial Consumer Agency of Canada","Other subsidies and payments",31700.37
+2020,152,"Financial Transactions and Reports Analysis Centre of Canada","Personnel",46736155.98
+2020,152,"Financial Transactions and Reports Analysis Centre of Canada","Transportation and communications",860878.88
+2020,152,"Financial Transactions and Reports Analysis Centre of Canada","Information",696355.45
+2020,152,"Financial Transactions and Reports Analysis Centre of Canada","Professional and special services",4751422.62
+2020,152,"Financial Transactions and Reports Analysis Centre of Canada","Rentals",6338745.79
+2020,152,"Financial Transactions and Reports Analysis Centre of Canada","Repair and maintenance",706947.09
+2020,152,"Financial Transactions and Reports Analysis Centre of Canada","Utilities, materials and supplies",281540.63
+2020,152,"Financial Transactions and Reports Analysis Centre of Canada","Acquisition of machinery and equipment",1321781.74
+2020,152,"Financial Transactions and Reports Analysis Centre of Canada","Other subsidies and payments",17126.27
+2020,174,"Immigration and Refugee Board","Personnel",193381620.84
+2020,174,"Immigration and Refugee Board","Transportation and communications",4426143.90
+2020,174,"Immigration and Refugee Board","Information",300669.45
+2020,174,"Immigration and Refugee Board","Professional and special services",25928465.93
+2020,174,"Immigration and Refugee Board","Rentals",3471527.02
+2020,174,"Immigration and Refugee Board","Repair and maintenance",9657591.99
+2020,174,"Immigration and Refugee Board","Utilities, materials and supplies",615179.70
+2020,174,"Immigration and Refugee Board","Acquisition of machinery and equipment",5875530.36
+2020,174,"Immigration and Refugee Board","Other subsidies and payments",1102259.63
+2020,186,"International Development Research Centre","Other subsidies and payments",145652683.00
+2020,189,"International Joint Commission (Canadian Section)","Personnel",5311545.03
+2020,189,"International Joint Commission (Canadian Section)","Transportation and communications",109442.74
+2020,189,"International Joint Commission (Canadian Section)","Information",201812.46
+2020,189,"International Joint Commission (Canadian Section)","Professional and special services",2671021.05
+2020,189,"International Joint Commission (Canadian Section)","Rentals",511952.62
+2020,189,"International Joint Commission (Canadian Section)","Repair and maintenance",49.00
+2020,189,"International Joint Commission (Canadian Section)","Utilities, materials and supplies",2853.37
+2020,189,"International Joint Commission (Canadian Section)","Acquisition of machinery and equipment",161339.73
+2020,189,"International Joint Commission (Canadian Section)","Other subsidies and payments",5222.78
+2020,194,"The Jacques-Cartier and Champlain Bridges Inc.","Other subsidies and payments",232073140.98
+2020,199,"Library and Archives of Canada","Personnel",96735463.98
+2020,199,"Library and Archives of Canada","Transportation and communications",126842.43
+2020,199,"Library and Archives of Canada","Information",83449.95
+2020,199,"Library and Archives of Canada","Professional and special services",14432896.58
+2020,199,"Library and Archives of Canada","Rentals",4633651.89
+2020,199,"Library and Archives of Canada","Repair and maintenance",638268.68
+2020,199,"Library and Archives of Canada","Utilities, materials and supplies",2038225.30
+2020,199,"Library and Archives of Canada","Acquisition of land, buildings and works",5991437.23
+2020,199,"Library and Archives of Canada","Acquisition of machinery and equipment",685200.49
+2020,199,"Library and Archives of Canada","Transfer payments",2607233.14
+2020,199,"Library and Archives of Canada","Other subsidies and payments",4358121.05
+2020,199,"Library and Archives of Canada","External revenues",-76001.61
+2020,199,"Library and Archives of Canada","Internal revenues",-1875583.11
+2020,200,"Library of Parliament","Personnel",40221032.40
+2020,200,"Library of Parliament","Transportation and communications",219855.30
+2020,200,"Library of Parliament","Information",1484678.80
+2020,200,"Library of Parliament","Professional and special services",926220.53
+2020,200,"Library of Parliament","Rentals",835396.36
+2020,200,"Library of Parliament","Repair and maintenance",80304.01
+2020,200,"Library of Parliament","Utilities, materials and supplies",3688794.97
+2020,200,"Library of Parliament","Acquisition of machinery and equipment",1053856.58
+2020,200,"Library of Parliament","Other subsidies and payments",9644.15
+2020,200,"Library of Parliament","External revenues",-44441.36
+2020,202,"Marine Atlantic Inc.","Other subsidies and payments",140567000.00
+2020,209,"Military Grievances External Review Committee","Personnel",6209558.48
+2020,209,"Military Grievances External Review Committee","Transportation and communications",20356.22
+2020,209,"Military Grievances External Review Committee","Information",8297.09
+2020,209,"Military Grievances External Review Committee","Professional and special services",294102.51
+2020,209,"Military Grievances External Review Committee","Rentals",499947.55
+2020,209,"Military Grievances External Review Committee","Repair and maintenance",15289.22
+2020,209,"Military Grievances External Review Committee","Utilities, materials and supplies",13490.15
+2020,209,"Military Grievances External Review Committee","Acquisition of machinery and equipment",132833.00
+2020,209,"Military Grievances External Review Committee","Other subsidies and payments",1345.51
+2020,210,"Military Police Complaints Commission","Personnel",3649617.05
+2020,210,"Military Police Complaints Commission","Transportation and communications",53248.54
+2020,210,"Military Police Complaints Commission","Information",46360.23
+2020,210,"Military Police Complaints Commission","Professional and special services",710234.37
+2020,210,"Military Police Complaints Commission","Rentals",384275.49
+2020,210,"Military Police Complaints Commission","Repair and maintenance",4209.37
+2020,210,"Military Police Complaints Commission","Utilities, materials and supplies",22393.18
+2020,210,"Military Police Complaints Commission","Acquisition of land, buildings and works",13597.00
+2020,210,"Military Police Complaints Commission","Acquisition of machinery and equipment",63235.76
+2020,210,"Military Police Complaints Commission","Other subsidies and payments",-495.76
+2020,217,"National Arts Centre Corporation","Other subsidies and payments",59238129.00
+2020,218,"The National Battlefields Commission","Personnel",3972370.36
+2020,218,"The National Battlefields Commission","Transportation and communications",128265.05
+2020,218,"The National Battlefields Commission","Information",191743.58
+2020,218,"The National Battlefields Commission","Professional and special services",1210846.74
+2020,218,"The National Battlefields Commission","Rentals",41791.34
+2020,218,"The National Battlefields Commission","Repair and maintenance",425601.99
+2020,218,"The National Battlefields Commission","Utilities, materials and supplies",626773.08
+2020,218,"The National Battlefields Commission","Acquisition of machinery and equipment",160265.30
+2020,218,"The National Battlefields Commission","Other subsidies and payments",2658504.08
+2020,219,"National Capital Commission","Other subsidies and payments",153713387.00
+2020,221,"Canadian Energy Regulator","Personnel",77893316.50
+2020,221,"Canadian Energy Regulator","Transportation and communications",882792.58
+2020,221,"Canadian Energy Regulator","Information",35993.62
+2020,221,"Canadian Energy Regulator","Professional and special services",13871931.35
+2020,221,"Canadian Energy Regulator","Rentals",552576.61
+2020,221,"Canadian Energy Regulator","Repair and maintenance",1080020.04
+2020,221,"Canadian Energy Regulator","Utilities, materials and supplies",345065.92
+2020,221,"Canadian Energy Regulator","Acquisition of land, buildings and works",438633.79
+2020,221,"Canadian Energy Regulator","Acquisition of machinery and equipment",2092642.15
+2020,221,"Canadian Energy Regulator","Transfer payments",1292691.75
+2020,221,"Canadian Energy Regulator","Other subsidies and payments",1347263.26
+2020,223,"National Film Board","Personnel",42802802.95
+2020,223,"National Film Board","Transportation and communications",764070.09
+2020,223,"National Film Board","Information",1749295.09
+2020,223,"National Film Board","Professional and special services",12295261.39
+2020,223,"National Film Board","Rentals",9752238.86
+2020,223,"National Film Board","Repair and maintenance",574645.32
+2020,223,"National Film Board","Utilities, materials and supplies",459337.15
+2020,223,"National Film Board","Acquisition of machinery and equipment",6991929.57
+2020,223,"National Film Board","Public debt charges",33358.57
+2020,223,"National Film Board","Other subsidies and payments",27546.99
+2020,223,"National Film Board","External revenues",-3700563.92
+2020,224,"National Gallery of Canada","Other subsidies and payments",54490639.00
+2020,226,"National Museum of Science and Technology","Other subsidies and payments",38544965.00
+2020,227,"Parole Board of Canada","Personnel",53221374.76
+2020,227,"Parole Board of Canada","Transportation and communications",680558.43
+2020,227,"Parole Board of Canada","Information",17185.06
+2020,227,"Parole Board of Canada","Professional and special services",5821168.52
+2020,227,"Parole Board of Canada","Rentals",388573.04
+2020,227,"Parole Board of Canada","Repair and maintenance",62909.30
+2020,227,"Parole Board of Canada","Utilities, materials and supplies",144453.92
+2020,227,"Parole Board of Canada","Acquisition of land, buildings and works",18676.68
+2020,227,"Parole Board of Canada","Acquisition of machinery and equipment",644373.09
+2020,227,"Parole Board of Canada","Other subsidies and payments",428460.89
+2020,227,"Parole Board of Canada","External revenues",-3682770.69
+2020,228,"National Research Council of Canada","Personnel",506089327.26
+2020,228,"National Research Council of Canada","Transportation and communications",1854379.24
+2020,228,"National Research Council of Canada","Information",1215514.26
+2020,228,"National Research Council of Canada","Professional and special services",96325011.86
+2020,228,"National Research Council of Canada","Rentals",9289857.64
+2020,228,"National Research Council of Canada","Repair and maintenance",19766300.17
+2020,228,"National Research Council of Canada","Utilities, materials and supplies",38932978.53
+2020,228,"National Research Council of Canada","Acquisition of land, buildings and works",39684081.39
+2020,228,"National Research Council of Canada","Acquisition of machinery and equipment",67767718.19
+2020,228,"National Research Council of Canada","Transfer payments",840027847.48
+2020,228,"National Research Council of Canada","Other subsidies and payments",27702296.67
+2020,230,"Natural Sciences and Engineering Research Council","Personnel",49325751.60
+2020,230,"Natural Sciences and Engineering Research Council","Transportation and communications",570046.64
+2020,230,"Natural Sciences and Engineering Research Council","Information",960284.80
+2020,230,"Natural Sciences and Engineering Research Council","Professional and special services",7855187.50
+2020,230,"Natural Sciences and Engineering Research Council","Rentals",1642269.71
+2020,230,"Natural Sciences and Engineering Research Council","Repair and maintenance",128202.77
+2020,230,"Natural Sciences and Engineering Research Council","Utilities, materials and supplies",77464.61
+2020,230,"Natural Sciences and Engineering Research Council","Acquisition of machinery and equipment",2320211.62
+2020,230,"Natural Sciences and Engineering Research Council","Transfer payments",1425428675.01
+2020,230,"Natural Sciences and Engineering Research Council","Other subsidies and payments",167160.07
+2020,235,"Northern Pipeline Agency","Personnel",62202.32
+2020,235,"Northern Pipeline Agency","Transportation and communications",472.00
+2020,235,"Northern Pipeline Agency","Professional and special services",163270.51
+2020,235,"Northern Pipeline Agency","Rentals",10224.29
+2020,237,"Office of Infrastructure of Canada","Personnel",79943822.32
+2020,237,"Office of Infrastructure of Canada","Transportation and communications",506388.10
+2020,237,"Office of Infrastructure of Canada","Information",406365.23
+2020,237,"Office of Infrastructure of Canada","Professional and special services",37930838.11
+2020,237,"Office of Infrastructure of Canada","Rentals",2224377.37
+2020,237,"Office of Infrastructure of Canada","Repair and maintenance",13447673.68
+2020,237,"Office of Infrastructure of Canada","Utilities, materials and supplies",44419.30
+2020,237,"Office of Infrastructure of Canada","Acquisition of land, buildings and works",11871643.40
+2020,237,"Office of Infrastructure of Canada","Acquisition of machinery and equipment",1496702.30
+2020,237,"Office of Infrastructure of Canada","Transfer payments",5300448253.13
+2020,237,"Office of Infrastructure of Canada","Public debt charges",43462818.12
+2020,237,"Office of Infrastructure of Canada","Other subsidies and payments",604591.50
+2020,238,"Office of the Auditor General","Personnel",84021223.24
+2020,238,"Office of the Auditor General","Transportation and communications",544304.64
+2020,238,"Office of the Auditor General","Information",960348.40
+2020,238,"Office of the Auditor General","Professional and special services",11543154.83
+2020,238,"Office of the Auditor General","Rentals",1655918.68
+2020,238,"Office of the Auditor General","Repair and maintenance",128256.94
+2020,238,"Office of the Auditor General","Utilities, materials and supplies",160760.61
+2020,238,"Office of the Auditor General","Acquisition of machinery and equipment",2178193.80
+2020,238,"Office of the Auditor General","Other subsidies and payments",50318.45
+2020,238,"Office of the Auditor General","External revenues",-1113774.69
+2020,239,"Office of the Chief Electoral Officer","Personnel",110852599.13
+2020,239,"Office of the Chief Electoral Officer","Transportation and communications",16135096.23
+2020,239,"Office of the Chief Electoral Officer","Information",9413219.21
+2020,239,"Office of the Chief Electoral Officer","Professional and special services",33378849.21
+2020,239,"Office of the Chief Electoral Officer","Rentals",31694083.97
+2020,239,"Office of the Chief Electoral Officer","Repair and maintenance",339643.15
+2020,239,"Office of the Chief Electoral Officer","Utilities, materials and supplies",11905023.55
+2020,239,"Office of the Chief Electoral Officer","Acquisition of land, buildings and works",553425.68
+2020,239,"Office of the Chief Electoral Officer","Acquisition of machinery and equipment",6350370.99
+2020,239,"Office of the Chief Electoral Officer","Transfer payments",-12099537.85
+2020,239,"Office of the Chief Electoral Officer","Public debt charges",2885.51
+2020,239,"Office of the Chief Electoral Officer","Other subsidies and payments",304502.01
+2020,240,"Office of the Commissioner for Federal Judicial Affairs","Personnel",603613163.30
+2020,240,"Office of the Commissioner for Federal Judicial Affairs","Transportation and communications",4849243.24
+2020,240,"Office of the Commissioner for Federal Judicial Affairs","Information",91745.12
+2020,240,"Office of the Commissioner for Federal Judicial Affairs","Professional and special services",12796007.94
+2020,240,"Office of the Commissioner for Federal Judicial Affairs","Rentals",240885.46
+2020,240,"Office of the Commissioner for Federal Judicial Affairs","Repair and maintenance",133410.90
+2020,240,"Office of the Commissioner for Federal Judicial Affairs","Utilities, materials and supplies",40337.05
+2020,240,"Office of the Commissioner for Federal Judicial Affairs","Acquisition of machinery and equipment",263785.06
+2020,240,"Office of the Commissioner for Federal Judicial Affairs","Other subsidies and payments",5128254.62
+2020,240,"Office of the Commissioner for Federal Judicial Affairs","Internal revenues",-40200.00
+2020,241,"Office of the Commissioner of Lobbying","Personnel",3553834.62
+2020,241,"Office of the Commissioner of Lobbying","Transportation and communications",62259.90
+2020,241,"Office of the Commissioner of Lobbying","Information",21766.41
+2020,241,"Office of the Commissioner of Lobbying","Professional and special services",1144661.33
+2020,241,"Office of the Commissioner of Lobbying","Rentals",39300.61
+2020,241,"Office of the Commissioner of Lobbying","Repair and maintenance",31096.88
+2020,241,"Office of the Commissioner of Lobbying","Utilities, materials and supplies",8183.11
+2020,241,"Office of the Commissioner of Lobbying","Acquisition of machinery and equipment",21483.24
+2020,241,"Office of the Commissioner of Lobbying","Other subsidies and payments",5791.83
+2020,242,"Office of the Commissioner of Official Languages","Personnel",19518481.43
+2020,242,"Office of the Commissioner of Official Languages","Transportation and communications",214712.30
+2020,242,"Office of the Commissioner of Official Languages","Information",50473.17
+2020,242,"Office of the Commissioner of Official Languages","Professional and special services",2189373.69
+2020,242,"Office of the Commissioner of Official Languages","Rentals",214704.85
+2020,242,"Office of the Commissioner of Official Languages","Repair and maintenance",90833.19
+2020,242,"Office of the Commissioner of Official Languages","Utilities, materials and supplies",67535.09
+2020,242,"Office of the Commissioner of Official Languages","Acquisition of land, buildings and works",6508.65
+2020,242,"Office of the Commissioner of Official Languages","Acquisition of machinery and equipment",294666.50
+2020,242,"Office of the Commissioner of Official Languages","Other subsidies and payments",15795.28
+2020,244,"Office of the Intelligence Commissioner","Personnel",1072962.07
+2020,244,"Office of the Intelligence Commissioner","Transportation and communications",15145.30
+2020,244,"Office of the Intelligence Commissioner","Information",29565.17
+2020,244,"Office of the Intelligence Commissioner","Professional and special services",566981.14
+2020,244,"Office of the Intelligence Commissioner","Rentals",303095.61
+2020,244,"Office of the Intelligence Commissioner","Repair and maintenance",86477.27
+2020,244,"Office of the Intelligence Commissioner","Utilities, materials and supplies",20926.93
+2020,244,"Office of the Intelligence Commissioner","Acquisition of machinery and equipment",70693.60
+2020,245,"Office of the Conflict of Interest and Ethics Commissioner","Personnel",5871928.68
+2020,245,"Office of the Conflict of Interest and Ethics Commissioner","Transportation and communications",40427.89
+2020,245,"Office of the Conflict of Interest and Ethics Commissioner","Information",5666.94
+2020,245,"Office of the Conflict of Interest and Ethics Commissioner","Professional and special services",673955.72
+2020,245,"Office of the Conflict of Interest and Ethics Commissioner","Rentals",97394.11
+2020,245,"Office of the Conflict of Interest and Ethics Commissioner","Repair and maintenance",290.00
+2020,245,"Office of the Conflict of Interest and Ethics Commissioner","Utilities, materials and supplies",56980.30
+2020,245,"Office of the Conflict of Interest and Ethics Commissioner","Acquisition of machinery and equipment",315122.41
+2020,245,"Office of the Conflict of Interest and Ethics Commissioner","Other subsidies and payments",-686.70
+2020,246,"Department for Women and Gender Equality","Personnel",38139634.51
+2020,246,"Department for Women and Gender Equality","Transportation and communications",167776.85
+2020,246,"Department for Women and Gender Equality","Information",3852830.99
+2020,246,"Department for Women and Gender Equality","Professional and special services",7354450.06
+2020,246,"Department for Women and Gender Equality","Rentals",364735.86
+2020,246,"Department for Women and Gender Equality","Repair and maintenance",20552.50
+2020,246,"Department for Women and Gender Equality","Utilities, materials and supplies",27728.01
+2020,246,"Department for Women and Gender Equality","Acquisition of land, buildings and works",52280.21
+2020,246,"Department for Women and Gender Equality","Acquisition of machinery and equipment",952168.21
+2020,246,"Department for Women and Gender Equality","Transfer payments",168305301.00
+2020,246,"Department for Women and Gender Equality","Other subsidies and payments",225927.61
+2020,247,"Office of the Correctional Investigator of Canada","Personnel",5132994.32
+2020,247,"Office of the Correctional Investigator of Canada","Transportation and communications",26168.44
+2020,247,"Office of the Correctional Investigator of Canada","Information",32098.78
+2020,247,"Office of the Correctional Investigator of Canada","Professional and special services",305199.81
+2020,247,"Office of the Correctional Investigator of Canada","Rentals",27394.79
+2020,247,"Office of the Correctional Investigator of Canada","Repair and maintenance",19711.75
+2020,247,"Office of the Correctional Investigator of Canada","Utilities, materials and supplies",12379.53
+2020,247,"Office of the Correctional Investigator of Canada","Acquisition of machinery and equipment",56238.93
+2020,247,"Office of the Correctional Investigator of Canada","Other subsidies and payments",215289.19
+2020,248,"Office of the Director of Public Prosecutions","Personnel",146609969.48
+2020,248,"Office of the Director of Public Prosecutions","Transportation and communications",4219793.73
+2020,248,"Office of the Director of Public Prosecutions","Information",426518.52
+2020,248,"Office of the Director of Public Prosecutions","Professional and special services",44010076.52
+2020,248,"Office of the Director of Public Prosecutions","Rentals",2624213.13
+2020,248,"Office of the Director of Public Prosecutions","Repair and maintenance",839328.00
+2020,248,"Office of the Director of Public Prosecutions","Utilities, materials and supplies",1536108.44
+2020,248,"Office of the Director of Public Prosecutions","Acquisition of machinery and equipment",2678880.99
+2020,248,"Office of the Director of Public Prosecutions","Other subsidies and payments",3515323.97
+2020,248,"Office of the Director of Public Prosecutions","External revenues",-41447.73
+2020,248,"Office of the Director of Public Prosecutions","Internal revenues",-13946259.94
+2020,249,"Office of the Governor General's Secretary","Personnel",18075479.22
+2020,249,"Office of the Governor General's Secretary","Transportation and communications",480487.57
+2020,249,"Office of the Governor General's Secretary","Information",412340.48
+2020,249,"Office of the Governor General's Secretary","Professional and special services",2413471.15
+2020,249,"Office of the Governor General's Secretary","Rentals",494602.10
+2020,249,"Office of the Governor General's Secretary","Repair and maintenance",64480.30
+2020,249,"Office of the Governor General's Secretary","Utilities, materials and supplies",472008.42
+2020,249,"Office of the Governor General's Secretary","Acquisition of machinery and equipment",946551.91
+2020,249,"Office of the Governor General's Secretary","Transfer payments",789703.02
+2020,249,"Office of the Governor General's Secretary","Other subsidies and payments",528051.31
+2020,250,"Office of the Public Sector Integrity Commissioner","Personnel",4029621.58
+2020,250,"Office of the Public Sector Integrity Commissioner","Transportation and communications",78555.39
+2020,250,"Office of the Public Sector Integrity Commissioner","Information",14070.02
+2020,250,"Office of the Public Sector Integrity Commissioner","Professional and special services",933438.87
+2020,250,"Office of the Public Sector Integrity Commissioner","Rentals",51750.90
+2020,250,"Office of the Public Sector Integrity Commissioner","Repair and maintenance",5297.33
+2020,250,"Office of the Public Sector Integrity Commissioner","Utilities, materials and supplies",3295.96
+2020,250,"Office of the Public Sector Integrity Commissioner","Acquisition of machinery and equipment",172231.63
+2020,250,"Office of the Public Sector Integrity Commissioner","Transfer payments",18268.73
+2020,250,"Office of the Public Sector Integrity Commissioner","Other subsidies and payments",85127.66
+2020,251,"Office of the Senate Ethics Officer","Personnel",866173.66
+2020,251,"Office of the Senate Ethics Officer","Transportation and communications",4647.74
+2020,251,"Office of the Senate Ethics Officer","Information",22.11
+2020,251,"Office of the Senate Ethics Officer","Professional and special services",87270.03
+2020,251,"Office of the Senate Ethics Officer","Rentals",811.38
+2020,251,"Office of the Senate Ethics Officer","Utilities, materials and supplies",2339.00
+2020,251,"Office of the Senate Ethics Officer","Acquisition of machinery and equipment",668.22
+2020,251,"Office of the Senate Ethics Officer","Other subsidies and payments",-155.13
+2020,253,"Office of the Superintendent of Financial Institutions","Personnel",157249511.46
+2020,253,"Office of the Superintendent of Financial Institutions","Transportation and communications",1515582.15
+2020,253,"Office of the Superintendent of Financial Institutions","Information",1727601.12
+2020,253,"Office of the Superintendent of Financial Institutions","Professional and special services",20030883.06
+2020,253,"Office of the Superintendent of Financial Institutions","Rentals",14389336.97
+2020,253,"Office of the Superintendent of Financial Institutions","Repair and maintenance",672998.14
+2020,253,"Office of the Superintendent of Financial Institutions","Utilities, materials and supplies",381322.74
+2020,253,"Office of the Superintendent of Financial Institutions","Acquisition of land, buildings and works",463262.13
+2020,253,"Office of the Superintendent of Financial Institutions","Acquisition of machinery and equipment",3182220.56
+2020,253,"Office of the Superintendent of Financial Institutions","Other subsidies and payments",14684.65
+2020,256,"Offices of the Information and Privacy Commissioners of Canada","Personnel",38734267.77
+2020,256,"Offices of the Information and Privacy Commissioners of Canada","Transportation and communications",369469.93
+2020,256,"Offices of the Information and Privacy Commissioners of Canada","Information",423696.74
+2020,256,"Offices of the Information and Privacy Commissioners of Canada","Professional and special services",5265796.76
+2020,256,"Offices of the Information and Privacy Commissioners of Canada","Rentals",1273432.11
+2020,256,"Offices of the Information and Privacy Commissioners of Canada","Repair and maintenance",153896.50
+2020,256,"Offices of the Information and Privacy Commissioners of Canada","Utilities, materials and supplies",165729.95
+2020,256,"Offices of the Information and Privacy Commissioners of Canada","Acquisition of land, buildings and works",175553.92
+2020,256,"Offices of the Information and Privacy Commissioners of Canada","Acquisition of machinery and equipment",891668.66
+2020,256,"Offices of the Information and Privacy Commissioners of Canada","Transfer payments",494210.86
+2020,256,"Offices of the Information and Privacy Commissioners of Canada","Other subsidies and payments",223134.45
+2020,256,"Offices of the Information and Privacy Commissioners of Canada","Internal revenues",-226632.72
+2020,263,"Parks Canada Agency","Personnel",519621937.21
+2020,263,"Parks Canada Agency","Transportation and communications",8687947.00
+2020,263,"Parks Canada Agency","Information",4734212.75
+2020,263,"Parks Canada Agency","Professional and special services",147004578.64
+2020,263,"Parks Canada Agency","Rentals",17423467.42
+2020,263,"Parks Canada Agency","Repair and maintenance",16469864.35
+2020,263,"Parks Canada Agency","Utilities, materials and supplies",47666335.83
+2020,263,"Parks Canada Agency","Acquisition of land, buildings and works",442255271.19
+2020,263,"Parks Canada Agency","Acquisition of machinery and equipment",28416732.81
+2020,263,"Parks Canada Agency","Transfer payments",30138535.57
+2020,263,"Parks Canada Agency","Public debt charges",93489.60
+2020,263,"Parks Canada Agency","Other subsidies and payments",43057544.18
+2020,266,"Patented Medicine Prices Review Board","Personnel",9713198.84
+2020,266,"Patented Medicine Prices Review Board","Transportation and communications",72995.99
+2020,266,"Patented Medicine Prices Review Board","Information",625726.60
+2020,266,"Patented Medicine Prices Review Board","Professional and special services",3269638.39
+2020,266,"Patented Medicine Prices Review Board","Rentals",197669.37
+2020,266,"Patented Medicine Prices Review Board","Repair and maintenance",1133979.96
+2020,266,"Patented Medicine Prices Review Board","Utilities, materials and supplies",14532.32
+2020,266,"Patented Medicine Prices Review Board","Acquisition of machinery and equipment",219507.88
+2020,266,"Patented Medicine Prices Review Board","Other subsidies and payments",11833.80
+2020,278,"Privy Council Office","Personnel",149502900.12
+2020,278,"Privy Council Office","Transportation and communications",1679253.16
+2020,278,"Privy Council Office","Information",5338196.59
+2020,278,"Privy Council Office","Professional and special services",20604323.86
+2020,278,"Privy Council Office","Rentals",6386419.50
+2020,278,"Privy Council Office","Repair and maintenance",4126072.01
+2020,278,"Privy Council Office","Utilities, materials and supplies",713731.08
+2020,278,"Privy Council Office","Acquisition of machinery and equipment",14990575.71
+2020,278,"Privy Council Office","Other subsidies and payments",347797.12
+2020,278,"Privy Council Office","External revenues",-93783.00
+2020,278,"Privy Council Office","Internal revenues",-1302162.00
+2020,280,"Public Health Agency of Canada","Personnel",344434972.40
+2020,280,"Public Health Agency of Canada","Transportation and communications",57542923.16
+2020,280,"Public Health Agency of Canada","Information",88271221.42
+2020,280,"Public Health Agency of Canada","Professional and special services",313864317.83
+2020,280,"Public Health Agency of Canada","Rentals",75527483.86
+2020,280,"Public Health Agency of Canada","Repair and maintenance",4621370.37
+2020,280,"Public Health Agency of Canada","Utilities, materials and supplies",7222068054.55
+2020,280,"Public Health Agency of Canada","Acquisition of land, buildings and works",5850.72
+2020,280,"Public Health Agency of Canada","Acquisition of machinery and equipment",303459692.95
+2020,280,"Public Health Agency of Canada","Transfer payments",347354450.29
+2020,280,"Public Health Agency of Canada","Other subsidies and payments",1319937.57
+2020,280,"Public Health Agency of Canada","External revenues",-662873.60
+2020,280,"Public Health Agency of Canada","Internal revenues",-47769.84
+2020,282,"Public Service Commission","Personnel",87911522.57
+2020,282,"Public Service Commission","Transportation and communications",125786.85
+2020,282,"Public Service Commission","Information",75277.54
+2020,282,"Public Service Commission","Professional and special services",7547669.28
+2020,282,"Public Service Commission","Rentals",1417799.18
+2020,282,"Public Service Commission","Repair and maintenance",54354.81
+2020,282,"Public Service Commission","Utilities, materials and supplies",134852.23
+2020,282,"Public Service Commission","Acquisition of machinery and equipment",397281.42
+2020,282,"Public Service Commission","Other subsidies and payments",1165159.18
+2020,282,"Public Service Commission","External revenues",-91146.46
+2020,282,"Public Service Commission","Internal revenues",-5177198.93
+2020,288,"Registrar of the Supreme Court of Canada","Personnel",32650865.79
+2020,288,"Registrar of the Supreme Court of Canada","Transportation and communications",521571.94
+2020,288,"Registrar of the Supreme Court of Canada","Information",220668.83
+2020,288,"Registrar of the Supreme Court of Canada","Professional and special services",2139163.94
+2020,288,"Registrar of the Supreme Court of Canada","Rentals",965639.16
+2020,288,"Registrar of the Supreme Court of Canada","Repair and maintenance",579308.37
+2020,288,"Registrar of the Supreme Court of Canada","Utilities, materials and supplies",1180036.42
+2020,288,"Registrar of the Supreme Court of Canada","Acquisition of machinery and equipment",918473.92
+2020,288,"Registrar of the Supreme Court of Canada","Other subsidies and payments",56461.91
+2020,295,"Royal Canadian Mounted Police","Personnel",3570928862.83
+2020,295,"Royal Canadian Mounted Police","Transportation and communications",139493573.74
+2020,295,"Royal Canadian Mounted Police","Information",3180127.01
+2020,295,"Royal Canadian Mounted Police","Professional and special services",548264938.66
+2020,295,"Royal Canadian Mounted Police","Rentals",147426131.80
+2020,295,"Royal Canadian Mounted Police","Repair and maintenance",91115314.49
+2020,295,"Royal Canadian Mounted Police","Utilities, materials and supplies",159184135.65
+2020,295,"Royal Canadian Mounted Police","Acquisition of land, buildings and works",69035167.98
+2020,295,"Royal Canadian Mounted Police","Acquisition of machinery and equipment",300083474.14
+2020,295,"Royal Canadian Mounted Police","Transfer payments",392162841.02
+2020,295,"Royal Canadian Mounted Police","Public debt charges",651245.50
+2020,295,"Royal Canadian Mounted Police","Other subsidies and payments",140571273.02
+2020,295,"Royal Canadian Mounted Police","External revenues",-1729703454.91
+2020,295,"Royal Canadian Mounted Police","Internal revenues",-5027927.56
+2020,296,"Royal Canadian Mounted Police External Review Committee","Personnel",2506763.96
+2020,296,"Royal Canadian Mounted Police External Review Committee","Transportation and communications",8358.85
+2020,296,"Royal Canadian Mounted Police External Review Committee","Information",1559.00
+2020,296,"Royal Canadian Mounted Police External Review Committee","Professional and special services",367761.41
+2020,296,"Royal Canadian Mounted Police External Review Committee","Rentals",5682.03
+2020,296,"Royal Canadian Mounted Police External Review Committee","Utilities, materials and supplies",41214.17
+2020,296,"Royal Canadian Mounted Police External Review Committee","Acquisition of machinery and equipment",72977.53
+2020,296,"Royal Canadian Mounted Police External Review Committee","Other subsidies and payments",181199.23
+2020,297,"Civilian Review and Complaints Commission for the Royal Canadian Mounted Police","Personnel",9492148.38
+2020,297,"Civilian Review and Complaints Commission for the Royal Canadian Mounted Police","Transportation and communications",71432.87
+2020,297,"Civilian Review and Complaints Commission for the Royal Canadian Mounted Police","Information",105584.49
+2020,297,"Civilian Review and Complaints Commission for the Royal Canadian Mounted Police","Professional and special services",783178.85
+2020,297,"Civilian Review and Complaints Commission for the Royal Canadian Mounted Police","Rentals",167529.34
+2020,297,"Civilian Review and Complaints Commission for the Royal Canadian Mounted Police","Repair and maintenance",3531.97
+2020,297,"Civilian Review and Complaints Commission for the Royal Canadian Mounted Police","Utilities, materials and supplies",70068.14
+2020,297,"Civilian Review and Complaints Commission for the Royal Canadian Mounted Police","Acquisition of machinery and equipment",104839.10
+2020,297,"Civilian Review and Complaints Commission for the Royal Canadian Mounted Police","Other subsidies and payments",617923.67
+2020,302,"National Security and Intelligence Review Agency Secretariat","Personnel",7536948.54
+2020,302,"National Security and Intelligence Review Agency Secretariat","Transportation and communications",88292.40
+2020,302,"National Security and Intelligence Review Agency Secretariat","Information",200698.34
+2020,302,"National Security and Intelligence Review Agency Secretariat","Professional and special services",1958732.81
+2020,302,"National Security and Intelligence Review Agency Secretariat","Rentals",152338.31
+2020,302,"National Security and Intelligence Review Agency Secretariat","Repair and maintenance",1306819.24
+2020,302,"National Security and Intelligence Review Agency Secretariat","Utilities, materials and supplies",48403.30
+2020,302,"National Security and Intelligence Review Agency Secretariat","Acquisition of machinery and equipment",947237.92
+2020,302,"National Security and Intelligence Review Agency Secretariat","Other subsidies and payments",11904.31
+2020,303,"Senate","Personnel",105305746.51
+2020,303,"Senate","Transportation and communications",2491268.33
+2020,303,"Senate","Information",966152.42
+2020,303,"Senate","Professional and special services",2266747.03
+2020,303,"Senate","Rentals",1455199.89
+2020,303,"Senate","Repair and maintenance",738913.35
+2020,303,"Senate","Utilities, materials and supplies",294143.15
+2020,303,"Senate","Acquisition of machinery and equipment",2557576.76
+2020,303,"Senate","Transfer payments",512362.14
+2020,303,"Senate","Other subsidies and payments",611394.37
+2020,305,"Shared Services Canada","Personnel",865447865.42
+2020,305,"Shared Services Canada","Transportation and communications",579298572.12
+2020,305,"Shared Services Canada","Information",4079961.71
+2020,305,"Shared Services Canada","Professional and special services",386623025.79
+2020,305,"Shared Services Canada","Rentals",518606724.04
+2020,305,"Shared Services Canada","Repair and maintenance",277381792.70
+2020,305,"Shared Services Canada","Utilities, materials and supplies",7342678.19
+2020,305,"Shared Services Canada","Acquisition of land, buildings and works",3499513.22
+2020,305,"Shared Services Canada","Acquisition of machinery and equipment",525583621.42
+2020,305,"Shared Services Canada","Public debt charges",6696086.27
+2020,305,"Shared Services Canada","Other subsidies and payments",3119135.55
+2020,305,"Shared Services Canada","External revenues",-4907762.12
+2020,305,"Shared Services Canada","Internal revenues",-860573941.57
+2020,306,"Social Sciences and Humanities Research Council","Personnel",31612846.47
+2020,306,"Social Sciences and Humanities Research Council","Transportation and communications",282266.21
+2020,306,"Social Sciences and Humanities Research Council","Information",749765.77
+2020,306,"Social Sciences and Humanities Research Council","Professional and special services",4386595.77
+2020,306,"Social Sciences and Humanities Research Council","Rentals",830184.14
+2020,306,"Social Sciences and Humanities Research Council","Repair and maintenance",75357.59
+2020,306,"Social Sciences and Humanities Research Council","Utilities, materials and supplies",45121.03
+2020,306,"Social Sciences and Humanities Research Council","Acquisition of machinery and equipment",1602163.32
+2020,306,"Social Sciences and Humanities Research Council","Transfer payments",1379194937.39
+2020,306,"Social Sciences and Humanities Research Council","Other subsidies and payments",339370.14
+2020,312,"Standards Council of Canada","Other subsidies and payments",18575862.00
+2020,313,"Statistics Canada","Personnel",646958028.12
+2020,313,"Statistics Canada","Transportation and communications",11209544.72
+2020,313,"Statistics Canada","Information",15023462.07
+2020,313,"Statistics Canada","Professional and special services",33671832.67
+2020,313,"Statistics Canada","Rentals",24542506.28
+2020,313,"Statistics Canada","Repair and maintenance",812441.37
+2020,313,"Statistics Canada","Utilities, materials and supplies",3488850.38
+2020,313,"Statistics Canada","Acquisition of land, buildings and works",666759.15
+2020,313,"Statistics Canada","Acquisition of machinery and equipment",8360278.05
+2020,313,"Statistics Canada","Other subsidies and payments",574232.60
+2020,313,"Statistics Canada","External revenues",-18717434.49
+2020,313,"Statistics Canada","Internal revenues",-105271633.13
+2020,315,"Telefilm Canada","Other subsidies and payments",132308241.28
+2020,326,"Treasury Board Secretariat","Personnel",3848105677.94
+2020,326,"Treasury Board Secretariat","Transportation and communications",373991.32
+2020,326,"Treasury Board Secretariat","Information",631704.06
+2020,326,"Treasury Board Secretariat","Professional and special services",130992377.19
+2020,326,"Treasury Board Secretariat","Rentals",12231277.36
+2020,326,"Treasury Board Secretariat","Repair and maintenance",656181.24
+2020,326,"Treasury Board Secretariat","Utilities, materials and supplies",300128.42
+2020,326,"Treasury Board Secretariat","Acquisition of machinery and equipment",5336301.15
+2020,326,"Treasury Board Secretariat","Transfer payments",902401.68
+2020,326,"Treasury Board Secretariat","Other subsidies and payments",-18253409.11
+2020,326,"Treasury Board Secretariat","External revenues",-538820292.82
+2020,326,"Treasury Board Secretariat","Internal revenues",-211676602.70
+2020,333,"Veterans Review and Appeal Board","Personnel",9629808.87
+2020,333,"Veterans Review and Appeal Board","Transportation and communications",104241.02
+2020,333,"Veterans Review and Appeal Board","Information",10194.50
+2020,333,"Veterans Review and Appeal Board","Professional and special services",193430.36
+2020,333,"Veterans Review and Appeal Board","Rentals",95549.26
+2020,333,"Veterans Review and Appeal Board","Utilities, materials and supplies",90130.96
+2020,333,"Veterans Review and Appeal Board","Acquisition of machinery and equipment",358641.49
+2020,333,"Veterans Review and Appeal Board","Other subsidies and payments",23683.13
+2020,334,"VIA Rail Canada Inc.","Other subsidies and payments",651558579.46
+2020,339,"Windsor-Detroit Bridge Authority","Other subsidies and payments",440674062.00
+2020,345,"Secretariat of the National Security and Intelligence Committee of Parliamentarians","Personnel",1396349.41
+2020,345,"Secretariat of the National Security and Intelligence Committee of Parliamentarians","Transportation and communications",39149.33
+2020,345,"Secretariat of the National Security and Intelligence Committee of Parliamentarians","Information",13045.50
+2020,345,"Secretariat of the National Security and Intelligence Committee of Parliamentarians","Professional and special services",829344.54
+2020,345,"Secretariat of the National Security and Intelligence Committee of Parliamentarians","Rentals",92603.40
+2020,345,"Secretariat of the National Security and Intelligence Committee of Parliamentarians","Repair and maintenance",42723.00
+2020,345,"Secretariat of the National Security and Intelligence Committee of Parliamentarians","Utilities, materials and supplies",6456.92
+2020,345,"Secretariat of the National Security and Intelligence Committee of Parliamentarians","Acquisition of machinery and equipment",10628.79
+2020,345,"Secretariat of the National Security and Intelligence Committee of Parliamentarians","Other subsidies and payments",943.83
+2020,346,"Office of the Parliamentary Budget Officer","Personnel",4984579.71
+2020,346,"Office of the Parliamentary Budget Officer","Transportation and communications",21586.97
+2020,346,"Office of the Parliamentary Budget Officer","Information",12821.25
+2020,346,"Office of the Parliamentary Budget Officer","Professional and special services",840669.67
+2020,346,"Office of the Parliamentary Budget Officer","Rentals",97577.01
+2020,346,"Office of the Parliamentary Budget Officer","Utilities, materials and supplies",84554.03
+2020,346,"Office of the Parliamentary Budget Officer","Acquisition of machinery and equipment",49099.47
+2020,346,"Office of the Parliamentary Budget Officer","Other subsidies and payments",5211.62
+2020,347,"Invest in Canada Hub","Personnel",8151273.99
+2020,347,"Invest in Canada Hub","Transportation and communications",110536.11
+2020,347,"Invest in Canada Hub","Information",12470839.96
+2020,347,"Invest in Canada Hub","Professional and special services",7490855.71
+2020,347,"Invest in Canada Hub","Rentals",249184.86
+2020,347,"Invest in Canada Hub","Repair and maintenance",4330.67
+2020,347,"Invest in Canada Hub","Utilities, materials and supplies",30182.63
+2020,347,"Invest in Canada Hub","Acquisition of land, buildings and works",10669.77
+2020,347,"Invest in Canada Hub","Acquisition of machinery and equipment",1106409.48
+2020,347,"Invest in Canada Hub","Other subsidies and payments",-2176.50
+2020,348,"Department of Indigenous Services","Personnel",709485451.79
+2020,348,"Department of Indigenous Services","Transportation and communications",294364405.49
+2020,348,"Department of Indigenous Services","Information",4196708.53
+2020,348,"Department of Indigenous Services","Professional and special services",586749026.65
+2020,348,"Department of Indigenous Services","Rentals",18549835.13
+2020,348,"Department of Indigenous Services","Repair and maintenance",3966871.31
+2020,348,"Department of Indigenous Services","Utilities, materials and supplies",571749510.19
+2020,348,"Department of Indigenous Services","Acquisition of land, buildings and works",375648.84
+2020,348,"Department of Indigenous Services","Acquisition of machinery and equipment",60876298.86
+2020,348,"Department of Indigenous Services","Transfer payments",14138357689.36
+2020,348,"Department of Indigenous Services","Other subsidies and payments",8998394.12
+2020,348,"Department of Indigenous Services","External revenues",-3945820.27
+2020,348,"Department of Indigenous Services","Internal revenues",-40478504.05
+2020,350,"Leaders' Debates Commission","Personnel",156184.69
+2020,350,"Leaders' Debates Commission","Transportation and communications",23.19
+2020,350,"Leaders' Debates Commission","Information",19.78
+2020,350,"Leaders' Debates Commission","Professional and special services",174298.93
+2020,350,"Leaders' Debates Commission","Other subsidies and payments",220.91
+2020,539,"Administrative Tribunals Support Service of Canada","Personnel",76845198.00
+2020,539,"Administrative Tribunals Support Service of Canada","Transportation and communications",1146973.96
+2020,539,"Administrative Tribunals Support Service of Canada","Information",795065.16
+2020,539,"Administrative Tribunals Support Service of Canada","Professional and special services",9478757.53
+2020,539,"Administrative Tribunals Support Service of Canada","Rentals",2842992.66
+2020,539,"Administrative Tribunals Support Service of Canada","Repair and maintenance",375817.53
+2020,539,"Administrative Tribunals Support Service of Canada","Utilities, materials and supplies",462056.19
+2020,539,"Administrative Tribunals Support Service of Canada","Acquisition of machinery and equipment",1476020.03
+2020,539,"Administrative Tribunals Support Service of Canada","Other subsidies and payments",43526.48
+2020,539,"Administrative Tribunals Support Service of Canada","External revenues",-13815082.00
+2020,539,"Administrative Tribunals Support Service of Canada","Internal revenues",-11501737.00
+2020,552,"Canadian High Arctic Research Station","Personnel",9048520.16
+2020,552,"Canadian High Arctic Research Station","Transportation and communications",1326809.95
+2020,552,"Canadian High Arctic Research Station","Information",198043.04
+2020,552,"Canadian High Arctic Research Station","Professional and special services",1914143.00
+2020,552,"Canadian High Arctic Research Station","Rentals",1204136.77
+2020,552,"Canadian High Arctic Research Station","Repair and maintenance",2612902.04
+2020,552,"Canadian High Arctic Research Station","Utilities, materials and supplies",1503370.36
+2020,552,"Canadian High Arctic Research Station","Acquisition of machinery and equipment",189495.29
+2020,552,"Canadian High Arctic Research Station","Transfer payments",4162864.00
+2020,552,"Canadian High Arctic Research Station","Other subsidies and payments",114986.29
+2020,554,"Parliamentary Protective Service","Personnel",60724292.16
+2020,554,"Parliamentary Protective Service","Transportation and communications",188783.41
+2020,554,"Parliamentary Protective Service","Information",151219.78
+2020,554,"Parliamentary Protective Service","Professional and special services",8504904.04
+2020,554,"Parliamentary Protective Service","Rentals",276808.14
+2020,554,"Parliamentary Protective Service","Repair and maintenance",983270.78
+2020,554,"Parliamentary Protective Service","Utilities, materials and supplies",629631.70
+2020,554,"Parliamentary Protective Service","Acquisition of machinery and equipment",2253164.62
+2020,554,"Parliamentary Protective Service","Other subsidies and payments",551966.90
+2020,554,"Parliamentary Protective Service","Internal revenues",-477462.98
+2020,558,"Canadian Accessibility Standards Development Organization","Personnel",4392284.13
+2020,558,"Canadian Accessibility Standards Development Organization","Transportation and communications",18176.05
+2020,558,"Canadian Accessibility Standards Development Organization","Information",92162.45
+2020,558,"Canadian Accessibility Standards Development Organization","Professional and special services",1940178.21
+2020,558,"Canadian Accessibility Standards Development Organization","Rentals",347677.04
+2020,558,"Canadian Accessibility Standards Development Organization","Utilities, materials and supplies",1613.58
+2020,558,"Canadian Accessibility Standards Development Organization","Acquisition of land, buildings and works",2394450.33
+2020,558,"Canadian Accessibility Standards Development Organization","Acquisition of machinery and equipment",144165.79
+2020,558,"Canadian Accessibility Standards Development Organization","Transfer payments",5237602.00
+2020,558,"Canadian Accessibility Standards Development Organization","Other subsidies and payments",35829.65
 

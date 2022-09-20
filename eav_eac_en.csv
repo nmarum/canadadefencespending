@@ -850,6 +850,7 @@
 2012,128,"Department of Employment and Social Development",5,"Grants & Contributions",1853745901.00,1704013699.00
 2012,128,"Department of Employment and Social Development",7,"Other",231150564.00,226838073.00
 2012,128,"Department of Employment and Social Development","S","Allowance payments (Old Age Security Act)",554317515.00,554317515.00
+2012,128,"Department of Employment and Social Development","S","Benefit enhancement measures for the Employment Insurance Operating Account",281087168.00,281087168.00
 2012,128,"Department of Employment and Social Development","S","Canada Disability Savings Bond payments to Registered Disability Savings Plan issuers on behalf of Registered Disability Savings Plan beneficiaries to encourage long-term financial security of eligible individuals with disabilities",68843852.00,68843852.00
 2012,128,"Department of Employment and Social Development","S","Canada Disability Savings Grant payments to Registered Disability Savings Plan issuers on behalf of Registered Disability Savings Plan beneficiaries to encourage long-term financial security of eligible individuals disabilities",171254503.00,171254503.00
 2012,128,"Department of Employment and Social Development","S","Canada Education Savings grant payments to Registered Educations Savings Plans (RESPs) trustees on behalf of RESP beneficiaries to encourage Canadians to save for post-secondary education for their children",718888870.00,718888870.00
@@ -867,7 +868,6 @@
 2012,128,"Department of Employment and Social Development","S","Spending of proceeds from the disposal of surplus Crown assets",251219.00,175701.00
 2012,128,"Department of Employment and Social Development","S","Spending pursuant to section 12(4) of the Canada Education Savings Act",821250.00,388140.00
 2012,128,"Department of Employment and Social Development","S","Supplementary retirement benefits — Annuities agents' pensions",3822.00,3822.00
-2012,128,"Department of Employment and Social Development","S","The provision of funds for enhanced Employment Insurance benefits in accordance with the Budget Implementation Act, 2009",281087168.00,281087168.00
 2012,128,"Department of Employment and Social Development","S","The provision of funds for interest and other payments to lending institutions and liabilities under the Canada Student Financial Assistance Act",10982627.00,10982627.00
 2012,128,"Department of Employment and Social Development","S","The provision of funds for interest payments to lending institutions under the Canada Student Loans Act",7107.00,7107.00
 2012,128,"Department of Employment and Social Development","S","The provision of funds for liabilities including liabilities in the form of guaranteed loans under the Canada Student Loans Act",-7731850.00,-7731850.00
@@ -1390,6 +1390,7 @@
 2013,124,"Department of Finance","S","Canada Health Transfer (Part V.1 - Federal-Provincial Fiscal Arrangements Act)",30282900196.00,30282900196.00
 2013,124,"Department of Finance","S","Canada Social Transfer (Part V.1 - Federal-Provincial Fiscal Arrangements Act)",12215271000.00,12215271000.00
 2013,124,"Department of Finance","S","Canadian Millennium Scholarship Foundation (Budget Implementation Act, 1998)",-10823.00,-10823.00
+2013,124,"Department of Finance","S","Canadian Regulatory Authority (Budget Implementation Act, 2009)",55806000.00,55806000.00
 2013,124,"Department of Finance","S","Canadian Securities Regulation Regime Transition Office (Canadian Securities Regulation Regime Transition Office Act)",10000000.00,10000000.00
 2013,124,"Department of Finance","S","Contributions to employee benefit plans",12081486.00,12081486.00
 2013,124,"Department of Finance","S","Debt payments on behalf of poor countries to International Organizations pursuant to section 18(1) of the Economic Recovery Act",51200000.00,51200000.00
@@ -1404,7 +1405,6 @@
 2013,124,"Department of Finance","S","Payments to International Development Association",441610000.00,441610000.00
 2013,124,"Department of Finance","S","Payments to depositors of Canadian Commercial Bank, CCB Mortgage Investment Corporation and Northland Bank pursuant to the Financial Institutions Depositors Compensation Act",68571831.00,0.00
 2013,124,"Department of Finance","S","Payments to provinces regarding sales tax harmonization (Part III,I -Federal-Provincial Fiscal Arrangements Act)",1161200000.00,1161200000.00
-2013,124,"Department of Finance","S","Payments to the Canadian Securities regulation Regime Transition Office",55806000.00,55806000.00
 2013,124,"Department of Finance","S","Purchase of Domestic Coinage",106075973.00,106075973.00
 2013,124,"Department of Finance","S","Refunds of amounts credited to revenues in previous years",155.00,155.00
 2013,124,"Department of Finance","S","Salary and Motor Car Allowance",80706.00,80706.00
@@ -1971,6 +1971,7 @@
 2014,124,"Department of Finance","S","Alternative Payments for Standing Programs (Part VI - Federal-Provincial Fiscal Arrangements Act)",-3466658000.00,-3466658000.00
 2014,124,"Department of Finance","S","Canada Health Transfer (Part V.1 - Federal-Provincial Fiscal Arrangements Act)",32114006363.00,32114006363.00
 2014,124,"Department of Finance","S","Canada Social Transfer (Part V.1 - Federal-Provincial Fiscal Arrangements Act)",12581729000.00,12581729000.00
+2014,124,"Department of Finance","S","Canadian Regulatory Authority (Budget Implementation Act, 2009)",169000000.00,169000000.00
 2014,124,"Department of Finance","S","Canadian Securities Regulation Regime Transition Office (Canadian Securities Regulation Regime Transition Office Act)",53100000.00,53100000.00
 2014,124,"Department of Finance","S","Contributions to employee benefit plans",11630383.00,11630383.00
 2014,124,"Department of Finance","S","Debt payments on behalf of poor countries to International Organizations pursuant to section 18(1) of the Economic Recovery Act",51200000.00,51200000.00
@@ -1985,7 +1986,6 @@
 2014,124,"Department of Finance","S","Payments to International Development Association",883220000.00,883220000.00
 2014,124,"Department of Finance","S","Payments to depositors of Canadian Commercial Bank, CCB Mortgage Investment Corporation and Northland Bank pursuant to the Financial Institutions Depositors Compensation Act",68571831.00,0.00
 2014,124,"Department of Finance","S","Payments to provinces regarding sales tax harmonization (Part III,I -Federal-Provincial Fiscal Arrangements Act)",-319800000.00,-319800000.00
-2014,124,"Department of Finance","S","Payments to the Canadian Securities regulation Regime Transition Office",169000000.00,169000000.00
 2014,124,"Department of Finance","S","Purchase of Domestic Coinage",105671550.00,105671550.00
 2014,124,"Department of Finance","S","Refunds of amounts credited to revenues in previous years",155612.00,155612.00
 2014,124,"Department of Finance","S","Salary and Motor Car Allowance",82133.00,82133.00
@@ -2226,8 +2226,8 @@
 2014,237,"Office of Infrastructure of Canada",1,"Operating/Program",75080093.00,66586698.00
 2014,237,"Office of Infrastructure of Canada",3,"Capital",94036524.00,15647305.00
 2014,237,"Office of Infrastructure of Canada",5,"Grants & Contributions",1566102718.00,1035252790.00
+2014,237,"Office of Infrastructure of Canada","S","Contributions related to the Canada Community-Building Fund (Keeping Canada's Economy and Jobs Growing Act)",1973269432.00,1973269432.00
 2014,237,"Office of Infrastructure of Canada","S","Contributions to employee benefit plans",5045588.00,5045588.00
-2014,237,"Office of Infrastructure of Canada","S","Gas Tax Fund",1973269432.00,1973269432.00
 2014,237,"Office of Infrastructure of Canada","S","Salary and Motor Car Allowance",80300.00,80300.00
 2014,238,"Office of the Auditor General",1,"Operating/Program",76707390.00,72739877.00
 2014,238,"Office of the Auditor General","S","Contributions to employee benefit plans",9112269.00,9112269.00
@@ -2781,8 +2781,8 @@
 2015,237,"Office of Infrastructure of Canada",1,"Operating/Program",123741190.00,58768365.00
 2015,237,"Office of Infrastructure of Canada",10,"Grants & Contributions",1569894628.00,1104706213.00
 2015,237,"Office of Infrastructure of Canada",5,"Capital",90178530.00,48429565.00
+2015,237,"Office of Infrastructure of Canada","S","Contributions related to the Canada Community-Building Fund (Keeping Canada's Economy and Jobs Growing Act)",1973269432.00,1973269432.00
 2015,237,"Office of Infrastructure of Canada","S","Contributions to employee benefit plans",5185853.00,5185853.00
-2015,237,"Office of Infrastructure of Canada","S","Gas Tax Fund",1973269432.00,1973269432.00
 2015,237,"Office of Infrastructure of Canada","S","Salary and Motor Car Allowance",82328.00,82328.00
 2015,238,"Office of the Auditor General",1,"Operating/Program",72991996.00,68874231.00
 2015,238,"Office of the Auditor General","S","Contributions to employee benefit plans",8806148.00,8806148.00
@@ -3326,8 +3326,8 @@
 2016,237,"Office of Infrastructure of Canada",1,"Operating/Program",131616485.00,57324445.00
 2016,237,"Office of Infrastructure of Canada",10,"Grants & Contributions",3017422437.00,1047776305.00
 2016,237,"Office of Infrastructure of Canada",5,"Capital",122819141.00,25362188.00
+2016,237,"Office of Infrastructure of Canada","S","Contributions related to the Canada Community-Building Fund (Keeping Canada's Economy and Jobs Growing Act)",2071932904.00,2071932904.00
 2016,237,"Office of Infrastructure of Canada","S","Contributions to employee benefit plans",5286930.00,5286930.00
-2016,237,"Office of Infrastructure of Canada","S","Gas Tax Fund",2071932904.00,2071932904.00
 2016,237,"Office of Infrastructure of Canada","S","Salary and Motor Car Allowance",83500.00,83500.00
 2016,238,"Office of the Auditor General",1,"Operating/Program",74560637.00,70837601.00
 2016,238,"Office of the Auditor General","S","Contributions to employee benefit plans",8190332.00,8190332.00
@@ -3827,8 +3827,8 @@
 2017,200,"Library of Parliament","S","Contributions to employee benefit plans",4519938.00,4519937.95
 2017,202,"Marine Atlantic Inc.",1,"Payments to Crown Corps",213734000.00,146682515.00
 2017,209,"Military Grievances External Review Committee",1,"Operating/Program",7183457.00,6179818.00
+2017,209,"Military Grievances External Review Committee","S","Canadian Regulatory Authority (Budget Implementation Act, 2009)",1093.00,1092.80
 2017,209,"Military Grievances External Review Committee","S","Contributions to employee benefit plans",545546.00,545545.90
-2017,209,"Military Grievances External Review Committee","S","Payments to the Canadian Securities regulation Regime Transition Office",1093.00,1092.80
 2017,210,"Military Police Complaints Commission",1,"Operating/Program",4454113.00,4175963.00
 2017,210,"Military Police Complaints Commission","S","Contributions to employee benefit plans",359735.00,359735.31
 2017,210,"Military Police Complaints Commission","S","Spending of proceeds from the disposal of surplus Crown assets",154.00,
@@ -3869,8 +3869,8 @@
 2017,237,"Office of Infrastructure of Canada",1,"Operating/Program",217145305.00,141061203.00
 2017,237,"Office of Infrastructure of Canada",10,"Grants & Contributions",4282963173.00,1536772728.00
 2017,237,"Office of Infrastructure of Canada",5,"Capital",576351890.00,570321744.00
+2017,237,"Office of Infrastructure of Canada","S","Contributions related to the Canada Community-Building Fund (Keeping Canada's Economy and Jobs Growing Act)",2071932904.00,2071932904.00
 2017,237,"Office of Infrastructure of Canada","S","Contributions to employee benefit plans",6123830.00,6123829.91
-2017,237,"Office of Infrastructure of Canada","S","Gas Tax Fund",2071932904.00,2071932904.00
 2017,237,"Office of Infrastructure of Canada","S","Salary and Motor Car Allowance",84600.00,84600.00
 2017,238,"Office of the Auditor General",1,"Operating/Program",75705751.00,74024292.00
 2017,238,"Office of the Auditor General","S","Contributions to employee benefit plans",8404465.00,8404465.45
@@ -4006,7 +4006,7 @@
 2017,348,"Department of Indigenous Services",13,"Grants & Contributions",3600228503.00,3528465874.00
 2017,348,"Department of Indigenous Services",3,"Operating/Program",777604722.00,705938292.00
 2017,348,"Department of Indigenous Services",7,"Capital",4380354.00,3915458.00
-2017,348,"Department of Indigenous Services","S","Contributions in connection with First Nations infrastructure",19518645.60,19518645.60
+2017,348,"Department of Indigenous Services","S","Contributions related to the Canada Community-Building Fund (Keeping Canada's Economy and Jobs Growing Act)",19518645.60,19518645.60
 2017,348,"Department of Indigenous Services","S","Contributions to employee benefit plans",29939140.00,29939139.67
 2017,348,"Department of Indigenous Services","S","Court Awards",19000.00,19000.00
 2017,348,"Department of Indigenous Services","S","Indian Annuities Treaty payments",10.00,10.00
@@ -4176,6 +4176,7 @@
 2018,124,"Department of Finance","S","Alternative Payments for Standing Programs (Part VI - Federal-Provincial Fiscal Arrangements Act)",-4132159000.00,-4132159000.00
 2018,124,"Department of Finance","S","Canada Health Transfer (Part V.1 - Federal-Provincial Fiscal Arrangements Act)",38567524392.00,38567524392.00
 2018,124,"Department of Finance","S","Canada Social Transfer (Part V.1 - Federal-Provincial Fiscal Arrangements Act)",14160847000.00,14160847000.00
+2018,124,"Department of Finance","S","Canadian Regulatory Authority (Budget Implementation Act, 2009)",11400000.00,11400000.00
 2018,124,"Department of Finance","S","Canadian Securities Regulation Regime Transition Office (Canadian Securities Regulation Regime Transition Office Act)",77100000.00,77100000.00
 2018,124,"Department of Finance","S","Contributions to employee benefit plans",11556977.00,11556977.00
 2018,124,"Department of Finance","S","Debt payments on behalf of poor countries to International Organizations pursuant to section 18(1) of the Economic Recovery Act",51200000.00,51200000.00
@@ -4188,7 +4189,6 @@
 2018,124,"Department of Finance","S","Payment to the Canada Infrastructure Bank",552861638.00,552861638.00
 2018,124,"Department of Finance","S","Payments to International Development Association",441610000.00,441610000.00
 2018,124,"Department of Finance","S","Payments to depositors of Canadian Commercial Bank, CCB Mortgage Investment Corporation and Northland Bank pursuant to the Financial Institutions Depositors Compensation Act",68571831.00,
-2018,124,"Department of Finance","S","Payments to the Canadian Securities regulation Regime Transition Office",11400000.00,11400000.00
 2018,124,"Department of Finance","S","Purchase of Domestic Coinage",90737773.00,90737773.00
 2018,124,"Department of Finance","S","Salary and Motor Car Allowance",86000.00,86000.00
 2018,124,"Department of Finance","S","Spending of proceeds from the disposal of surplus Crown assets",1002.00,
@@ -4384,8 +4384,8 @@
 2018,200,"Library of Parliament","S","Contributions to employee benefit plans",4647901.00,4647901.00
 2018,202,"Marine Atlantic Inc.",1,"Payments to Crown Corps",151104000.00,125945000.00
 2018,209,"Military Grievances External Review Committee",1,"Operating/Program",6547882.00,5709819.00
+2018,209,"Military Grievances External Review Committee","S","Canadian Regulatory Authority (Budget Implementation Act, 2009)",214.00,214.00
 2018,209,"Military Grievances External Review Committee","S","Contributions to employee benefit plans",599856.00,599856.00
-2018,209,"Military Grievances External Review Committee","S","Payments to the Canadian Securities regulation Regime Transition Office",214.00,214.00
 2018,210,"Military Police Complaints Commission",1,"Operating/Program",4585790.00,4373110.00
 2018,210,"Military Police Complaints Commission","S","Contributions to employee benefit plans",402395.00,402395.00
 2018,210,"Military Police Complaints Commission","S","Spending of proceeds from the disposal of surplus Crown assets",115.00,
@@ -4426,8 +4426,8 @@
 2018,237,"Office of Infrastructure of Canada",1,"Operating/Program",135577405.00,85726632.00
 2018,237,"Office of Infrastructure of Canada",10,"Grants & Contributions",3367804319.00,3279177078.00
 2018,237,"Office of Infrastructure of Canada",5,"Capital",1026670486.00,111652770.00
+2018,237,"Office of Infrastructure of Canada","S","Contributions related to the Canada Community-Building Fund (Keeping Canada's Economy and Jobs Growing Act)",2170596375.00,2170596375.00
 2018,237,"Office of Infrastructure of Canada","S","Contributions to employee benefit plans",7012877.00,7012877.00
-2018,237,"Office of Infrastructure of Canada","S","Gas Tax Fund",2170596375.00,2170596375.00
 2018,237,"Office of Infrastructure of Canada","S","Salary and Motor Car Allowance",86000.00,86000.00
 2018,238,"Office of the Auditor General",1,"Operating/Program",83450221.00,79098121.00
 2018,238,"Office of the Auditor General","S","Contributions to employee benefit plans",8903407.00,8903407.00
@@ -4561,7 +4561,7 @@
 2018,348,"Department of Indigenous Services",1,"Operating/Program",1894996163.00,1740473629.00
 2018,348,"Department of Indigenous Services",10,"Grants & Contributions",9860450633.00,9758542662.00
 2018,348,"Department of Indigenous Services",5,"Capital",8562632.00,6554077.00
-2018,348,"Department of Indigenous Services","S","Contributions in connection with First Nations infrastructure",29403625.00,29403625.00
+2018,348,"Department of Indigenous Services","S","Contributions related to the Canada Community-Building Fund (Keeping Canada's Economy and Jobs Growing Act)",29403625.00,29403625.00
 2018,348,"Department of Indigenous Services","S","Contributions to employee benefit plans",51806530.00,51806530.00
 2018,348,"Department of Indigenous Services","S","Liabilities in respect of loan guarantees made to Indians for Housing and Economic Development",74614.00,74614.00
 2018,348,"Department of Indigenous Services","S","Payment from the Consolidated Revenue Fund of guaranteed loans issued out of the Indian economic development account (authorized limit $60,000,000). Change in Ministry responsibility (Indian Affairs and Northern Development)",32490796.00,
@@ -4576,9 +4576,6 @@
 2018,552,"Canadian High Arctic Research Station","S","Contributions to employee benefit plans",956451.00,956451.00
 2018,554,"Parliamentary Protective Service",1,"Operating/Program",83791418.00,77484796.00
 2018,554,"Parliamentary Protective Service","S","Contributions to employee benefit plans",6359742.00,6359742.00
-2019,558,"Canadian Accessibility Standards Development Organization",1,"Operating/Program",5866751.00,2451196.00
-2019,558,"Canadian Accessibility Standards Development Organization",5,"Grants & Contributions",3250000.00,1488358.00
-2019,558,"Canadian Accessibility Standards Development Organization","S","Contributions to employee benefit plans",21274.00,21274.00
 2019,1,"Department of Agriculture and Agri-Food",1,"Operating/Program",610571958.00,595526363.00
 2019,1,"Department of Agriculture and Agri-Food",10,"Grants & Contributions",477341293.00,439053063.00
 2019,1,"Department of Agriculture and Agri-Food",15,"Budget Implementation Vote",17486092.00,0.00
@@ -4835,7 +4832,7 @@
 2019,126,"Department of Foreign Affairs, Trade and Development",35,"Budget Implementation Vote",104280.00,0.00
 2019,126,"Department of Foreign Affairs, Trade and Development",40,"Budget Implementation Vote",2021487.00,0.00
 2019,126,"Department of Foreign Affairs, Trade and Development",45,"Budget Implementation Vote",6133109.00,0.00
-2019,126,"Department of Foreign Affairs, Trade and Development",5,"Capital",130319951.00,108540093.00
+2019,126,"Department of Foreign Affairs, Trade and Development",5,"Capital",130319951.00,108543093.00
 2019,126,"Department of Foreign Affairs, Trade and Development","S","Contributions to employee benefit plans",115878927.00,115878927.00
 2019,126,"Department of Foreign Affairs, Trade and Development","S","Losses on Foreign Exchange",73415744.00,73415744.00
 2019,126,"Department of Foreign Affairs, Trade and Development","S","Payments to International Financial Institutions - Direct payments",250365984.00,250365984.00
@@ -4892,8 +4889,8 @@
 2019,128,"Department of Employment and Social Development","S","Energy Cost Benefit",-125.00,-125.00
 2019,128,"Department of Employment and Social Development","S","Guaranteed Income Supplement Payments (Old Age Security Act)",13007928280.00,13007928280.00
 2019,128,"Department of Employment and Social Development","S","Old Age Security payments (Old Age Security Act)",42706488728.00,42706488728.00
-2019,128,"Department of Employment and Social Development","S","Payments for the Canada Emergency Response Benefit pursuant to the Public Health Events of National Concern Payments Act",4755547878.00,4755547878.00
 2019,128,"Department of Employment and Social Development","S","Payments of compensation respecting government employees (Government Employees Compensation Act) and merchant seamen (Merchant Seamen Compensation Act)",29245290.00,29245290.00
+2019,128,"Department of Employment and Social Development","S","Payments pursuant to the Public Health Events of National Concern Payments Act",4755547878.00,4755547878.00
 2019,128,"Department of Employment and Social Development","S","Payments related to the direct financing arrangement under the Apprentice Loans Act",2182482.00,2182482.00
 2019,128,"Department of Employment and Social Development","S","Payments related to the direct financing arrangement under the Canada Student Financial Assistance Act",934933044.00,934933044.00
 2019,128,"Department of Employment and Social Development","S","Refunds of amounts credited to revenues in previous years",884244.00,884244.00
@@ -5149,8 +5146,8 @@
 2019,237,"Office of Infrastructure of Canada",10,"Grants & Contributions",5226079579.00,3215825356.00
 2019,237,"Office of Infrastructure of Canada",5,"Capital",1324769226.00,1208973851.00
 2019,237,"Office of Infrastructure of Canada","S","Contribution to the Federation of Canadian Municipalities for the Asset Management Fund",60000000.00,60000000.00
+2019,237,"Office of Infrastructure of Canada","S","Contributions related to the Canada Community-Building Fund (Keeping Canada's Economy and Jobs Growing Act)",4340912262.00,4340912262.00
 2019,237,"Office of Infrastructure of Canada","S","Contributions to employee benefit plans",8526050.00,8526050.00
-2019,237,"Office of Infrastructure of Canada","S","Gas Tax Fund",4340912262.00,4340912262.00
 2019,237,"Office of Infrastructure of Canada","S","Salary and Motor Car Allowance",88834.00,88834.00
 2019,238,"Office of the Auditor General",1,"Operating/Program",81073589.00,78319683.00
 2019,238,"Office of the Auditor General","S","Contributions to employee benefit plans",9334130.00,9334130.00
@@ -5317,7 +5314,7 @@
 2019,348,"Department of Indigenous Services",60,"Budget Implementation Vote",0.00,0.00
 2019,348,"Department of Indigenous Services",65,"Budget Implementation Vote",0.00,0.00
 2019,348,"Department of Indigenous Services","S","Climate Action Support",1640641.00,1460947.00
-2019,348,"Department of Indigenous Services","S","Contributions in connection with First Nations infrastructure",59088073.00,59088073.00
+2019,348,"Department of Indigenous Services","S","Contributions related to the Canada Community-Building Fund (Keeping Canada's Economy and Jobs Growing Act)",59088073.00,59088073.00
 2019,348,"Department of Indigenous Services","S","Contributions to employee benefit plans",10152439.00,10152439.00
 2019,348,"Department of Indigenous Services","S","Contributions to employee benefit plans",63402347.00,63402347.00
 2019,348,"Department of Indigenous Services","S","Indian Annuities Treaty payments",510020.00,510020.00
@@ -5335,4 +5332,624 @@
 2019,552,"Canadian High Arctic Research Station","S","Contributions to employee benefit plans",1143190.00,1143190.00
 2019,554,"Parliamentary Protective Service",1,"Operating/Program",81786647.00,81786645.00
 2019,554,"Parliamentary Protective Service","S","Contributions to employee benefit plans",6888226.00,6888226.00
+2019,558,"Canadian Accessibility Standards Development Organization",1,"Operating/Program",5866751.00,2451196.00
+2019,558,"Canadian Accessibility Standards Development Organization",5,"Grants & Contributions",3250000.00,1488358.00
+2019,558,"Canadian Accessibility Standards Development Organization","S","Contributions to employee benefit plans",21274.00,21274.00
+2020,1,"Department of Agriculture and Agri-Food",1,"Operating/Program",625349227.00,614071679.00
+2020,1,"Department of Agriculture and Agri-Food",10,"Grants & Contributions",620499297.00,512343128.00
+2020,1,"Department of Agriculture and Agri-Food",5,"Capital",52877240.00,47432694.00
+2020,1,"Department of Agriculture and Agri-Food","S","Canadian Pari-Mutuel Agency Revolving Fund",11726750.00,1368493.00
+2020,1,"Department of Agriculture and Agri-Food","S","Contribution payments for the AgriInsurance program",645912746.00,645912746.00
+2020,1,"Department of Agriculture and Agri-Food","S","Contribution payments for the Agricultural Disaster Relief program and AgriRecovery",21267302.00,21267302.00
+2020,1,"Department of Agriculture and Agri-Food","S","Contribution payments for the Canadian Agricultural Income Stabilization program Inventory Transition Initiative",-14167.00,-14167.00
+2020,1,"Department of Agriculture and Agri-Food","S","Contributions in support of the Assistance to the Pork Industry Initiative",-11891141.00,-11891141.00
+2020,1,"Department of Agriculture and Agri-Food","S","Contributions to employee benefit plans",67789855.00,67789855.00
+2020,1,"Department of Agriculture and Agri-Food","S","Grant and Contribution Payments for the AgriInvest Program",155431309.00,155431309.00
+2020,1,"Department of Agriculture and Agri-Food","S","Grant and Contribution Payments for the AgriStability Program",215810537.00,215810537.00
+2020,1,"Department of Agriculture and Agri-Food","S","Grant payments for the Canadian Agricultural Income Stabilization program Inventory Transition Initiative",-10624.00,-10624.00
+2020,1,"Department of Agriculture and Agri-Food","S","Grant payments for the Dairy Direct Payment Program (Farm Income Protection Act)",459400130.00,459400130.00
+2020,1,"Department of Agriculture and Agri-Food","S","Grants to agencies established under the Farm Products Agencies Act",600000.00,
+2020,1,"Department of Agriculture and Agri-Food","S","Loan guarantees under the Canadian Agricultural Loans Act",1153635.00,1153635.00
+2020,1,"Department of Agriculture and Agri-Food","S","Payments in connection with the Agricultural Marketing Programs Act (S.C., 1997, c. C-34)",24226244.00,24226244.00
+2020,1,"Department of Agriculture and Agri-Food","S","Payments pursuant to the Public Health Events of National Concern Payments Act",279636285.00,279636285.00
+2020,1,"Department of Agriculture and Agri-Food","S","Refunds of amounts credited to revenues in previous years",69465.00,69465.00
+2020,1,"Department of Agriculture and Agri-Food","S","Salary and Motor Car Allowance",89200.00,89200.00
+2020,1,"Department of Agriculture and Agri-Food","S","Spending of proceeds from the disposal of surplus Crown assets",8640992.00,3528625.00
+2020,2,"House of Commons",1,"Operating/Program",381815056.00,350016757.00
+2020,2,"House of Commons","S","Contributions to employee benefit plans",40465143.00,40465143.00
+2020,2,"House of Commons","S","Members of the House of Commons - Salaries and allowances of Officers and Members of the House of Commons under the Parliament of Canada Act and contributions to the Members of Parliament Retiring Allowances Account and the Members of Parliament Retirement Compensation Arrangements Account",219628461.00,219628461.00
+2020,12,"Atlantic Canada Opportunities Agency",1,"Operating/Program",74468028.00,69790224.00
+2020,12,"Atlantic Canada Opportunities Agency",5,"Grants & Contributions",452840687.00,441945575.00
+2020,12,"Atlantic Canada Opportunities Agency","S","Contributions to employee benefit plans",9056403.00,9056403.00
+2020,12,"Atlantic Canada Opportunities Agency","S","Losses on Foreign Exchange",549.00,549.00
+2020,12,"Atlantic Canada Opportunities Agency","S","Payments for the Community Futures Network pursuant to the Economic Statement Implementation Act, 2020",,
+2020,12,"Atlantic Canada Opportunities Agency","S","Payments pursuant to the Public Health Events of National Concern Payments Act",54252865.00,54252865.00
+2020,12,"Atlantic Canada Opportunities Agency","S","Payments to provide financing support to small and medium-sized businesses pursuant to the Economic Statement Implementation Act, 2020",,
+2020,12,"Atlantic Canada Opportunities Agency","S","Spending of proceeds from the disposal of surplus Crown assets",36688.00,
+2020,14,"Atomic Energy of Canada Limited",1,"Payments to Crown Corps",1254166523.00,935540678.00
+2020,14,"Atomic Energy of Canada Limited","S","Payments to Atomic Energy of Canada Limited",5200000.00,5200000.00
+2020,26,"Canada Border Services Agency",1,"Operating/Program",2078375406.00,1810515397.00
+2020,26,"Canada Border Services Agency",5,"Capital",301262971.00,151711192.00
+2020,26,"Canada Border Services Agency","S","Collection Agency Fees",508.00,508.00
+2020,26,"Canada Border Services Agency","S","Contributions to employee benefit plans",204960084.00,204960084.00
+2020,26,"Canada Border Services Agency","S","Refunds of amounts credited to revenues in previous years",2134.00,2134.00
+2020,26,"Canada Border Services Agency","S","Spending of proceeds from the disposal of surplus Crown assets",401447.00,248533.00
+2020,29,"Canada Council for the Arts",1,"Payments to Crown Corps",365831145.00,365831145.00
+2020,29,"Canada Council for the Arts","S","Payments pursuant to the Public Health Events of National Concern Payments Act",62800000.00,62800000.00
+2020,42,"Canada Mortgage and Housing Corporation",1,"Payments to Crown Corps",3365462397.00,2876263646.00
+2020,42,"Canada Mortgage and Housing Corporation","S","Payments pursuant to the Public Health Events of National Concern Payments Act",2654236314.00,2654236314.00
+2020,44,"Canada Post Corporation",1,"Payments to Crown Corps",22210000.00,22209960.00
+2020,46,"Canada Revenue Agency",1,"Operating/Program",4379581838.00,3904606162.00
+2020,46,"Canada Revenue Agency",5,"Capital",89114115.00,76464375.00
+2020,46,"Canada Revenue Agency","S","Children's special allowance payments",381821812.00,381821812.00
+2020,46,"Canada Revenue Agency","S","Climate Action Incentive Payment",4546974222.00,4546974222.00
+2020,46,"Canada Revenue Agency","S","Contributions to employee benefit plans",585801011.00,585801011.00
+2020,46,"Canada Revenue Agency","S","Court Awards",4377507.00,4377507.00
+2020,46,"Canada Revenue Agency","S","Distribution of Fuel and Excess Emission Charges",18451056.00,18451056.00
+2020,46,"Canada Revenue Agency","S","Losses on Foreign Exchange",16393.00,16393.00
+2020,46,"Canada Revenue Agency","S","Payments pursuant to the Public Health Events of National Concern Payments Act",117142056.00,117142056.00
+2020,46,"Canada Revenue Agency","S","Salary and Motor Car Allowance",89200.00,89200.00
+2020,46,"Canada Revenue Agency","S","Spending of proceeds from the disposal of surplus Crown assets",92874.00,92874.00
+2020,46,"Canada Revenue Agency","S","Spending of revenues received through the conduct of its operations pursuant to section 60 of the Canada Revenue Agency Act",348161271.00,348161271.00
+2020,47,"Canada School of Public Service",1,"Operating/Program",70125158.00,68095613.00
+2020,47,"Canada School of Public Service","S","Contributions to employee benefit plans",9275429.00,9275429.00
+2020,47,"Canada School of Public Service","S","Spending of proceeds from the disposal of surplus Crown assets",642.00,449.00
+2020,47,"Canada School of Public Service","S","Spending of revenues pursuant to subsection 18(2) of the Canada School of Public Service Act",12528669.00,4911342.00
+2020,51,"Canadian Air Transport Security Authority",1,"Payments to Crown Corps",917728788.00,686325308.00
+2020,53,"Canadian Broadcasting Corporation",1,"Payments to Crown Corps",1291402479.00,1291402479.00
+2020,53,"Canadian Broadcasting Corporation",10,"Payments to Crown Corps",71513000.00,71513000.00
+2020,53,"Canadian Broadcasting Corporation",5,"Payments to Crown Corps",4000000.00,4000000.00
+2020,55,"Canadian Centre for Occupational Health and Safety",1,"Operating/Program",7469523.00,6557694.00
+2020,55,"Canadian Centre for Occupational Health and Safety","S","Contributions to employee benefit plans",1279977.00,1279977.00
+2020,55,"Canadian Centre for Occupational Health and Safety","S","Spending of Revenues pursuant to Section 6(1)(g) of the Canadian Centre for Occupational Health and Safety Act",12159240.00,3867982.00
+2020,61,"Canadian Dairy Commission",1,"Operating/Program",4576877.00,4576877.00
+2020,63,"Impact Assessment Agency of Canada",1,"Operating/Program",55280759.00,52204032.00
+2020,63,"Impact Assessment Agency of Canada",5,"Grants & Contributions",18939140.00,18438377.00
+2020,63,"Impact Assessment Agency of Canada","S","Contributions to employee benefit plans",6241080.00,6241080.00
+2020,65,"Canadian Food Inspection Agency",1,"Operating/Program",682570950.00,671065891.00
+2020,65,"Canadian Food Inspection Agency",5,"Capital",24921425.00,22383733.00
+2020,65,"Canadian Food Inspection Agency","S","Collection Agency Fees",9.00,9.00
+2020,65,"Canadian Food Inspection Agency","S","Compensation payments in accordance with requirements established by Regulations under the Health of Animals Act and the Plant Protection Act, and authorized pursuant to the Canadian Food Inspection Agency Act",10346580.00,10346580.00
+2020,65,"Canadian Food Inspection Agency","S","Contributions to employee benefit plans",75881687.00,75881687.00
+2020,65,"Canadian Food Inspection Agency","S","Refunds of amounts credited to revenues in previous years",11158.00,11158.00
+2020,65,"Canadian Food Inspection Agency","S","Spending of Revenues pursuant to Section 30 of the Canadian Food Inspection Agency Act",77483939.00,29669629.00
+2020,65,"Canadian Food Inspection Agency","S","Spending of proceeds from the disposal of surplus Crown assets",232683.00,204932.00
+2020,69,"Canadian Grain Commission",1,"Operating/Program",6161694.00,6136350.00
+2020,69,"Canadian Grain Commission","S","Canadian Grain Commission Revolving Fund",137297742.00,-18686462.00
+2020,69,"Canadian Grain Commission","S","Contributions to employee benefit plans",665500.00,665500.00
+2020,69,"Canadian Grain Commission","S","Spending of proceeds from the disposal of surplus Crown assets",38705.00,38705.00
+2020,71,"Canadian Human Rights Commission",1,"Operating/Program",31979174.00,27629936.00
+2020,71,"Canadian Human Rights Commission","S","Contributions to employee benefit plans",3369223.00,3369223.00
+2020,74,"Canadian Institutes of Health Research",1,"Operating/Program",59764670.00,56644229.00
+2020,74,"Canadian Institutes of Health Research",5,"Grants & Contributions",1348726872.00,1235880411.00
+2020,74,"Canadian Institutes of Health Research","S","Contributions to employee benefit plans",7307938.00,7307938.00
+2020,74,"Canadian Institutes of Health Research","S","Payments pursuant to the Public Health Events of National Concern Payments Act",203628982.00,203628982.00
+2020,76,"Canadian Intergovernmental Conference Secretariat",1,"Operating/Program",5942134.00,4285564.00
+2020,76,"Canadian Intergovernmental Conference Secretariat","S","Contributions to employee benefit plans",379679.00,379679.00
+2020,76,"Canadian Intergovernmental Conference Secretariat","S","Spending of proceeds from the disposal of surplus Crown assets",470.00,
+2020,81,"Canadian Museum for Human Rights",1,"Payments to Crown Corps",26980802.00,26980802.00
+2020,81,"Canadian Museum for Human Rights","S","Payments pursuant to the Public Health Events of National Concern Payments Act",2206586.00,2206586.00
+2020,82,"Canadian Museum of History",1,"Payments to Crown Corps",77269696.00,77269696.00
+2020,82,"Canadian Museum of History","S","Payments pursuant to the Public Health Events of National Concern Payments Act",4256563.00,4256563.00
+2020,84,"Canadian Museum of Immigration at Pier 21",1,"Payments to Crown Corps",8556693.00,8556693.00
+2020,84,"Canadian Museum of Immigration at Pier 21","S","Payments pursuant to the Public Health Events of National Concern Payments Act",2049575.00,2049575.00
+2020,85,"Canadian Museum of Nature",1,"Payments to Crown Corps",28975764.00,28975764.00
+2020,85,"Canadian Museum of Nature","S","Payments pursuant to the Public Health Events of National Concern Payments Act",5927263.00,5927263.00
+2020,86,"Canadian Northern Economic Development Agency",1,"Operating/Program",20629968.00,19782959.00
+2020,86,"Canadian Northern Economic Development Agency",5,"Grants & Contributions",95444516.00,74470328.00
+2020,86,"Canadian Northern Economic Development Agency","S","Contributions to employee benefit plans",1966046.00,1966046.00
+2020,86,"Canadian Northern Economic Development Agency","S","Payments pursuant to the Public Health Events of National Concern Payments Act",4999951.00,4999951.00
+2020,86,"Canadian Northern Economic Development Agency","S","Spending of proceeds from the disposal of surplus Crown assets",11174.00,
+2020,87,"Canadian Nuclear Safety Commission",1,"Operating/Program",42678051.00,34910780.00
+2020,87,"Canadian Nuclear Safety Commission","S","Contributions to employee benefit plans",13648457.00,13648457.00
+2020,87,"Canadian Nuclear Safety Commission","S","Spending of proceeds from the disposal of surplus Crown assets",19237.00,
+2020,87,"Canadian Nuclear Safety Commission","S","Spending of the revenues pursuant to section 21(3) of the Nuclear Safety and Control Act",96838652.00,90967784.00
+2020,93,"Canadian Radio-television and Telecommunications Commission",1,"Operating/Program",85443076.00,31390085.00
+2020,93,"Canadian Radio-television and Telecommunications Commission","S","Contributions to employee benefit plans",7945025.00,7945025.00
+2020,93,"Canadian Radio-television and Telecommunications Commission","S","Spending of proceeds from the disposal of surplus Crown assets",3510.00,
+2020,94,"Canadian Security Intelligence Service",1,"Operating/Program",664514653.00,627092654.00
+2020,94,"Canadian Security Intelligence Service","S","Contributions to employee benefit plans",49051187.00,49051187.00
+2020,94,"Canadian Security Intelligence Service","S","Spending of proceeds from the disposal of surplus Crown assets",1021415.00,755860.00
+2020,95,"Canadian Space Agency",1,"Operating/Program",204688180.00,191468491.00
+2020,95,"Canadian Space Agency",10,"Grants & Contributions",80294000.00,80239450.00
+2020,95,"Canadian Space Agency",5,"Capital",155522085.00,47804489.00
+2020,95,"Canadian Space Agency","S","Contributions to employee benefit plans",10897223.00,10897223.00
+2020,95,"Canadian Space Agency","S","Spending of proceeds from the disposal of surplus Crown assets",50063.00,
+2020,97,"Canadian Tourism Commission",1,"Payments to Crown Corps",96731606.00,95665913.00
+2020,98,"Canadian Transportation Accident Investigation and Safety Board",1,"Operating/Program",33429421.00,32362365.00
+2020,98,"Canadian Transportation Accident Investigation and Safety Board","S","Contributions to employee benefit plans",3947463.00,3947463.00
+2020,98,"Canadian Transportation Accident Investigation and Safety Board","S","Expenditures pursuant to Paragraph 29.1(1) of Financial Administration Act",13212.00,13212.00
+2020,98,"Canadian Transportation Accident Investigation and Safety Board","S","Spending of proceeds from the disposal of surplus Crown assets",74430.00,50722.00
+2020,99,"Canadian Transportation Agency",1,"Operating/Program",41429446.00,36759151.00
+2020,99,"Canadian Transportation Agency","S","Contributions to employee benefit plans",4629858.00,4629858.00
+2020,99,"Canadian Transportation Agency","S","Spending of proceeds from the disposal of surplus Crown assets",8220.00,8220.00
+2020,110,"Communications Security Establishment",1,"Operating/Program",748056291.00,733787856.00
+2020,110,"Communications Security Establishment","S","Contributions to employee benefit plans",45885813.00,45885813.00
+2020,110,"Communications Security Establishment","S","Losses on Foreign Exchange",4946.00,4946.00
+2020,110,"Communications Security Establishment","S","Refunds of amounts credited to revenues in previous years",365.00,365.00
+2020,110,"Communications Security Establishment","S","Spending of proceeds from the disposal of surplus Crown assets",16863.00,6563.00
+2020,114,"Copyright Board",1,"Operating/Program",4079594.00,3489970.00
+2020,114,"Copyright Board","S","Contributions to employee benefit plans",412418.00,412418.00
+2020,117,"Correctional Service of Canada",1,"Operating/Program",2750491717.00,2563319518.00
+2020,117,"Correctional Service of Canada",10,"Other",1.00,0.00
+2020,117,"Correctional Service of Canada",5,"Capital",200234151.00,121987099.00
+2020,117,"Correctional Service of Canada","S","CORCAN Revolving Fund",8879314.00,-3087183.00
+2020,117,"Correctional Service of Canada","S","Contributions to employee benefit plans",247789859.00,247789859.00
+2020,117,"Correctional Service of Canada","S","Refunds of amounts credited to revenues in previous years",10515.00,10515.00
+2020,117,"Correctional Service of Canada","S","Spending of proceeds from the disposal of surplus Crown assets",1401338.00,1196278.00
+2020,118,"Courts Administration Service",1,"Operating/Program",102788861.00,95358494.00
+2020,118,"Courts Administration Service","S","Contributions to employee benefit plans",9341124.00,9341124.00
+2020,118,"Courts Administration Service","S","Spending of proceeds from the disposal of surplus Crown assets",13511.00,3376.00
+2020,122,"Department of Canadian Heritage",1,"Operating/Program",225364056.00,216160906.00
+2020,122,"Department of Canadian Heritage",5,"Grants & Contributions",1367112583.00,1295750508.00
+2020,122,"Department of Canadian Heritage","S","Contributions to employee benefit plans",26302812.00,26302812.00
+2020,122,"Department of Canadian Heritage","S","Payments pursuant to the Public Health Events of National Concern Payments Act",420430389.00,420430389.00
+2020,122,"Department of Canadian Heritage","S","Payments under the Lieutenant Governors Superannuation Act",1021472.00,1021472.00
+2020,122,"Department of Canadian Heritage","S","Salaries of the Lieutenant Governors",1546402.00,1546402.00
+2020,122,"Department of Canadian Heritage","S","Salary and Motor Car Allowance",91200.00,91200.00
+2020,122,"Department of Canadian Heritage","S","Spending of proceeds from the disposal of surplus Crown assets",28767.00,14812.00
+2020,122,"Department of Canadian Heritage","S","Supplementary retirement benefits - Former Lieutenant Governors",223746.00,223746.00
+2020,123,"Department of Citizenship and Immigration",1,"Operating/Program",1203109510.00,1035081680.00
+2020,123,"Department of Citizenship and Immigration",10,"Grants & Contributions",1985585606.00,1699198193.00
+2020,123,"Department of Citizenship and Immigration",15,"Debt Forgiveness",6912.00,6911.00
+2020,123,"Department of Citizenship and Immigration",20,"Debt Forgiveness",311847.00,287807.00
+2020,123,"Department of Citizenship and Immigration",5,"Capital",38915148.00,14993379.00
+2020,123,"Department of Citizenship and Immigration","S","Contributions to employee benefit plans",93351331.00,93351331.00
+2020,123,"Department of Citizenship and Immigration","S","Fees returned in connection with a terminated application",140410.00,140410.00
+2020,123,"Department of Citizenship and Immigration","S","Fees returned in connection with a terminated application in Investor and Entrepreneur Classes",49280.00,49280.00
+2020,123,"Department of Citizenship and Immigration","S","Passport Canada Revolving Fund (Revolving Funds Act)",1171752878.00,307079052.00
+2020,123,"Department of Citizenship and Immigration","S","Refunds of amounts credited to revenues in previous years",9252600.00,9252600.00
+2020,123,"Department of Citizenship and Immigration","S","Salary and Motor Car Allowance",89200.00,89200.00
+2020,123,"Department of Citizenship and Immigration","S","Spending of proceeds from the disposal of surplus Crown assets",50316.00,42207.00
+2020,124,"Department of Finance",1,"Operating/Program",3441598415.00,3304039520.00
+2020,124,"Department of Finance",5,"Other",1.00,0.00
+2020,124,"Department of Finance","S","Alternative Payments for Standing Programs (Part VI - Federal-Provincial Fiscal Arrangements Act)",-4569544000.00,-4569544000.00
+2020,124,"Department of Finance","S","Canada Health Transfer (Part V.1 - Federal-Provincial Fiscal Arrangements Act)",41880173684.00,41880173684.00
+2020,124,"Department of Finance","S","Canada Social Transfer (Part V.1 - Federal-Provincial Fiscal Arrangements Act)",15023242000.00,15023242000.00
+2020,124,"Department of Finance","S","Canadian Regulatory Authority (Budget Implementation Act, 2009)",40330925.00,40330925.00
+2020,124,"Department of Finance","S","Contributions to employee benefit plans",13841721.00,13841721.00
+2020,124,"Department of Finance","S","Debt payments on behalf of poor countries to International Organizations pursuant to section 18(1) of the Economic Recovery Act",37894693.00,37894693.00
+2020,124,"Department of Finance","S","Fiscal Equalization (Part I - Federal-Provincial Fiscal Arrangements Act)",20572844000.00,20572844000.00
+2020,124,"Department of Finance","S","Interest on Unmatured Debt",15095811768.00,15095811768.00
+2020,124,"Department of Finance","S","Losses on Foreign Exchange",473305040.00,473305040.00
+2020,124,"Department of Finance","S","Other Interest Costs",5329760904.00,5329760904.00
+2020,124,"Department of Finance","S","Payment of liabilities previously recorded as revenue",16686279.00,16686279.00
+2020,124,"Department of Finance","S","Payment to the Canada Infrastructure Bank",52946747.00,52946747.00
+2020,124,"Department of Finance","S","Payments pursuant to the Public Health Events of National Concern Payments Act",10000000.00,10000000.00
+2020,124,"Department of Finance","S","Payments to International Development Association",423240000.00,423240000.00
+2020,124,"Department of Finance","S","Payments to depositors of Canadian Commercial Bank, CCB Mortgage Investment Corporation and Northland Bank pursuant to the Financial Institutions Depositors Compensation Act",68571831.00,
+2020,124,"Department of Finance","S","Purchase of Domestic Coinage",85749130.00,85749130.00
+2020,124,"Department of Finance","S","Salary and Motor Car Allowance",35810.00,35810.00
+2020,124,"Department of Finance","S","Significant and Systematic Economic and Financial Distress",16655725989.00,16655725989.00
+2020,124,"Department of Finance","S","Spending of proceeds from the disposal of surplus Crown assets",116.00,
+2020,124,"Department of Finance","S","Statutory Subsidies (Constitution Acts, 1867-1982, and other statutory authorities)",42639121.00,42639121.00
+2020,124,"Department of Finance","S","Statutory payments to the Canadian Commercial Corporation",4000000.00,4000000.00
+2020,124,"Department of Finance","S","Territorial Financing (Part I.1 - Federal-Provincial Fiscal Arrangements Act)",4180225221.00,4180225221.00
+2020,124,"Department of Finance","S","Youth Allowances Recovery (Federal-Provincial Fiscal Revision Act, 1964)",-1012720677.00,-1012720677.00
+2020,125,"Department of Fisheries and Oceans",1,"Operating/Program",2014535674.00,1960997640.00
+2020,125,"Department of Fisheries and Oceans",10,"Grants & Contributions",1004791184.00,291858397.00
+2020,125,"Department of Fisheries and Oceans",15,"Debt Forgiveness",3027875.00,3027874.00
+2020,125,"Department of Fisheries and Oceans",5,"Capital",1129771196.00,773359286.00
+2020,125,"Department of Fisheries and Oceans","S","Contributions to employee benefit plans",173592986.00,173592986.00
+2020,125,"Department of Fisheries and Oceans","S","Payments pursuant to the Public Health Events of National Concern Payments Act",140906182.00,140906182.00
+2020,125,"Department of Fisheries and Oceans","S","Refunds of amounts credited to revenues in previous years",134.00,134.00
+2020,125,"Department of Fisheries and Oceans","S","Salary and Motor Car Allowance",89200.00,89200.00
+2020,125,"Department of Fisheries and Oceans","S","Spending of proceeds from the disposal of surplus Crown assets",4361030.00,3155682.00
+2020,126,"Department of Foreign Affairs, Trade and Development",1,"Operating/Program",1982539960.00,1803126252.00
+2020,126,"Department of Foreign Affairs, Trade and Development",10,"Grants & Contributions",6810942883.00,6760167451.00
+2020,126,"Department of Foreign Affairs, Trade and Development",15,"Operating/Program",72371264.00,70997725.00
+2020,126,"Department of Foreign Affairs, Trade and Development",20,"Other",2.00,0.00
+2020,126,"Department of Foreign Affairs, Trade and Development",5,"Capital",185777363.00,105479609.00
+2020,126,"Department of Foreign Affairs, Trade and Development","S","Contributions to employee benefit plans",128074453.00,128074453.00
+2020,126,"Department of Foreign Affairs, Trade and Development","S","Losses on Foreign Exchange",157727666.00,157727666.00
+2020,126,"Department of Foreign Affairs, Trade and Development","S","Payments pursuant to the Public Health Events of National Concern Payments Act",54862817.00,54862817.00
+2020,126,"Department of Foreign Affairs, Trade and Development","S","Payments to International Financial Institutions - Direct payments",260230820.00,260230820.00
+2020,126,"Department of Foreign Affairs, Trade and Development","S","Payments under the Diplomatic Service (Special) Superannuation Act",772101.00,772101.00
+2020,126,"Department of Foreign Affairs, Trade and Development","S","Pursuant to section 24.1 of the Financial Administration Act, to forgive an amount up to $449,533,044 owed by the Government of the Islamic Republic of Pakistan, in relation to loan agreements, subject to the conditions described in the Memorandum of Understanding signed on April 20, 2006 between the Government of Canada and the Government of the Islamic Republic of Pakistan",22187530.00,
+2020,126,"Department of Foreign Affairs, Trade and Development","S","Refunds of amounts credited to revenues in previous years",562.00,562.00
+2020,126,"Department of Foreign Affairs, Trade and Development","S","Salary and Motor Car Allowance",267440.00,267440.00
+2020,126,"Department of Foreign Affairs, Trade and Development","S","Spending of proceeds from the disposal of surplus Crown assets",1456840.00,
+2020,127,"Department of Health",1,"Operating/Program",1316670992.00,911711901.00
+2020,127,"Department of Health",10,"Grants & Contributions",2101444801.00,1890155714.00
+2020,127,"Department of Health",5,"Capital",21307370.00,18964138.00
+2020,127,"Department of Health","S","Collection Agency Fees",15128.00,15128.00
+2020,127,"Department of Health","S","Contributions to employee benefit plans",121770044.00,121770044.00
+2020,127,"Department of Health","S","Payment pursuant to section 24(1) of the Financial Administration Act",46000.00,46000.00
+2020,127,"Department of Health","S","Payments for investments in long-term care pursuant to the Economic Statement Implementation Act, 2020",,
+2020,127,"Department of Health","S","Payments for medical research, countermeasures, vaccine funding and development, border and travel measures and isolation sites pursuant to the Economic Statement Implementation Act, 2020",,
+2020,127,"Department of Health","S","Payments for mental health and substance use in the context of COVID-19 pursuant to the Economic Statement Implementation Act, 2020",,
+2020,127,"Department of Health","S","Payments for supporting innovative approaches to COVID-19 testing pursuant to the Economic Statement Implementation Act, 2020",,
+2020,127,"Department of Health","S","Payments for virtual care and mental health tools for Canadians pursuant to the Economic Statement Implementation Act, 2020",,
+2020,127,"Department of Health","S","Payments pursuant to the Public Health Events of National Concern Payments Act",50574675.00,50574675.00
+2020,127,"Department of Health","S","Salary and Motor Car Allowance",89200.00,89200.00
+2020,127,"Department of Health","S","Spending of proceeds from the disposal of surplus Crown assets",205647.00,123163.00
+2020,127,"Department of Health","S","Spending of revenues from other departments for which the Minister is responsible, pursuant to subsection 4.2(4) of the Department of Health Act",123202980.00,123202980.00
+2020,128,"Department of Employment and Social Development",1,"Operating/Program",972687959.00,919087621.00
+2020,128,"Department of Employment and Social Development",10,"Debt Forgiveness",25065.00,24904.00
+2020,128,"Department of Employment and Social Development",15,"Debt Forgiveness",188099201.00,185536473.00
+2020,128,"Department of Employment and Social Development",5,"Grants & Contributions",3277783411.00,3037668779.00
+2020,128,"Department of Employment and Social Development","S","Allowance payments (Old Age Security Act)",572156858.00,572156858.00
+2020,128,"Department of Employment and Social Development","S","Benefit enhancement measures for the Employment Insurance Operating Account",27331431907.00,27331431907.00
+2020,128,"Department of Employment and Social Development","S","Canada Disability Savings Bond payments to Registered Disability Savings Plan issuers on behalf of Registered Disability Savings Plan beneficiaries to encourage long-term financial security of eligible individuals with disabilities",139813480.00,139813480.00
+2020,128,"Department of Employment and Social Development","S","Canada Disability Savings Grant payments to Registered Disability Savings Plan issuers on behalf of Registered Disability Savings Plan beneficiaries to encourage long-term financial security of eligible individuals disabilities",406524376.00,406524376.00
+2020,128,"Department of Employment and Social Development","S","Canada Education Savings grant payments to Registered Educations Savings Plans (RESPs) trustees on behalf of RESP beneficiaries to encourage Canadians to save for post-secondary education for their children",1016678793.00,1016678793.00
+2020,128,"Department of Employment and Social Development","S","Canada Learning Bond payments to Registered Education Savings Plan trustees on behalf of Registered Education Savings Plan beneficiaries to support access to post-secondary education for children from low-income families",156403301.00,156403301.00
+2020,128,"Department of Employment and Social Development","S","Canada Student Grants to qualifying full and part-time students pursuant to the Canada Student Financial Assistance Act",2920803871.00,2920803871.00
+2020,128,"Department of Employment and Social Development","S","Civil Service Insurance actuarial liability adjustments",,
+2020,128,"Department of Employment and Social Development","S","Contributions to employee benefit plans",347465813.00,347465813.00
+2020,128,"Department of Employment and Social Development","S","Contributions to employee benefit plans",797053637.00,797053637.00
+2020,128,"Department of Employment and Social Development","S","Guaranteed Income Supplement Payments (Old Age Security Act)",13685088912.00,13685088912.00
+2020,128,"Department of Employment and Social Development","S","Old Age Security payments (Old Age Security Act)",44382661808.00,44382661808.00
+2020,128,"Department of Employment and Social Development","S","Payments for the Canada Emergency Response Benefit pursuant to the Economic Statement Implementation Act, 2020",,
+2020,128,"Department of Employment and Social Development","S","Payments for the Temporary Foreign Worker Program pursuant to the the Public Health Events of National Concern Payments Act",2777000.00,2777000.00
+2020,128,"Department of Employment and Social Development","S","Payments of compensation respecting government employees (Government Employees Compensation Act) and merchant seamen (Merchant Seamen Compensation Act)",15162821.00,15162821.00
+2020,128,"Department of Employment and Social Development","S","Payments pursuant to the Canada Recovery Benefits Act",16850095779.00,16850095779.00
+2020,128,"Department of Employment and Social Development","S","Payments pursuant to the Public Health Events of National Concern Payments Act",48868264246.00,48868264246.00
+2020,128,"Department of Employment and Social Development","S","Payments related to the direct financing arrangement under the Apprentice Loans Act",1541198.00,1541198.00
+2020,128,"Department of Employment and Social Development","S","Payments related to the direct financing arrangement under the Canada Student Financial Assistance Act",749443316.00,749443316.00
+2020,128,"Department of Employment and Social Development","S","Refunds of amounts credited to revenues in previous years",1417056.00,1417056.00
+2020,128,"Department of Employment and Social Development","S","Salary and Motor Car Allowance",269600.00,269600.00
+2020,128,"Department of Employment and Social Development","S","Spending of Revenues pursuant to subsection 5.2(2) of the Department of Employment and Social Development Act",180277981.00,180137649.00
+2020,128,"Department of Employment and Social Development","S","Spending of proceeds from the disposal of surplus Crown assets",219385.00,98931.00
+2020,128,"Department of Employment and Social Development","S","Spending pursuant to section 12(4) of the Canada Education Savings Act",1802361.00,779798.00
+2020,128,"Department of Employment and Social Development","S","The provision of funds for interest and other payments to lending institutions and liabilities under the Canada Student Financial Assistance Act",10023033.00,10023033.00
+2020,128,"Department of Employment and Social Development","S","The provision of funds for interest payments to lending institutions under the Canada Student Loans Act",74873.00,74873.00
+2020,128,"Department of Employment and Social Development","S","The provision of funds for liabilities including liabilities in the form of guaranteed loans under the Canada Student Loans Act",-1071607.00,-1071607.00
+2020,128,"Department of Employment and Social Development","S","Universal Child Care Benefit (Universal Child Care Benefit Act)",-684860.00,-684860.00
+2020,128,"Department of Employment and Social Development","S","Wage Earner Protection Program payments to eligible applicants owed wages and vacation pay, severance pay and termination pay from employers who are either bankrupt or in receivership as well as payments to trustees and receivers who will provide the necessary information to determine eligibility",60577250.00,60577250.00
+2020,129,"Department of Crown-Indigenous Relations and Northern Affairs",1,"Operating/Program",2416407340.00,1386741067.00
+2020,129,"Department of Crown-Indigenous Relations and Northern Affairs",10,"Grants & Contributions",4288345940.00,3838444460.00
+2020,129,"Department of Crown-Indigenous Relations and Northern Affairs",5,"Capital",4188709.00,2423122.00
+2020,129,"Department of Crown-Indigenous Relations and Northern Affairs","S","Contributions to employee benefit plans",27481131.00,27481131.00
+2020,129,"Department of Crown-Indigenous Relations and Northern Affairs","S","Court Awards",41000.00,41000.00
+2020,129,"Department of Crown-Indigenous Relations and Northern Affairs","S","Grants to Aboriginal organizations designated to receive claim settlement payments pursuant to Comprehensive Land Settlement Acts",20569162.00,20569162.00
+2020,129,"Department of Crown-Indigenous Relations and Northern Affairs","S","Grassy Narrows and Islington Bands Mercury Disability Board",,
+2020,129,"Department of Crown-Indigenous Relations and Northern Affairs","S","Payments pursuant to the Public Health Events of National Concern Payments Act",114900000.00,114900000.00
+2020,129,"Department of Crown-Indigenous Relations and Northern Affairs","S","Payments to comprehensive claim beneficiaries in compensation for resource royalties",,
+2020,129,"Department of Crown-Indigenous Relations and Northern Affairs","S","Refunds of amounts credited to revenues in previous years",243195.00,243195.00
+2020,129,"Department of Crown-Indigenous Relations and Northern Affairs","S","Salary and Motor Car Allowance",178400.00,178400.00
+2020,129,"Department of Crown-Indigenous Relations and Northern Affairs","S","Spending of proceeds from the disposal of surplus Crown assets",46629.00,20496.00
+2020,130,"Department of Industry",1,"Operating/Program",525626646.00,501015509.00
+2020,130,"Department of Industry",10,"Grants & Contributions",3186014879.00,2136396422.00
+2020,130,"Department of Industry",5,"Capital",9643290.00,9103002.00
+2020,130,"Department of Industry","S","Canadian Intellectual Property Office Revolving Fund",114767070.00,14186051.00
+2020,130,"Department of Industry","S","Contributions to employee benefit plans",63807327.00,63807327.00
+2020,130,"Department of Industry","S","Contributions to the Canadian Institute for Advanced Research - Pan Canadian Artificial Intelligence",21562650.00,21562650.00
+2020,130,"Department of Industry","S","Liabilities under the Canada Small Business Financing Act",86108346.00,86108346.00
+2020,130,"Department of Industry","S","Payments for the Community Futures Network pursuant to the Economic Statement Implementation Act, 2020",,
+2020,130,"Department of Industry","S","Payments pursuant to the Public Health Events of National Concern Payments Act",20139442.00,20139442.00
+2020,130,"Department of Industry","S","Payments to provide financing support to small and medium-sized businesses pursuant to the Economic Statement Implementation Act, 2020",,
+2020,130,"Department of Industry","S","Refunds of amounts credited to revenues in previous years",514105.00,514105.00
+2020,130,"Department of Industry","S","Salary and Motor Car Allowance",178799.00,178799.00
+2020,130,"Department of Industry","S","Spending of proceeds from the disposal of surplus Crown assets",252498.00,165860.00
+2020,132,"Department of Justice",1,"Operating/Program",348772627.00,299754096.00
+2020,132,"Department of Justice",5,"Grants & Contributions",458202423.00,447525686.00
+2020,132,"Department of Justice","S","Contributions to employee benefit plans",85435552.00,85435552.00
+2020,132,"Department of Justice","S","Refunds of amounts credited to revenues in previous years",16242.00,16242.00
+2020,132,"Department of Justice","S","Salary and Motor Car Allowance",89200.00,89200.00
+2020,132,"Department of Justice","S","Spending of proceeds from the disposal of surplus Crown assets",33603.00,32369.00
+2020,133,"Department of National Defence",1,"Operating/Program",17188161133.00,16839291341.00
+2020,133,"Department of National Defence",10,"Grants & Contributions",279590903.00,263295574.00
+2020,133,"Department of National Defence",15,"Operating/Program",423388673.00,417577865.00
+2020,133,"Department of National Defence",20,"Debt Forgiveness",17188.00,0.00
+2020,133,"Department of National Defence",25,"Debt Forgiveness",16686.00,0.00
+2020,133,"Department of National Defence",5,"Capital",5808835114.00,4953763025.00
+2020,133,"Department of National Defence","S","Contributions to employee benefit plans",320321132.00,320321132.00
+2020,133,"Department of National Defence","S","Contributions to employee benefit plans (Members of the Military)",4016577703.00,4016577703.00
+2020,133,"Department of National Defence","S","Losses on Foreign Exchange",28088.00,28088.00
+2020,133,"Department of National Defence","S","Payments to dependants of certain members of the Royal Canadian Air Force killed while serving as instructors under British Commonwealth Air Training Plan (Appropriation Act No. 4, 1968)",26265.00,26265.00
+2020,133,"Department of National Defence","S","Payments under Parts I-IV of the Defence Services Pension Continuation Act",167059.00,167059.00
+2020,133,"Department of National Defence","S","Payments under the Supplementary Retirement Benefits Act",789862.00,789862.00
+2020,133,"Department of National Defence","S","Salary and Motor Car Allowance",89200.00,89200.00
+2020,133,"Department of National Defence","S","Spending of proceeds from the disposal of surplus Crown assets",15553419.00,15110723.00
+2020,134,"Department of Natural Resources",1,"Operating/Program",647088023.00,610014093.00
+2020,134,"Department of Natural Resources",10,"Grants & Contributions",823663615.00,472196692.00
+2020,134,"Department of Natural Resources",5,"Capital",16559513.00,12558619.00
+2020,134,"Department of Natural Resources","S","Climate Action Support Payments (Energy Manager Program and Clean Energy for Rural and Remote Communities Program)",2702861.00,2702861.00
+2020,134,"Department of Natural Resources","S","Contribution to the Canada/Newfoundland Offshore Petroleum Board",722583.00,722583.00
+2020,134,"Department of Natural Resources","S","Contribution to the Canada/Nova Scotia Offshore Petroleum Board",-46055.00,-46055.00
+2020,134,"Department of Natural Resources","S","Contributions to employee benefit plans",61823487.00,61823487.00
+2020,134,"Department of Natural Resources","S","Geomatics Canada Revolving Fund",6172998.00,-1616411.00
+2020,134,"Department of Natural Resources","S","Payments pursuant to the Public Health Events of National Concern Payments Act",14522803.00,14522803.00
+2020,134,"Department of Natural Resources","S","Payments to the Newfoundland Offshore Petroleum Resource Revenue Fund",211837167.00,211837167.00
+2020,134,"Department of Natural Resources","S","Payments to the Nova Scotia Offshore Revenue Account",16964221.00,16964221.00
+2020,134,"Department of Natural Resources","S","Salary and Motor Car Allowance",89200.00,89200.00
+2020,134,"Department of Natural Resources","S","Spending of proceeds from the disposal of surplus Crown assets",202252.00,64252.00
+2020,135,"Department of Public Safety and Emergency Preparedness",1,"Operating/Program",164856332.00,157826692.00
+2020,135,"Department of Public Safety and Emergency Preparedness",5,"Grants & Contributions",650183911.00,562480482.00
+2020,135,"Department of Public Safety and Emergency Preparedness","S","Contributions to employee benefit plans",17517659.00,17517659.00
+2020,135,"Department of Public Safety and Emergency Preparedness","S","Payments pursuant to the Public Health Events of National Concern Payments Act",39459600.00,39459600.00
+2020,135,"Department of Public Safety and Emergency Preparedness","S","Salary and Motor Car Allowance",89200.00,89200.00
+2020,135,"Department of Public Safety and Emergency Preparedness","S","Spending of proceeds from the disposal of surplus Crown assets",34791.00,
+2020,136,"Department of Public Works and Government Services",1,"Operating/Program",3759079753.00,2857756117.00
+2020,136,"Department of Public Works and Government Services",5,"Capital",1584605345.00,1150463966.00
+2020,136,"Department of Public Works and Government Services","S","Contributions to employee benefit plans",164137954.00,164137954.00
+2020,136,"Department of Public Works and Government Services","S","Defence Production Revolving Fund",100000000.00,
+2020,136,"Department of Public Works and Government Services","S","Optional Services Revolving Fund",37170641.00,18636678.00
+2020,136,"Department of Public Works and Government Services","S","Payment in lieu of taxes to municipalities and other taxing authorities",35614948.00,35614948.00
+2020,136,"Department of Public Works and Government Services","S","Payments pursuant to the Public Health Events of National Concern Payments Act",220005388.00,220005388.00
+2020,136,"Department of Public Works and Government Services","S","Real Property Services Revolving Fund",208636408.00,-16236119.00
+2020,136,"Department of Public Works and Government Services","S","Salary and Motor Car Allowance",89200.00,89200.00
+2020,136,"Department of Public Works and Government Services","S","Spending of proceeds from the disposal of surplus Crown assets",685705.00,294067.00
+2020,136,"Department of Public Works and Government Services","S","Translation Bureau Revolving Fund",46492414.00,16108748.00
+2020,137,"Department of the Environment",1,"Operating/Program",928440461.00,913485581.00
+2020,137,"Department of the Environment",10,"Grants & Contributions",878014205.00,548478199.00
+2020,137,"Department of the Environment",5,"Capital",104909261.00,75643015.00
+2020,137,"Department of the Environment","S","Climate Action Support Payments (Climate Action Incentive Fund)",95181916.00,95181916.00
+2020,137,"Department of the Environment","S","Contributions to employee benefit plans",102530290.00,102530290.00
+2020,137,"Department of the Environment","S","Payments pursuant to the Public Health Events of National Concern Payments Act",11262252.00,11262252.00
+2020,137,"Department of the Environment","S","Salary and Motor Car Allowance",89200.00,89200.00
+2020,137,"Department of the Environment","S","Spending of proceeds from the disposal of surplus Crown assets",730092.00,116135.00
+2020,138,"Department of Transport",1,"Operating/Program",837007995.00,783300811.00
+2020,138,"Department of Transport",10,"Grants & Contributions",863210540.00,384402308.00
+2020,138,"Department of Transport",15,"Grants & Contributions",237341901.00,182496908.00
+2020,138,"Department of Transport",20,"Grants & Contributions",64395213.00,21478338.00
+2020,138,"Department of Transport",5,"Capital",357791027.00,248383904.00
+2020,138,"Department of Transport","S","Contributions to employee benefit plans",92278976.00,92278976.00
+2020,138,"Department of Transport","S","Court Awards",3500.00,3500.00
+2020,138,"Department of Transport","S","Northumberland Strait Crossing Subsidy Payment under the Northumberland Strait Crossing Act",68603289.00,68603289.00
+2020,138,"Department of Transport","S","Payments in respect of St. Lawrence Seaway agreements under the Canada Marine Act",72894839.00,72894839.00
+2020,138,"Department of Transport","S","Payments to the Canadian National Railway Company in respect of the termination of the collection of tolls on the Victoria Bridge, Montreal and for rehabilitation work on the portion of the bridge",3300000.00,3300000.00
+2020,138,"Department of Transport","S","Refunds of amounts credited to revenues in previous years",38586030.00,38586030.00
+2020,138,"Department of Transport","S","Salary and Motor Car Allowance",89200.00,89200.00
+2020,138,"Department of Transport","S","Spending of proceeds from the disposal of surplus Crown assets",4633170.00,1346585.00
+2020,139,"Department of Veterans Affairs",1,"Operating/Program",1230944800.00,1084358047.00
+2020,139,"Department of Veterans Affairs",5,"Grants & Contributions",4155647628.00,3667732300.00
+2020,139,"Department of Veterans Affairs","S","Contributions to employee benefit plans",45024888.00,45024888.00
+2020,139,"Department of Veterans Affairs","S","Court Awards",1162.00,1162.00
+2020,139,"Department of Veterans Affairs","S","Losses on Foreign Exchange",483.00,483.00
+2020,139,"Department of Veterans Affairs","S","Payments pursuant to the Public Health Events of National Concern Payments Act",19999420.00,19999420.00
+2020,139,"Department of Veterans Affairs","S","Re-establishment credits under section 8 of the War Service Grants Act",,
+2020,139,"Department of Veterans Affairs","S","Refunds of amounts credited to revenues in previous years",19393963.00,19393963.00
+2020,139,"Department of Veterans Affairs","S","Repayments under section 15 of the War Service Grants Act of compensating adjustments made in accordance with the terms of the Veterans' Land Act",,
+2020,139,"Department of Veterans Affairs","S","Returned Soldiers Insurance Actuarial Liability Adjustment",,
+2020,139,"Department of Veterans Affairs","S","Salary and Motor Car Allowance",89200.00,89200.00
+2020,139,"Department of Veterans Affairs","S","Spending of proceeds from the disposal of surplus Crown assets",32491.00,491.00
+2020,139,"Department of Veterans Affairs","S","Veterans Insurance Actuarial Liability Adjustment",33549.00,33549.00
+2020,140,"Department of Western Economic Diversification",1,"Operating/Program",52974033.00,47239007.00
+2020,140,"Department of Western Economic Diversification",5,"Grants & Contributions",526561434.00,382482600.00
+2020,140,"Department of Western Economic Diversification","S","Contributions to employee benefit plans",5381397.00,5381397.00
+2020,140,"Department of Western Economic Diversification","S","Payments for the Community Futures Network pursuant to the Economic Statement Implementation Act, 2020",,
+2020,140,"Department of Western Economic Diversification","S","Payments pursuant to the Public Health Events of National Concern Payments Act",472394942.00,472394942.00
+2020,140,"Department of Western Economic Diversification","S","Payments to provide financing support to small and medium-sized businesses pursuant to the Economic Statement Implementation Act, 2020",,
+2020,140,"Department of Western Economic Diversification","S","Spending of proceeds from the disposal of surplus Crown assets",7.00,
+2020,141,"Economic Development Agency of Canada for the Regions of Quebec",1,"Operating/Program",44039502.00,43583309.00
+2020,141,"Economic Development Agency of Canada for the Regions of Quebec",5,"Grants & Contributions",474919288.00,411427225.00
+2020,141,"Economic Development Agency of Canada for the Regions of Quebec","S","Contributions to employee benefit plans",4979954.00,4979954.00
+2020,141,"Economic Development Agency of Canada for the Regions of Quebec","S","Payments pursuant to the Public Health Events of National Concern Payments Act",90380296.00,90380296.00
+2020,141,"Economic Development Agency of Canada for the Regions of Quebec","S","Spending of proceeds from the disposal of surplus Crown assets",5374.00,5115.00
+2020,146,"Export Development Canada (Canada Account)","S","Administrative fees",149546653.00,149546653.00
+2020,146,"Export Development Canada (Canada Account)","S","Losses on Foreign Exchange",103471372.00,103471372.00
+2020,148,"The Federal Bridge Corporation Limited",1,"Payments to Crown Corps",8292020.00,4581003.00
+2020,148,"The Federal Bridge Corporation Limited","S","Payments pursuant to the Public Health Events of National Concern Payments Act",1480387.00,1480387.00
+2020,150,"Federal Economic Development Agency for Southern Ontario",1,"Operating/Program",37401325.00,33652330.00
+2020,150,"Federal Economic Development Agency for Southern Ontario",5,"Grants & Contributions",417473725.00,417473725.00
+2020,150,"Federal Economic Development Agency for Southern Ontario","S","Contributions to employee benefit plans",4100587.00,4100587.00
+2020,150,"Federal Economic Development Agency for Southern Ontario","S","Payments pursuant to the Public Health Events of National Concern Payments Act",237519853.00,237519853.00
+2020,150,"Federal Economic Development Agency for Southern Ontario","S","Spending of proceeds from the disposal of surplus Crown assets",33827.00,
+2020,151,"Financial Consumer Agency of Canada","S","Payments under section 13 of the Financial Consumer Agency of Canada Act",35035905.00,35035905.00
+2020,151,"Financial Consumer Agency of Canada","S","Spending of proceeds from the disposal of surplus Crown assets",92.00,92.00
+2020,152,"Financial Transactions and Reports Analysis Centre of Canada",1,"Operating/Program",74404303.00,55832070.00
+2020,152,"Financial Transactions and Reports Analysis Centre of Canada","S","Contributions to employee benefit plans",5878884.00,5878884.00
+2020,152,"Financial Transactions and Reports Analysis Centre of Canada","S","Spending of proceeds from the disposal of surplus Crown assets",25.00,
+2020,174,"Immigration and Refugee Board",1,"Operating/Program",269979388.00,219871701.00
+2020,174,"Immigration and Refugee Board","S","Contributions to employee benefit plans",24887045.00,24887045.00
+2020,174,"Immigration and Refugee Board","S","Spending of proceeds from the disposal of surplus Crown assets",243.00,243.00
+2020,186,"International Development Research Centre",1,"Payments to Crown Corps",145652683.00,145652683.00
+2020,189,"International Joint Commission (Canadian Section)",1,"Operating/Program",12711659.00,8324413.00
+2020,189,"International Joint Commission (Canadian Section)","S","Contributions to employee benefit plans",650826.00,650826.00
+2020,194,"The Jacques-Cartier and Champlain Bridges Inc.",1,"Payments to Crown Corps",327620136.00,232073141.00
+2020,199,"Library and Archives of Canada",1,"Operating/Program",116844827.00,107453275.00
+2020,199,"Library and Archives of Canada",5,"Capital",22181451.00,10450060.00
+2020,199,"Library and Archives of Canada","S","Contributions to employee benefit plans",12473019.00,12473019.00
+2020,199,"Library and Archives of Canada","S","Spending of proceeds from the disposal of surplus Crown assets",4790.00,2852.00
+2020,200,"Library of Parliament",1,"Operating/Program",47955217.00,43407851.00
+2020,200,"Library of Parliament","S","Contributions to employee benefit plans",5067491.00,5067491.00
+2020,202,"Marine Atlantic Inc.",1,"Payments to Crown Corps",142576235.00,140567000.00
+2020,209,"Military Grievances External Review Committee",1,"Operating/Program",6848341.00,6392704.00
+2020,209,"Military Grievances External Review Committee","S","Contributions to employee benefit plans",802516.00,802516.00
+2020,210,"Military Police Complaints Commission",1,"Operating/Program",4669696.00,4479351.00
+2020,210,"Military Police Complaints Commission","S","Contributions to employee benefit plans",467324.00,467324.00
+2020,210,"Military Police Complaints Commission","S","Spending of proceeds from the disposal of surplus Crown assets",78.00,
+2020,217,"National Arts Centre Corporation",1,"Payments to Crown Corps",41038129.00,41038129.00
+2020,217,"National Arts Centre Corporation","S","Payments pursuant to the Public Health Events of National Concern Payments Act",18200000.00,18200000.00
+2020,218,"The National Battlefields Commission",1,"Operating/Program",7091302.00,6552597.00
+2020,218,"The National Battlefields Commission","S","Contributions to employee benefit plans",464737.00,464737.00
+2020,218,"The National Battlefields Commission","S","Expenditures pursuant to Paragraph 29.1(1) of Financial Administration Act",1286499.00,1286499.00
+2020,218,"The National Battlefields Commission","S","Payments pursuant to the Public Health Events of National Concern Payments Act",1112328.00,1112328.00
+2020,219,"National Capital Commission",1,"Payments to Crown Corps",83394839.00,83394839.00
+2020,219,"National Capital Commission",5,"Payments to Crown Corps",70318549.00,70318548.00
+2020,221,"Canadian Energy Regulator",1,"Operating/Program",96713909.00,88342824.00
+2020,221,"Canadian Energy Regulator","S","Contributions to employee benefit plans",10248179.00,10248179.00
+2020,221,"Canadian Energy Regulator","S","Payment pursuant to section 24(1) of the Financial Administration Act",1241925.00,1241925.00
+2020,221,"Canadian Energy Regulator","S","Spending of proceeds from the disposal of surplus Crown assets",999.00,
+2020,223,"National Film Board",1,"Operating/Program",72905667.00,71466546.00
+2020,223,"National Film Board","S","National Film Board Revolving Fund",10108455.00,283376.00
+2020,224,"National Gallery of Canada",1,"Payments to Crown Corps",41681928.00,41681928.00
+2020,224,"National Gallery of Canada",5,"Payments to Crown Corps",8000000.00,8000000.00
+2020,224,"National Gallery of Canada","S","Payments pursuant to the Public Health Events of National Concern Payments Act",4808711.00,4808711.00
+2020,226,"National Museum of Science and Technology",1,"Payments to Crown Corps",33205991.00,33205991.00
+2020,226,"National Museum of Science and Technology","S","Payments pursuant to the Public Health Events of National Concern Payments Act",5338974.00,5338974.00
+2020,227,"Parole Board of Canada",1,"Operating/Program",52839002.00,50927331.00
+2020,227,"Parole Board of Canada","S","Contributions to employee benefit plans",6762866.00,6762866.00
+2020,227,"Parole Board of Canada","S","Court Awards",6585.00,6585.00
+2020,227,"Parole Board of Canada","S","Refunds of amounts credited to revenues in previous years",631.00,631.00
+2020,227,"Parole Board of Canada","S","Spending of proceeds from the disposal of surplus Crown assets",47550.00,47550.00
+2020,228,"National Research Council of Canada",1,"Operating/Program",520161101.00,494058198.00
+2020,228,"National Research Council of Canada",10,"Grants & Contributions",699979688.00,572201082.00
+2020,228,"National Research Council of Canada",5,"Capital",159665938.00,103335651.00
+2020,228,"National Research Council of Canada","S","Contributions to employee benefit plans",65976712.00,65976712.00
+2020,228,"National Research Council of Canada","S","Losses on Foreign Exchange",168275.00,168275.00
+2020,228,"National Research Council of Canada","S","Payments pursuant to the Public Health Events of National Concern Payments Act",275033963.00,275033963.00
+2020,228,"National Research Council of Canada","S","Spending of proceeds from the disposal of surplus Crown assets",433896.00,397937.00
+2020,228,"National Research Council of Canada","S","Spending of revenues pursuant to paragraph 5(1)(e) of the National Research Council Act",255268864.00,137483495.00
+2020,230,"Natural Sciences and Engineering Research Council",1,"Operating/Program",57979511.00,55332505.00
+2020,230,"Natural Sciences and Engineering Research Council",5,"Grants & Contributions",1314086883.00,1311770862.00
+2020,230,"Natural Sciences and Engineering Research Council","S","Contributions to employee benefit plans",6384147.00,6384147.00
+2020,230,"Natural Sciences and Engineering Research Council","S","Payments pursuant to the Public Health Events of National Concern Payments Act",114857813.00,114857813.00
+2020,230,"Natural Sciences and Engineering Research Council","S","Spending of Revenues pursuant to subsection 4.2 of the Natural Sciences and Engineering Research Council Act",129927.00,129927.00
+2020,230,"Natural Sciences and Engineering Research Council","S","Spending of proceeds from the disposal of surplus Crown assets",1073.00,
+2020,235,"Northern Pipeline Agency",1,"Operating/Program",1055000.00,228027.00
+2020,235,"Northern Pipeline Agency","S","Contributions to employee benefit plans",8142.00,8142.00
+2020,237,"Office of Infrastructure of Canada",1,"Operating/Program",197393340.00,158734609.00
+2020,237,"Office of Infrastructure of Canada",10,"Grants & Contributions",5514189924.00,3130132366.00
+2020,237,"Office of Infrastructure of Canada",5,"Capital",148375795.00,22813640.00
+2020,237,"Office of Infrastructure of Canada","S","Contributions related to the Canada Community-Building Fund (Keeping Canada's Economy and Jobs Growing Act)",2170315887.00,2170315887.00
+2020,237,"Office of Infrastructure of Canada","S","Contributions to employee benefit plans",10302190.00,10302190.00
+2020,237,"Office of Infrastructure of Canada","S","Salary and Motor Car Allowance",89200.00,89200.00
+2020,237,"Office of Infrastructure of Canada","S","Spending of proceeds from the disposal of surplus Crown assets",12160.00,
+2020,238,"Office of the Auditor General",1,"Operating/Program",96279347.00,89618623.00
+2020,238,"Office of the Auditor General","S","Contributions to employee benefit plans",10509041.00,10509041.00
+2020,238,"Office of the Auditor General","S","Spending of proceeds from the disposal of surplus Crown assets",1486.00,1041.00
+2020,239,"Office of the Chief Electoral Officer",1,"Operating/Program",53786108.00,51533545.00
+2020,239,"Office of the Chief Electoral Officer","S","Contributions to employee benefit plans",12541187.00,12541187.00
+2020,239,"Office of the Chief Electoral Officer","S","Electoral expenditures",144113278.00,144113278.00
+2020,239,"Office of the Chief Electoral Officer","S","Expenses under Electoral Boundary Readjustment Act",303195.00,303195.00
+2020,239,"Office of the Chief Electoral Officer","S","Salary of the Chief Electoral Officer",338956.00,338956.00
+2020,240,"Office of the Commissioner for Federal Judicial Affairs",1,"Operating/Program",11018853.00,10122935.00
+2020,240,"Office of the Commissioner for Federal Judicial Affairs",5,"Operating/Program",4351362.00,2563557.00
+2020,240,"Office of the Commissioner for Federal Judicial Affairs","S","Contributions to employee benefit plans",956416.00,956416.00
+2020,240,"Office of the Commissioner for Federal Judicial Affairs","S","Judges' salaries, allowances and annuities, annuities to spouses and children of judges and lump sum payments to spouses of judges who die while in office",613473724.00,613473724.00
+2020,241,"Office of the Commissioner of Lobbying",1,"Operating/Program",4506132.00,4431312.00
+2020,241,"Office of the Commissioner of Lobbying","S","Contributions to employee benefit plans",457066.00,457066.00
+2020,242,"Office of the Commissioner of Official Languages",1,"Operating/Program",21663707.00,20152445.00
+2020,242,"Office of the Commissioner of Official Languages","S","Contributions to employee benefit plans",2510639.00,2510639.00
+2020,242,"Office of the Commissioner of Official Languages","S","Spending of proceeds from the disposal of surplus Crown assets",75.00,
+2020,244,"Office of the Intelligence Commissioner",1,"Operating/Program",2731528.00,2024234.00
+2020,244,"Office of the Intelligence Commissioner","S","Contributions to employee benefit plans",141613.00,141613.00
+2020,245,"Office of the Conflict of Interest and Ethics Commissioner",1,"Operating/Program",6714503.00,6305443.00
+2020,245,"Office of the Conflict of Interest and Ethics Commissioner","S","Contributions to employee benefit plans",755637.00,755637.00
+2020,246,"Department for Women and Gender Equality",1,"Operating/Program",48970668.00,46322399.00
+2020,246,"Department for Women and Gender Equality",5,"Grants & Contributions",98143977.00,98143977.00
+2020,246,"Department for Women and Gender Equality","S","Contributions to employee benefit plans",4746303.00,4746303.00
+2020,246,"Department for Women and Gender Equality","S","Payments pursuant to the Public Health Events of National Concern Payments Act",70161324.00,70161324.00
+2020,246,"Department for Women and Gender Equality","S","Salary and Motor Car Allowance",89200.00,89200.00
+2020,246,"Department for Women and Gender Equality","S","Spending of proceeds from the disposal of surplus Crown assets",183.00,183.00
+2020,247,"Office of the Correctional Investigator of Canada",1,"Operating/Program",5279355.00,5170316.00
+2020,247,"Office of the Correctional Investigator of Canada","S","Contributions to employee benefit plans",657160.00,657160.00
+2020,248,"Office of the Director of Public Prosecutions",1,"Operating/Program",195131095.00,173519503.00
+2020,248,"Office of the Director of Public Prosecutions","S","Contributions to employee benefit plans",18953002.00,18953002.00
+2020,249,"Office of the Governor General's Secretary",1,"Operating/Program",21926096.00,21298630.00
+2020,249,"Office of the Governor General's Secretary","S","Annuities payable under the Governor General's Act",789703.00,789703.00
+2020,249,"Office of the Governor General's Secretary","S","Contributions to employee benefit plans",2336827.00,2336827.00
+2020,249,"Office of the Governor General's Secretary","S","Salary of the Governor General",252015.00,252015.00
+2020,250,"Office of the Public Sector Integrity Commissioner",1,"Operating/Program",5372195.00,4892975.00
+2020,250,"Office of the Public Sector Integrity Commissioner","S","Contributions to employee benefit plans",498599.00,498599.00
+2020,250,"Office of the Public Sector Integrity Commissioner","S","Spending of proceeds from the disposal of surplus Crown assets",84.00,84.00
+2020,251,"Office of the Senate Ethics Officer",1,"Operating/Program",1231278.00,854870.00
+2020,251,"Office of the Senate Ethics Officer","S","Contributions to employee benefit plans",106907.00,106907.00
+2020,253,"Office of the Superintendent of Financial Institutions",1,"Operating/Program",1292051.00,1226041.00
+2020,253,"Office of the Superintendent of Financial Institutions","S","Spending of revenues pursuant to subsection 17(2) of the Office of the Superintendent of Financial Institutions Act",257497789.00,198401362.00
+2020,256,"Offices of the Information and Privacy Commissioners of Canada",1,"Operating/Program",15460887.00,14504595.00
+2020,256,"Offices of the Information and Privacy Commissioners of Canada",5,"Operating/Program",29296458.00,28500006.00
+2020,256,"Offices of the Information and Privacy Commissioners of Canada","S","Contributions to employee benefit plans",4939623.00,4939623.00
+2020,256,"Offices of the Information and Privacy Commissioners of Canada","S","Spending of proceeds from the disposal of surplus Crown assets",25000.00,
+2020,263,"Parks Canada Agency",1,"Operating/Program",1411697886.00,1108942361.00
+2020,263,"Parks Canada Agency",5,"Other",19292000.00,19292000.00
+2020,263,"Parks Canada Agency","S","Contributions to employee benefit plans",66821331.00,66821331.00
+2020,263,"Parks Canada Agency","S","Expenditures equivalent to revenues resulting from the conduct of operations pursuant to section 20 of the Parks Canada Agency Act",110514225.00,110514225.00
+2020,266,"Patented Medicine Prices Review Board",1,"Operating/Program",17170103.00,14038491.00
+2020,266,"Patented Medicine Prices Review Board","S","Contributions to employee benefit plans",1220530.00,1220530.00
+2020,266,"Patented Medicine Prices Review Board","S","Spending of proceeds from the disposal of surplus Crown assets",295.00,62.00
+2020,278,"Privy Council Office",1,"Operating/Program",183474915.00,182977615.00
+2020,278,"Privy Council Office","S","Contributions to employee benefit plans",18843847.00,18843847.00
+2020,278,"Privy Council Office","S","Salary and Motor Car Allowance",471862.00,471862.00
+2020,278,"Privy Council Office","S","Spending of proceeds from the disposal of surplus Crown assets",21148.00,
+2020,280,"Public Health Agency of Canada",1,"Operating/Program",14796625497.00,2906861284.00
+2020,280,"Public Health Agency of Canada",10,"Grants & Contributions",616419909.00,322488959.00
+2020,280,"Public Health Agency of Canada",5,"Capital",140610547.00,36179995.00
+2020,280,"Public Health Agency of Canada","S","Contributions to employee benefit plans",39298130.00,39298130.00
+2020,280,"Public Health Agency of Canada","S","Payments pursuant to the Public Health Events of National Concern Payments Act",5443026228.00,5443026228.00
+2020,280,"Public Health Agency of Canada","S","Spending of proceeds from the disposal of surplus Crown assets",23973.00,
+2020,280,"Public Health Agency of Canada","S","Spending of revenues from other departments for which the Minister is responsible, pursuant to subsection 4.2(4) of the Department of Health Act",9905036.00,9905036.00
+2020,282,"Public Service Commission",1,"Operating/Program",85305358.00,82356618.00
+2020,282,"Public Service Commission","S","Contributions to employee benefit plans",11203003.00,11203003.00
+2020,282,"Public Service Commission","S","Refunds of amounts credited to revenues in previous years",1737.00,1737.00
+2020,288,"Registrar of the Supreme Court of Canada",1,"Operating/Program",29407229.00,28013515.00
+2020,288,"Registrar of the Supreme Court of Canada","S","Contributions to employee benefit plans",3135588.00,3135588.00
+2020,288,"Registrar of the Supreme Court of Canada","S","Judges' salaries, allowances and annuities, annuities to spouses and children of judges and lump sum payments to spouses of judges who die while in office",8082236.00,8082236.00
+2020,288,"Registrar of the Supreme Court of Canada","S","Refunds of amounts credited to revenues in previous years",775.00,775.00
+2020,288,"Registrar of the Supreme Court of Canada","S","Spending of proceeds from the disposal of surplus Crown assets",77.00,77.00
+2020,295,"Royal Canadian Mounted Police",1,"Operating/Program",2843147560.00,2723004328.00
+2020,295,"Royal Canadian Mounted Police",10,"Grants & Contributions",398439283.00,387166286.00
+2020,295,"Royal Canadian Mounted Police",5,"Capital",305679774.00,245236691.00
+2020,295,"Royal Canadian Mounted Police","S","Contributions to employee benefit plans",99201555.00,99201555.00
+2020,295,"Royal Canadian Mounted Police","S","Pensions and other employee benefits - Members of the Force",358829971.00,358829971.00
+2020,295,"Royal Canadian Mounted Police","S","Pensions under the Royal Canadian Mounted Police Pension Continuation Act",4996555.00,4996555.00
+2020,295,"Royal Canadian Mounted Police","S","Refunds of amounts credited to revenues in previous years",84132.00,84132.00
+2020,295,"Royal Canadian Mounted Police","S","Spending of proceeds from the disposal of surplus Crown assets",15103000.00,8846185.00
+2020,296,"Royal Canadian Mounted Police External Review Committee",1,"Operating/Program",4863015.00,2890822.00
+2020,296,"Royal Canadian Mounted Police External Review Committee","S","Contributions to employee benefit plans",294694.00,294694.00
+2020,297,"Civilian Review and Complaints Commission for the Royal Canadian Mounted Police",1,"Operating/Program",10564150.00,10197756.00
+2020,297,"Civilian Review and Complaints Commission for the Royal Canadian Mounted Police","S","Contributions to employee benefit plans",1218481.00,1218481.00
+2020,302,"National Security and Intelligence Review Agency Secretariat",1,"Operating/Program",22591718.00,11289189.00
+2020,302,"National Security and Intelligence Review Agency Secretariat","S","Contributions to employee benefit plans",962186.00,962186.00
+2020,303,"Senate",1,"Operating/Program",79715174.00,68856272.00
+2020,303,"Senate","S","Contributions to employee benefit plans",7858018.00,7858018.00
+2020,303,"Senate","S","Officers and Members of the Senate - Salaries, allowances and other payments to the Speaker of the Senate, Members and other officers of the Senate under the Parliament of Canada Act; contributions to the Members of Parliament Retiring Allowances Account and Members of Parliament Retirement Compensation Arrangements Account",40485214.00,40485214.00
+2020,305,"Shared Services Canada",1,"Operating/Program",1963755240.00,1797857668.00
+2020,305,"Shared Services Canada",5,"Capital",468319592.00,392322537.00
+2020,305,"Shared Services Canada","S","Contributions to employee benefit plans",103522096.00,103522096.00
+2020,305,"Shared Services Canada","S","Payments pursuant to the Public Health Events of National Concern Payments Act",13480000.00,13480000.00
+2020,305,"Shared Services Canada","S","Pensions and other employee benefits - Members of Royal Canadian Mounted Police",4982674.00,4982674.00
+2020,305,"Shared Services Canada","S","Spending of proceeds from the disposal of surplus Crown assets",32347.00,32298.00
+2020,306,"Social Sciences and Humanities Research Council",1,"Operating/Program",36715403.00,35391177.00
+2020,306,"Social Sciences and Humanities Research Council",5,"Grants & Contributions",1065682784.00,1022533351.00
+2020,306,"Social Sciences and Humanities Research Council","S","Contributions to employee benefit plans",4066187.00,4066187.00
+2020,306,"Social Sciences and Humanities Research Council","S","Payments pursuant to the Public Health Events of National Concern Payments Act",357051586.00,357051586.00
+2020,306,"Social Sciences and Humanities Research Council","S","Spending of Revenues pursuant to subsection 4.2 of the Social Sciences and Humanities Research Council Act",76306.00,76306.00
+2020,312,"Standards Council of Canada",1,"Payments to Crown Corps",18575862.00,18575862.00
+2020,313,"Statistics Canada",1,"Operating/Program",588444759.00,537787444.00
+2020,313,"Statistics Canada","S","Contributions to employee benefit plans",83522745.00,83522745.00
+2020,313,"Statistics Canada","S","Spending of proceeds from the disposal of surplus Crown assets",8679.00,8679.00
+2020,315,"Telefilm Canada",1,"Payments to Crown Corps",153754871.00,102307749.00
+2020,315,"Telefilm Canada","S","Payments pursuant to the Public Health Events of National Concern Payments Act",30000492.00,30000492.00
+2020,326,"Treasury Board Secretariat",1,"Operating/Program",321418288.00,304869575.00
+2020,326,"Treasury Board Secretariat",10,"Treasury Board Central",10630836.00,0.00
+2020,326,"Treasury Board Secretariat",15,"Treasury Board Central",0.00,0.00
+2020,326,"Treasury Board Secretariat",20,"Treasury Board Central",3156130791.00,2889612806.00
+2020,326,"Treasury Board Secretariat",25,"Treasury Board Central",8896620.00,0.00
+2020,326,"Treasury Board Secretariat",30,"Treasury Board Central",376616754.00,0.00
+2020,326,"Treasury Board Secretariat",35,"Treasury Board Central",45037387.00,0.00
+2020,326,"Treasury Board Secretariat",5,"Treasury Board Central",608764637.00,0.00
+2020,326,"Treasury Board Secretariat","S","Contributions to employee benefit plans",36292936.00,36292936.00
+2020,326,"Treasury Board Secretariat","S","Employer contributions made under the Public Service Superannuation Act and other retirement acts and the Employment Insurance Act",-94302.00,-94302.00
+2020,326,"Treasury Board Secretariat","S","Payments under the Public Service Pension Adjustment Act",7521.00,7521.00
+2020,326,"Treasury Board Secretariat","S","Salary and Motor Car Allowance",91200.00,91200.00
+2020,326,"Treasury Board Secretariat","S","Spending of proceeds from the disposal of surplus Crown assets",907.00,
+2020,333,"Veterans Review and Appeal Board",1,"Operating/Program",10668899.00,9255187.00
+2020,333,"Veterans Review and Appeal Board","S","Contributions to employee benefit plans",1250493.00,1250493.00
+2020,334,"VIA Rail Canada Inc.",1,"Payments to Crown Corps",1016389568.00,651558580.00
+2020,339,"Windsor-Detroit Bridge Authority",1,"Payments to Crown Corps",778634323.00,440674062.00
+2020,345,"Secretariat of the National Security and Intelligence Committee of Parliamentarians",1,"Operating/Program",3500645.00,2249180.00
+2020,345,"Secretariat of the National Security and Intelligence Committee of Parliamentarians","S","Contributions to employee benefit plans",182065.00,182065.00
+2020,346,"Office of the Parliamentary Budget Officer",1,"Operating/Program",6520482.00,5476840.00
+2020,346,"Office of the Parliamentary Budget Officer","S","Contributions to employee benefit plans",619259.00,619259.00
+2020,347,"Invest in Canada Hub",1,"Operating/Program",36094386.00,29622107.00
+2020,348,"Department of Indigenous Services",1,"Operating/Program",2373377194.00,2071838085.00
+2020,348,"Department of Indigenous Services",10,"Grants & Contributions",13716793773.00,12503003011.00
+2020,348,"Department of Indigenous Services",5,"Capital",25112860.00,6053885.00
+2020,348,"Department of Indigenous Services","S","Climate Action Support",179694.00,179694.00
+2020,348,"Department of Indigenous Services","S","Contributions related to the Canada Community-Building Fund (Keeping Canada's Economy and Jobs Growing Act)",29684113.00,29684113.00
+2020,348,"Department of Indigenous Services","S","Contributions to employee benefit plans",88689395.00,88689395.00
+2020,348,"Department of Indigenous Services","S","Court Awards",232829.00,232829.00
+2020,348,"Department of Indigenous Services","S","Indian Annuities Treaty payments",282228.00,282228.00
+2020,348,"Department of Indigenous Services","S","Payment from the Consolidated Revenue Fund of guaranteed loans issued out of the Indian economic development account (authorized limit $60,000,000). Change in Ministry responsibility (Indian Affairs and Northern Development)",32490796.00,
+2020,348,"Department of Indigenous Services","S","Payments pursuant to the Public Health Events of National Concern Payments Act",1650656826.00,1650656826.00
+2020,348,"Department of Indigenous Services","S","Salary and Motor Car Allowance",89200.00,89200.00
+2020,348,"Department of Indigenous Services","S","Spending of proceeds from the disposal of surplus Crown assets",4007573.00,2536250.00
+2020,350,"Leaders' Debates Commission",1,"Operating/Program",5373884.00,315520.00
+2020,350,"Leaders' Debates Commission","S","Contributions to employee benefit plans",15228.00,15228.00
+2020,539,"Administrative Tribunals Support Service of Canada",1,"Operating/Program",66602730.00,58202056.00
+2020,539,"Administrative Tribunals Support Service of Canada","S","Contributions to employee benefit plans",9947533.00,9947533.00
+2020,539,"Administrative Tribunals Support Service of Canada","S","Spending of proceeds from the disposal of surplus Crown assets",414.00,
+2020,552,"Canadian High Arctic Research Station",1,"Operating/Program",30758027.00,21160655.00
+2020,552,"Canadian High Arctic Research Station","S","Contributions to employee benefit plans",1113593.00,1113593.00
+2020,552,"Canadian High Arctic Research Station","S","Refunds of amounts credited to revenues in previous years",1023.00,1023.00
+2020,552,"Canadian High Arctic Research Station","S","Spending of revenue pursuant to section 6(2) of the Canadian High Arctic Research Station Act",293063.00,
+2020,554,"Parliamentary Protective Service",1,"Operating/Program",83452443.00,66377420.00
+2020,554,"Parliamentary Protective Service","S","Contributions to employee benefit plans",7409158.00,7409158.00
+2020,558,"Canadian Accessibility Standards Development Organization",1,"Operating/Program",10989720.00,8867425.00
+2020,558,"Canadian Accessibility Standards Development Organization",5,"Grants & Contributions",5500000.00,5237602.00
+2020,558,"Canadian Accessibility Standards Development Organization","S","Contributions to employee benefit plans",499112.00,499112.00
 

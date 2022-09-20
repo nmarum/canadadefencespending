@@ -21,41 +21,46 @@ dnd_eav_inmillions <- dnd_eav_eac %>% mutate(authorities_in_mill = (authorities/
                                              expenditures_in_mill = (expenditures/1000000))
 head(dnd_eav_inmillions)
 
-dnd_eav_inmillions %>% filter(!is.na(expenditures_in_mill), !is.na(fy_ef), vote_and_statutory == "5") %>%
+dnd_eav_inmillions %>% filter(!is.na(expenditures_in_mill), !is.na(authorities_in_mill), !is.na(fy_ef), vote_and_statutory == "5") %>%
   ggplot(aes(x=fy_ef)) +
+  geom_point(aes(y=authorities_in_mill), size=3, col="red") +
   geom_col(aes(y=expenditures_in_mill)) +
-  geom_line(aes(y=authorities_in_mill)) +
   xlab("Fiscal Year") +
-  scale_x_continuous(n.breaks = 10) +
+  ylab("$ in Millions")+
+  scale_y_continuous() +
   ggtitle("DND Vote 5 Appropriations and Spend ($millions)")+
-  theme_economist()
+  theme_minimal()
   
 
 dnd_eav_inmillions %>% filter(!is.na(expenditures_in_mill), !is.na(fy_ef), vote_and_statutory == "1") %>%
   ggplot(aes(x=fy_ef)) +
+  geom_point(aes(y=authorities_in_mill), size=3, col="red") +
   geom_col(aes(y=expenditures_in_mill)) +
-  geom_line(aes(y=authorities_in_mill)) +
-  scale_x_continuous(n.breaks = 10) +
+  xlab("Fiscal Year") +
+  ylab("$ in Millions")+
+  scale_y_continuous() +
   ggtitle("DND Vote 1 Appropriations and Spend ($millions)")+
-theme_economist()
+theme_minimal()
 
 
 #percentage of spend against appropriated dollars
 dnd_eav_inmillions <- dnd_eav_inmillions %>% mutate(spend_percent = round(expenditures/authorities, 2))
 
 dnd_eav_inmillions %>% filter(!is.na(expenditures_in_mill), !is.na(fy_ef), vote_and_statutory == "1") %>%
-  ggplot(aes(x=fy_ef, y=spend_percent, label=spend_percent)) +
+  ggplot(aes(x=fy_ef, y=spend_percent, label=spend_percent*100)) +
   geom_point() +
   geom_label() +
-  scale_x_continuous(n.breaks = 10) +
+  ylab("Percentage")+
+  xlab("Fiscal Year")+
   ggtitle("DND Vote 1 - Proportion of authorities spent") +
   theme_minimal()
 
 dnd_eav_inmillions %>% filter(!is.na(expenditures_in_mill), !is.na(fy_ef), vote_and_statutory == "5") %>%
-  ggplot(aes(x=fy_ef, y=spend_percent, label=spend_percent)) +
+  ggplot(aes(x=fy_ef, y=spend_percent, label=spend_percent*100)) +
   geom_point() +
   geom_label() +
-  scale_x_continuous(n.breaks = 10) +
+  ylab("Percentage")+
+  xlab("Fiscal Year")+
   ggtitle("DND Vote 5 - Proportion of authorities spent")+
   theme_minimal()
 
@@ -87,5 +92,6 @@ dnd_easo %>% filter(sobj_en %in% c("Acquisition of machinery and equipment", "Re
   ggplot(aes(x=as.character(fy_ef), y=expenditures, col=sobj_en))+
   geom_point(size=4) +
   xlab("FY") +
-  ggtitle("Canada's Public Accounts - Key DND Expenditures by Standard Object")
+  ggtitle("Canada's Public Accounts - Key DND Expenditures by Standard Object")+
+  theme_minimal()
 
