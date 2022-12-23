@@ -17,8 +17,8 @@ dnd_eav_eac
 dnd_eav_eac <- data.frame(dnd_eav_eac)
 class(dnd_eav_eac)
 
-dnd_eav_inmillions <- dnd_eav_eac %>% mutate(authorities_in_mill = (authorities/1000000),
-                                             expenditures_in_mill = (expenditures/1000000))
+dnd_eav_inmillions <- dnd_eav_eac %>% mutate(authorities_in_mill = as.numeric(authorities)/1000000,
+                                             expenditures_in_mill = as.numeric(expenditures)/1000000)
 head(dnd_eav_inmillions)
 
 dnd_eav_inmillions %>% filter(!is.na(expenditures_in_mill), !is.na(authorities_in_mill), !is.na(fy_ef), vote_and_statutory == "5") %>%
@@ -44,7 +44,7 @@ theme_minimal()
 
 
 #percentage of spend against appropriated dollars
-dnd_eav_inmillions <- dnd_eav_inmillions %>% mutate(spend_percent = round(expenditures/authorities, 2))
+dnd_eav_inmillions <- dnd_eav_inmillions %>% mutate(spend_percent = round(as.numeric(expenditures)/as.numeric(authorities), 2))
 
 dnd_eav_inmillions %>% filter(!is.na(expenditures_in_mill), !is.na(fy_ef), vote_and_statutory == "1") %>%
   ggplot(aes(x=fy_ef, y=spend_percent, label=spend_percent*100)) +
@@ -80,10 +80,13 @@ nrow(dnd_easo)
 range(dnd_easo$expenditures)
 range(dnd_easo$fy_ef)
 
-dnd_easo %>% group_by(fy_ef) %>% summarize(total_spend = sum(expenditures)) 
+dnd_easo %>% group_by(fy_ef) %>%
+  summarize(total_spend = sum(as.numeric(expenditures))) 
 #around 20B per year in total spending
 
-dnd_easo %>% group_by(sobj_en) %>% summarise(avg_per_year = sum(expenditures/(max(.$fy_ef)-min(.$fy_ef))))
+dnd_easo %>% group_by(sobj_en) %>%
+  summarise(avg_per_year = sum(as.numeric(expenditures)/length(unique(fy_ef)))) %>%
+  arrange(desc(avg_per_year))
 #shows avg of  standard object spend since 2011.  Personnel clearly number one
 
 
