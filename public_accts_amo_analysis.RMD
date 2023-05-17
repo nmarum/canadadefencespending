@@ -1,18 +1,18 @@
 ---
 title: "Exploratory Data Analysis of Canada's Defence Machinery and Equipment Expenditures"
-subtitle: "Analysis of National Defence expenditures for the acquisition of equipment and machinery from Canada's Public Accounts (2010 to 2021)"
+subtitle: "Analysis of National Defence expenditures for the acquisition of equipment and machinery from Canada's Public Accounts (2010 to 2022)"
 author:
-date: "April 2022"
+date: "May 2023"
 output:
-  pdf_document: default
   html_document: default
+  pdf_document: default
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 library(tidyverse)
 load("amo_2010to2020.rda")
-amo_analysis <- amo_2010to2020 %>% select(-c("MINC", "MINE", "DepartmentNumber-Numéro-de-Ministère", "DEPT_EN_DESC" ))
+amo_analysis <- amo_2010to2020 |> select(-c("MINC", "MINE", "DepartmentNumber-Numéro-de-Ministère", "DEPT_EN_DESC" ))
 ```
 _INTRODUCTION_
 
@@ -30,7 +30,7 @@ _EXPLORATORY ANALYSIS_
 
 Our intent is to do an exploratory data analysis of the Public Accounts information to highlight its potential uses as well as limitations for researchers.
 
-In a separate data wrangling and import script, I have pulled together National Defence acquisition of equipment and machinery data from fiscal year 2009/10 to 2020/21.  The Public Accounts data was separated into different datafiles for each fiscal year rather in one large block for reasons that are not explained.  Thankfully, the column names and categories appear were consistent across fiscal years so merging the different datasets together was not difficult.
+In a separate data wrangling and import script, I have pulled together National Defence acquisition of equipment and machinery data from fiscal year 2009/10 to 2021/22.  The Public Accounts data was separated into different datafiles for each fiscal year rather in one large block for reasons that are not explained.  Thankfully, the column names and categories appear were consistent across fiscal years so merging the different datasets together was not difficult.
 
 https://open.canada.ca/data/en/dataset/2667652d-0484-4e93-b67e-9aa129cf152d#wb-auto-6
 
@@ -52,7 +52,7 @@ hist(amo_analysis$OBJ_CD)
 
 ```
 
-A quick look at a histogram of the data by object code shows that there are thousands of entries in the data set and that the codes ranging from above 1200 to just below 1300.  This is consistent with previous analysis of object codes which suggested most capital defence acquisition should be coded in this range.  However, a look at the contract data did reveal a large number of codes outside that range as well for what seemed to be defence procurement related contracts.  Payments for rentals, professional services, etc, tied to defence procurement or acquiring by other means defence capabilties may not be captured here depending on how the expenditure was coded.
+A quick look at a histogram of the data by object code shows that there are thousands of entries in the data set and that the codes ranging from above 1200 to just below 1300.  This is consistent with previous analysis of object codes which suggested most capital defence acquisition should be coded in this range.  However, a look at the contract data did reveal a large number of codes outside that range as well for what seemed to be defence procurement related contracts.  Payments for rentals, professional services, etc, tied to defence procurement or acquiring by other means defence capabilities may not be captured here depending on how the expenditure was coded.
 
 ```{r, descriptive, echo=FALSE}
 summary(amo_analysis$AGRG_PYMT_AMT)
@@ -60,10 +60,10 @@ summary(amo_analysis$AGRG_PYMT_AMT)
 
   
 ```
-Summary statistics of the aggregate payments per year show a wide range of entries.  The lowest bound include what appear to be revenue for National Defence to the tune of $3.6M and the other extreme is a payment in one fiscal year totaling $749M.  The interquartile range is quite large and the mean ($6.0M) is skewed well above the median ($176K).
+Summary statistics of the aggregate payments per year show a wide range of entries.  The lowest bound include what appear to be revenue for National Defence to the tune of $13.4 million and the other extreme is a payment in one fiscal year totaling $975M.  The interquartile range is quite large and the mean ($6.0M) is skewed well above the median ($123K).
 
 ```{r message=FALSE, warning=FALSE, echo=FALSE}
-amo_analysis %>% ggplot(aes(AGRG_PYMT_AMT))+
+amo_analysis |> ggplot(aes(AGRG_PYMT_AMT))+
   geom_density()+
   scale_x_log10()+
   ggtitle("Density Plot of Aggregate Payments (all Fiscal Years)")
@@ -73,11 +73,11 @@ amo_analysis %>% ggplot(aes(AGRG_PYMT_AMT))+
 
 A density plot of the aggregate payment amounts and using a log10 scale for the x-axis for each entry (which corresponds to a fiscal year) shows an incredible range of payments.  Most payments are for relatively low dollar value while it appears a handful of very large dollar value payments in the hundreds of millions skew the distribution to the right.
 
-Using an empirical cumulative distribution function, we find that a little over 70% of aggregate payments per fiscal year were under $1M and about 60% of payments were under $400K per year.  On the other end, only about 1% of all payments were greater than $100M. That is only 50 entries out of a total of 4571 over 10 years, or an average of only 5 per year.
+Using an empirical cumulative distribution function, we find that over 70% of aggregate payments per fiscal year were under $1M and over 60% of payments were under $400K per year.  On the other end, only about 1% of all payments were greater than $100M. That is only 73 entries out of a total of 6410 over 12 years, or an average of only 6 per year.
 
 
 ```{r, echo=FALSE}
-amo_analysis %>% filter(AGRG_PYMT_AMT>100000000) %>%
+amo_analysis |> filter(AGRG_PYMT_AMT>100000000) %>%
   ggplot(aes(x=FSCL_YR, y=AGRG_PYMT_AMT, col=OBJ_EN_NM))+
   geom_point()+
   coord_flip()+
@@ -86,9 +86,9 @@ amo_analysis %>% filter(AGRG_PYMT_AMT>100000000) %>%
 Focusing in on entries in excess of $100M, we get the above plot of entries by fiscal year.  The colour coding is linked with the economic object descriptions in the lengend.  Unsurprisingly, payments for ships and aircraft appear to the the largest payements on record for each year, sometimes there are more than one entry code, which suggests more than one acquisition project made major payments in those years.
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
-amo_analysis %>% group_by(OBJ_EN_NM) %>%
-  summarize(Total_payments = sum(AGRG_PYMT_AMT)) %>%
-  top_n(10, Total_payments) %>%
+amo_analysis |> group_by(OBJ_EN_NM) |>
+  summarize(Total_payments = sum(AGRG_PYMT_AMT)) |>
+  top_n(10, Total_payments) |>
   arrange(desc(Total_payments))
 ```
 If we look at the top 10 object descriptions over time, we can see there are some familiar items however there are a few entries that are not as intuitive.
@@ -98,9 +98,9 @@ Payments for aircraft is by far the most significant over the time period, howev
 
 
 ```{r aircraft and munitions boxplot, echo=FALSE}
-amo_analysis %>%
+amo_analysis |>
   filter(OBJ_EN_NM %in% c("Aircraft", "Munitions, and ammunition"),
-         FSCL_YR %in% c("2015/2016", "2016/2017", "2017/2018", "2018/2019", "2019/2020", "2020/2021")) %>%
+         FSCL_YR %in% c("2016/2017", "2017/2018", "2018/2019", "2019/2020", "2020/2021", "2021/2022")) |>
   ggplot (aes(x=FSCL_YR, y=AGRG_PYMT_AMT, col= OBJ_EN_NM,
               legend.position="bottom")) +
   geom_boxplot()+
@@ -114,7 +114,7 @@ The interquartile ranges for munitions on the other hand suggests a high number 
 Let us take a look at categories of goods that are similar.
 
 ```{r parts boxplot, echo=FALSE}
-amo_analysis %>%
+amo_analysis |>
   filter(OBJ_EN_NM %in% c("Ships and boats parts", "Aircraft parts",
                           "Road motor vehicles parts"),
          FSCL_YR %in% c("2015/2016", "2016/2017", "2017/2018", "2018/2019", "2019/2020", "2020/2021")) %>%
@@ -128,8 +128,8 @@ The comparison of the distributions for aircraft, vehicle and marine parts show 
 
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
-amo_analysis %>% filter(!FSCL_YR %in% c("2009/2010", "2010/2011"), OBJ_EN_NM == "Aircraft parts") %>%
-  group_by(FSCL_YR) %>% summarize(payments = sum(AGRG_PYMT_AMT)) %>%
+amo_analysis |> filter(!FSCL_YR %in% c("2009/2010", "2010/2011", "2011/2012"), OBJ_EN_NM == "Aircraft parts") |>
+  group_by(FSCL_YR) |> summarize(payments = sum(AGRG_PYMT_AMT)) |>
   ggplot(aes(x=FSCL_YR, y=payments)) +
   geom_col()+
   ggtitle("Total Aggregate Payments for 'Aircraft parts' by Fiscal Year")
@@ -140,8 +140,8 @@ Interestingly the aggregate payments for aircraft parts for FY2016/2017 and FY20
 Say if we found that our primary interest was military aviation, we could focus in on expenditures for aircraft and aircraft parts.
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
-amo_analysis %>% filter(OBJ_EN_NM %in% c("Aircraft parts", "Aircraft"), !FSCL_YR %in% c("2009/2010", "2010/2011")) %>%
-  group_by(FSCL_YR, OBJ_EN_NM) %>% summarize(payment = sum(AGRG_PYMT_AMT)) %>%
+amo_analysis |> filter(OBJ_EN_NM %in% c("Aircraft parts", "Aircraft"), !FSCL_YR %in% c("2009/2010", "2010/2011", "2011/2012", "2012/2013")) |>
+  group_by(FSCL_YR, OBJ_EN_NM) |> summarize(payment = sum(AGRG_PYMT_AMT)) |>
   ggplot(aes(x=FSCL_YR, y=payment, col=OBJ_EN_NM)) +
   geom_col(position = "stack", fill=NA) +
   ggtitle("Aggregate Payments for CAF Aircraft and Aircraft Parts")+
