@@ -131,7 +131,7 @@ The comparison of the distributions for aircraft, vehicle and marine parts show 
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 amo_analysis |>
-  filter(!FSCL_YR %in% c("2009/2010", "2010/2011", "2011/2012"), OBJ_EN_NM == "Aircraft parts") |>
+  filter(!FSCL_YR %in% c("2009/2010", "2010/2011", "2011/2012", "2012/2013"), OBJ_EN_NM == "Aircraft parts") |>
   group_by(FSCL_YR) |>
   summarize(payments = sum(AGRG_PYMT_AMT)) |>
   ggplot(aes(x=FSCL_YR, y=payments)) +
@@ -145,7 +145,7 @@ Say if we found that our primary interest was military aviation, we could focus 
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
 amo_analysis |>
-  filter(OBJ_EN_NM %in% c("Aircraft parts", "Aircraft"), !FSCL_YR %in% c("2009/2010", "2010/2011", "2011/2012", "2012/2013")) |>
+  filter(OBJ_EN_NM %in% c("Aircraft parts", "Aircraft"), !FSCL_YR %in% c("2009/2010", "2010/2011", "2011/2012", "2012/2013", "2013/2014")) |>
   group_by(FSCL_YR, OBJ_EN_NM) |> summarize(payment = sum(AGRG_PYMT_AMT)) |>
   ggplot(aes(x=FSCL_YR, y=payment, col=OBJ_EN_NM)) +
   geom_col(position = "stack", fill=NA) +
