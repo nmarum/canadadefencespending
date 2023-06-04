@@ -77,7 +77,8 @@ Using an empirical cumulative distribution function, we find that over 70% of ag
 
 
 ```{r, echo=FALSE}
-amo_analysis |> filter(AGRG_PYMT_AMT>100000000) %>%
+amo_analysis |>
+  filter(AGRG_PYMT_AMT>100000000) |>
   ggplot(aes(x=FSCL_YR, y=AGRG_PYMT_AMT, col=OBJ_EN_NM))+
   geom_point()+
   coord_flip()+
@@ -86,7 +87,8 @@ amo_analysis |> filter(AGRG_PYMT_AMT>100000000) %>%
 Focusing in on entries in excess of $100M, we get the above plot of entries by fiscal year.  The colour coding is linked with the economic object descriptions in the lengend.  Unsurprisingly, payments for ships and aircraft appear to the the largest payements on record for each year, sometimes there are more than one entry code, which suggests more than one acquisition project made major payments in those years.
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
-amo_analysis |> group_by(OBJ_EN_NM) |>
+amo_analysis |>
+  group_by(OBJ_EN_NM) |>
   summarize(Total_payments = sum(AGRG_PYMT_AMT)) |>
   top_n(10, Total_payments) |>
   arrange(desc(Total_payments))
@@ -117,7 +119,7 @@ Let us take a look at categories of goods that are similar.
 amo_analysis |>
   filter(OBJ_EN_NM %in% c("Ships and boats parts", "Aircraft parts",
                           "Road motor vehicles parts"),
-         FSCL_YR %in% c("2015/2016", "2016/2017", "2017/2018", "2018/2019", "2019/2020", "2020/2021")) %>%
+         FSCL_YR %in% c("2015/2016", "2016/2017", "2017/2018", "2018/2019", "2019/2020", "2020/2021")) |>
   ggplot (aes(x=FSCL_YR, y=AGRG_PYMT_AMT,
               col= OBJ_EN_NM, legend.position="bottom")) +
   geom_boxplot()+
@@ -128,8 +130,10 @@ The comparison of the distributions for aircraft, vehicle and marine parts show 
 
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
-amo_analysis |> filter(!FSCL_YR %in% c("2009/2010", "2010/2011", "2011/2012"), OBJ_EN_NM == "Aircraft parts") |>
-  group_by(FSCL_YR) |> summarize(payments = sum(AGRG_PYMT_AMT)) |>
+amo_analysis |>
+  filter(!FSCL_YR %in% c("2009/2010", "2010/2011", "2011/2012"), OBJ_EN_NM == "Aircraft parts") |>
+  group_by(FSCL_YR) |>
+  summarize(payments = sum(AGRG_PYMT_AMT)) |>
   ggplot(aes(x=FSCL_YR, y=payments)) +
   geom_col()+
   ggtitle("Total Aggregate Payments for 'Aircraft parts' by Fiscal Year")
@@ -140,7 +144,8 @@ Interestingly the aggregate payments for aircraft parts for FY2016/2017 and FY20
 Say if we found that our primary interest was military aviation, we could focus in on expenditures for aircraft and aircraft parts.
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE}
-amo_analysis |> filter(OBJ_EN_NM %in% c("Aircraft parts", "Aircraft"), !FSCL_YR %in% c("2009/2010", "2010/2011", "2011/2012", "2012/2013")) |>
+amo_analysis |>
+  filter(OBJ_EN_NM %in% c("Aircraft parts", "Aircraft"), !FSCL_YR %in% c("2009/2010", "2010/2011", "2011/2012", "2012/2013")) |>
   group_by(FSCL_YR, OBJ_EN_NM) |> summarize(payment = sum(AGRG_PYMT_AMT)) |>
   ggplot(aes(x=FSCL_YR, y=payment, col=OBJ_EN_NM)) +
   geom_col(position = "stack", fill=NA) +
