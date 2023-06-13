@@ -1,4 +1,4 @@
-#Public Accts detailed information on acq of machinary and equipment
+#Public Accts detailed information on acquisition of machinery and equipment
 #data wrangling
 library(tidyverse)
 
