@@ -110,9 +110,10 @@ dnd_easo %>% group_by(sobj_en) |>
 dnd_easo |>
   filter(sobj_en %in% c("Acquisition of machinery and equipment",
                         "Repair and maintenance", "Rentals")) |>
-  ggplot(aes(x=as.character(fy_ef), y=expenditures, col=sobj_en))+
+  mutate(expenditures_in_millions = expenditures/1000000) |>
+  ggplot(aes(x=as.character(fy_ef), y=expenditures_in_millions, col=sobj_en))+
   geom_point(size=4) +
   xlab("FY") +
-  ggtitle("Canada's Public Accounts - Key DND Expenditures by Standard Object")+
+  ggtitle("Canada's Public Accounts - Key DND Expenditures ($millions) by Standard Object")+
   theme_minimal()
 
