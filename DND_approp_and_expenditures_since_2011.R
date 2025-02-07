@@ -27,7 +27,7 @@ dnd_eav_inmillions |>
   filter(!is.na(expenditures_in_mill),
          !is.na(authorities_in_mill),
          !is.na(fy_ef),
-         vote_and_statutory == "5") |>
+         voted_or_statutory == "5") |>
   ggplot(aes(x=fy_ef)) +
   geom_point(aes(y=authorities_in_mill), size=3, col="red") +
   geom_col(aes(y=expenditures_in_mill)) +
@@ -41,7 +41,7 @@ dnd_eav_inmillions |>
 dnd_eav_inmillions |>
   filter(!is.na(expenditures_in_mill),
          !is.na(fy_ef),
-         vote_and_statutory == "1") |>
+         voted_or_statutory == "1") |>
   ggplot(aes(x=fy_ef)) +
   geom_point(aes(y=authorities_in_mill), size=3, col="red") +
   geom_col(aes(y=expenditures_in_mill)) +
@@ -58,7 +58,7 @@ dnd_eav_inmillions <- dnd_eav_inmillions |>
 
 dnd_eav_inmillions |>
   filter(!is.na(expenditures_in_mill),
-         !is.na(fy_ef), vote_and_statutory == "1") |>
+         !is.na(fy_ef), voted_or_statutory == "1") |>
   ggplot(aes(x=fy_ef, y=spend_percent, label=spend_percent*100)) +
   geom_point() +
   geom_label() +
@@ -69,7 +69,7 @@ dnd_eav_inmillions |>
 
 dnd_eav_inmillions |>
   filter(!is.na(expenditures_in_mill),
-         !is.na(fy_ef), vote_and_statutory == "5") |>
+         !is.na(fy_ef), voted_or_statutory == "5") |>
   ggplot(aes(x=fy_ef, y=spend_percent, label=spend_percent*100)) +
   geom_point() +
   geom_label() +
